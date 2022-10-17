@@ -5,7 +5,7 @@
     "build": "lerna run build",
     "watch": "lerna run --parallel --stream watch",
     "lint": "npm run scripts:prettier -- --check && lerna run lint",
-    "fmt": "npm run scripts:prettier -- --write && lerna run fmt",
+    "format": "npm run scripts:prettier -- --write && lerna run format",
     "scripts:prettier": "npx prettier \"scripts/**/*.mjs\"",
     "apply-patches": "node ./scripts/apply-patches.mjs",
     "toggle-local": "node ./scripts/toggle-local.mjs",

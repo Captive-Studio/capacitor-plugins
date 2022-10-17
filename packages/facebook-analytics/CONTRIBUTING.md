@@ -35,7 +35,7 @@ Build and validate the web and native projects.
 
 This is useful to run in CI to verify that the plugin builds for all platforms.
 
-#### `npm run lint` / `npm run fmt`
+#### `npm run lint` / `npm run format`
 
 Check formatting and code quality, autoformat/autofix if possible.
 
