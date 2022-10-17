@@ -77,7 +77,7 @@ To use:
 
 1. Make sure your staging area is clean, e.g. `git reset`
 1. Stage the changes from (and only from) your package, e.g. `git add -p -- text-zoom/`
-1. Run the script with `<package>` being the npm name of your package, e.g. `npm run apply-patches @capacitor/text-zoom`
+1. Run the script with `<package>` being the npm name of your package, e.g. `npm run apply-patches @captive/capacitor-facebook-analytics`
 
 ## Publishing Capacitor Plugins
 

@@ -10,8 +10,8 @@ execute(async () => {
   const packages = Object.fromEntries(
     await Promise.all(
       PROJECTS.map(async project => [
-        `@capacitor/${project}`,
-        `^${await getLatestVersion(`@capacitor/${project}`, 'latest')}`,
+        `@captive/capacitor-${project}`,
+        `^${await getLatestVersion(`@captive/capacitor-${project}`, 'latest')}`,
       ]),
     ),
   );
