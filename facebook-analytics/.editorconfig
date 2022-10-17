@@ -1,0 +1,52 @@
+# http://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+continuation_indent_size = 4
+curly_bracket_next_line = false
+end_of_line = lf
+indent_brace_style = Stroustrup
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+spaces_around_brackets = outside
+spaces_around_operators = true
+trim_trailing_whitespace = true
+
+[*.json]
+indent_size = 2
+indent_style = space
+insert_final_newline = ignore
+
+[*.yml]
+indent_size = 2
+indent_style = space
+
+[*.{bat,reg,ps1,vbs,cs,,fs,ahk}]
+end_of_line = crlf
+
+[*.{css,scss,less}]
+indent_size = 2
+indent_style = space
+max_line_length = 120
+quote_type = single
+
+[*.{js,jsx,ts,tsx,js.hbs}]
+indent_size = 2
+indent_style = space
+max_line_length = 120
+quote_type = single
+
+[*.{md,mdwn,mdown,markdown,apib}]
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = false
+
+[*.{py,robot}]
+indent_size = 4
+indent_style = space
+
+[Makefile]
+indent_style = tab
