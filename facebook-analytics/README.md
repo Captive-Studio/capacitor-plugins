@@ -19,7 +19,6 @@ FacebookAnalytics.enableAdvertiserTracking();
 
 // log event : completed registration
 FacebookAnalytics.logEvent({ event: FacebookEventName.CompletedRegistration });
-
 ```
 
 ## API
