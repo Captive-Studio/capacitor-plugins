@@ -1,6 +1,6 @@
 {
   "packages": [
-    "facebook-analytics"
+    "packages/facebook-analytics"
   ],
   "command": {
     "bootstrap": {
