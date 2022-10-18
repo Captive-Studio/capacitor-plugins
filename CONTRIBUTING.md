@@ -10,7 +10,7 @@ See [`CONTRIBUTING.md`](https://github.com/ionic-team/capacitor/blob/HEAD/CONTRI
 2. Install the monorepo dependencies.
 
     ```shell
-    npm install
+    yarn install
     ```
 
 3. Install SwiftLint if you're on macOS. Contributions to iOS code will be linted in CI if you don't have macOS.
@@ -25,7 +25,7 @@ Sometimes, it may be necessary to work on Capacitor in parellel with the plugin(
 5. Toggle each plugin to use your local copy of Capacitor.
 
     ```shell
-    npm run toggle-local
+    yarn run toggle-local
     ```
 
     :bulb: *Remember not to commit unnecessary changes to `package.json` and `package-lock.json`.*
@@ -34,27 +34,27 @@ Sometimes, it may be necessary to work on Capacitor in parellel with the plugin(
 
     ```shell
     cd my-app/
-    npm install ../path/to/capacitor-plugins/<plugin>
-    npm install ../path/to/capacitor/core
-    npm install ../path/to/capacitor/android
-    npm install ../path/to/capacitor/ios
+    yarn install ../path/to/capacitor-plugins/<plugin>
+    yarn install ../path/to/capacitor/core
+    yarn install ../path/to/capacitor/android
+    yarn install ../path/to/capacitor/ios
     ```
 
 ### Monorepo Scripts
 
-To aid in managing these plugins, this repo has a variety of scripts (located in `scripts/`) that can be run with `npm`.
+To aid in managing these plugins, this repo has a variety of scripts (located in `scripts/`) that can be run with `yarn`.
 
-#### `npm run set-capacitor-version "<version>"`
+#### `yarn run set-capacitor-version "<version>"`
 
 This script is for setting the version (or version range) of Capacitor packages in each plugin's `package.json`. It will also run `lerna bootstrap` for you.
 
-#### `npm run toggle-local`
+#### `yarn run toggle-local`
 
 > :memo: Requires [Capacitor](https://github.com/ionic-team/capacitor/) to be cloned in a sibling directory.
 
-This script is for switching between Capacitor packages from npm and Capacitor packages installed locally. It will also run `lerna bootstrap` for you.
+This script is for switching between Capacitor packages from yarn and Capacitor packages installed locally. It will also run `lerna bootstrap` for you.
 
-> If you get npm errors, you can try installing from scratch:
+> If you get yarn errors, you can try installing from scratch:
 >
 > 1. Reset the changes in `package.json` files.
 > 1. Clear out all `node_modules`.
@@ -63,13 +63,14 @@ This script is for switching between Capacitor packages from npm and Capacitor p
 >     npx lerna exec 'rm -fr package-lock.json && rm -fr node_modules'
 >     rm -fr node_modules
 >     ```
+>
 > 1. Install with local dependencies:
 >
 >     ```
->     npm run toggle-local
+>     yarn run toggle-local
 >     ```
 
-#### `npm run apply-patches "<package>"`
+#### `yarn run apply-patches "<package>"`
 
 This script is for copying git changes from one plugin to all plugins.
 
@@ -77,7 +78,7 @@ To use:
 
 1. Make sure your staging area is clean, e.g. `git reset`
 1. Stage the changes from (and only from) your package, e.g. `git add -p -- text-zoom/`
-1. Run the script with `<package>` being the npm name of your package, e.g. `npm run apply-patches @captive/capacitor-facebook-analytics`
+1. Run the script with `<package>` being the npm name of your package, e.g. `yarn run apply-patches @captive/capacitor-facebook-analytics`
 
 ## Publishing Capacitor Plugins
 

@@ -29,10 +29,10 @@
 #             node_modules
 #             */node_modules
 #           key: dependency-cache-${{ hashFiles('package.json', '*/package.json') }}
-#       - run: npm install
+#       - run: yarn install
 #       - name: Deploy to Cocoapods
 #         run: |
 #           set -eo pipefail
-#           npm run publish:cocoapod
+#           yarn run publish:cocoapod
 #         env:
 #           COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}

@@ -5,7 +5,7 @@ this is a capacitor 4 plugin for facebook analytics
 ## Install
 
 ```bash
-npm install capacitor-facebook-analytics
+yarn install capacitor-facebook-analytics
 npx cap sync
 ```
 
@@ -48,7 +48,6 @@ initAppEvents() => Promise<string>
 
 --------------------
 
-
 ### logEvent(...)
 
 ```typescript
@@ -73,7 +72,6 @@ FacebookAnalytics.logEvent({ event: 'fb_mobile_complete_registration' })
 
 --------------------
 
-
 ### enableAdvertiserTracking()
 
 ```typescript
@@ -84,7 +82,6 @@ Only for IOS versions greater than 14
 
 --------------------
 
-
 ### disableAdvertiserTracking()
 
 ```typescript
@@ -92,7 +89,6 @@ disableAdvertiserTracking() => Promise<void>
 ```
 
 --------------------
-
 
 ### getAdvertiserTrackingStatus()
 
@@ -102,9 +98,7 @@ getAdvertiserTrackingStatus() => Promise<void>
 
 --------------------
 
-
 ### Type Aliases
-
 
 #### FacebookEventName
 

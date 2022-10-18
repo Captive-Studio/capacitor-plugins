@@ -28,7 +28,7 @@ jobs:
             node_modules
             */node_modules
           key: dependency-cache-${{ hashFiles('package.json', '*/package.json') }}
-      - run: npm install
+      - run: yarn install
       - id: files
         uses: imhoffd/get-changed-files@v2
         with:
@@ -55,8 +55,8 @@ jobs:
             node_modules
             */node_modules
           key: dependency-cache-${{ hashFiles('package.json', '*/package.json') }}
-      - run: npm install
-      - run: npm run lint
+      - run: yarn install
+      - run: yarn run lint
   verify-ios:
     runs-on: macos-12
     if: needs.setup.outputs.plugins != '[]'
@@ -83,8 +83,8 @@ jobs:
             node_modules
             */node_modules
           key: dependency-cache-${{ hashFiles('package.json', '*/package.json') }}
-      - run: npm install
-      - run: npm run verify:ios
+      - run: yarn install
+      - run: yarn run verify:ios
         working-directory: ${{ matrix.plugin }}
   verify-android:
     runs-on: ubuntu-latest
@@ -109,8 +109,8 @@ jobs:
             node_modules
             */node_modules
           key: dependency-cache-${{ hashFiles('package.json', '*/package.json') }}
-      - run: npm install
-      - run: npm run verify:android
+      - run: yarn install
+      - run: yarn run verify:android
         working-directory: ${{ matrix.plugin }}
   verify-web:
     runs-on: ubuntu-latest
@@ -135,8 +135,8 @@ jobs:
             node_modules
             */node_modules
           key: dependency-cache-${{ hashFiles('package.json', '*/package.json') }}
-      - run: npm install
-      - run: npm run verify:web
+      - run: yarn install
+      - run: yarn run verify:web
         working-directory: ${{ matrix.plugin }}
 # deploy:
 #   runs-on: macos-latest

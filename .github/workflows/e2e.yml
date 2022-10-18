@@ -26,7 +26,7 @@ jobs:
             node_modules
             */node_modules
           key: dependency-cache-${{ hashFiles('package.json', '*/package.json') }}
-      - run: npm install
+      - run: yarn install
       - id: files
         uses: imhoffd/get-changed-files@v2
         with:
@@ -61,7 +61,7 @@ jobs:
           node-version: 14.x
 
       - name: Prepare Local Package
-        run: npm install && npm run build && npm run pack-local
+        run: yarn install && yarn run build && npm run pack-local
         working-directory: ${{ matrix.plugin }}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -75,7 +75,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
 
       - name: Install Packages
-        run: npm install
+        run: yarn install
         env:
           NPM_TOKEN: ${{ secrets.E2E_NPM_TOKEN }}
 
@@ -110,7 +110,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
 
       - name: Prepare Local Package
-        run: npm install && npm run build && npm run pack-local
+        run: yarn install && npm run build && npm run pack-local
         working-directory: ${{ matrix.plugin }}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -122,7 +122,7 @@ jobs:
         run: echo "REACT_APP_GOOGLE_MAPS_API_KEY=${{secrets.REACT_APP_GOOGLE_MAPS_API_KEY}}" > android/local.properties
 
       - name: Install Packages
-        run: npm install
+        run: yarn install
         env:
           NPM_TOKEN: ${{ secrets.E2E_NPM_TOKEN }}
 
