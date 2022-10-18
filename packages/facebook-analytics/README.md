@@ -55,32 +55,32 @@ initAppEvents() => Promise<string>
 logEvent(options: { event: FacebookEventName | string; valueToSum?: number; params?: any; }) => Promise<string>
 ```
 
-| Param         | Type                                                               |
-| ------------- | ------------------------------------------------------------------ |
-| **`options`** | <code>{ event: string; valueToSum?: number; params?: any; }</code> |
+Send an event to Facebook
 
-**Returns:** <code>Promise&lt;string&gt;</code>
-
-```javascript
-FacebookAnalytics.logEvent({ event: FacebookEventName.CompletedRegistration })
+```ts
+FacebookAnalytics.logEvent({ event: <a href="#facebookeventname">FacebookEventName</a>.CompletedRegistration })
 
 // OR
 
 FacebookAnalytics.logEvent({ event: 'fb_mobile_complete_registration' })
 ```
 
+| Param         | Type                                                               |
+| ------------- | ------------------------------------------------------------------ |
+| **`options`** | <code>{ event: string; valueToSum?: number; params?: any; }</code> |
+
+**Returns:** <code>Promise&lt;string&gt;</code>
+
 --------------------
 
 
 ### enableAdvertiserTracking()
 
-Only for IOS versions greater than 14
-
-source : https://developers.facebook.com/docs/app-events/guides/advertising-tracking-enabled/
-
 ```typescript
 enableAdvertiserTracking() => Promise<void>
 ```
+
+Only for IOS versions greater than 14
 
 --------------------
 
@@ -110,8 +110,27 @@ getAdvertiserTrackingStatus() => Promise<void>
 
 Enum of all Facebook standard events
 
-<code>typeof FacebookEventName[keyof typeof FacebookEventName]</code>
+Table of correspondence :
 
-you can see the list [here](./src/event.ts)
+ActivatedApp: 'fb_mobile_activate_app',
+DeactivatedApp: 'fb_mobile_deactivate_app',
+SessionInterruptions: 'fb_mobile_app_interruptions',
+TimeBetweenSessions: 'fb_mobile_time_between_sessions',
+CompletedRegistration: 'fb_mobile_complete_registration',
+ViewedContent: 'fb_mobile_content_view',
+Searched: 'fb_mobile_search',
+Rated: 'fb_mobile_rate',
+CompletedTutorial: 'fb_mobile_tutorial_completion',
+PushTokenObtained: 'fb_mobile_obtain_push_token',
+AddedToCart: 'fb_mobile_add_to_cart',
+AddedToWishlist: 'fb_mobile_add_to_wishlist',
+InitiatedCheckout: 'fb_mobile_initiated_checkout',
+AddedPaymentInfo: 'fb_mobile_add_payment_info',
+Purchased: 'fb_mobile_purchase',
+AchievedLevel: 'fb_mobile_level_achieved',
+UnlockedAchievement: 'fb_mobile_achievement_unlocked',
+SpentCredits: 'fb_mobile_spent_credits',
+
+<code>typeof FacebookEventName[keyof typeof FacebookEventName]</code>
 
 </docgen-api>
