@@ -4,9 +4,9 @@
   "compilerOptions": {
     "esModuleInterop": true,
     // "inlineSources": true,
-    "lib": ["dom", "es2017"],
+    "lib": ["dom", "es2017"]
     // "module": "esnext",
-    "moduleResolution": "node"
+    // "moduleResolution": "node"
     // "target": "es2017"
   }
 }

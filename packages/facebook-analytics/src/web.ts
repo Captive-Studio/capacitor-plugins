@@ -1,7 +1,7 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type { FacebookAnalyticsPlugin } from './definitions';
-import type { FacebookEventName } from './event';
+import type { FacebookAnalyticsPlugin } from './definitions.js';
+import type { FacebookEventName } from './event.js';
 
 export class FacebookAnalyticsWeb extends WebPlugin implements FacebookAnalyticsPlugin {
   async initAppEvents(): Promise<string> {

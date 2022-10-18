@@ -1,4 +1,4 @@
-import type { FacebookEventName } from './event';
+import type { FacebookEventName } from './event.js';
 
 export interface FacebookAnalyticsPlugin {
   initAppEvents(): Promise<string>;
