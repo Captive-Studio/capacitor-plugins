@@ -1,11 +1,8 @@
-require = require('esm')(module);
-
-const { relative, resolve } = require('node:path');
-const core = require('@actions/core');
-
-const { root } = require('../../../scripts/lib/repo.mjs');
-const { execute } = require('../../../scripts/lib/cli.mjs');
-const { ls } = require('../../../scripts/lib/lerna.mjs');
+import { relative, resolve } from 'node:path';
+import * as core from '@actions/core';
+import { root } from '../../../scripts/lib/repo.mjs';
+import { execute } from '../../../scripts/lib/cli.mjs';
+import { ls } from '../../../scripts/lib/lerna.mjs';
 
 execute(async () => {
   const files = JSON.parse(core.getInput('files', '[]')).map((f) => resolve(root, f));

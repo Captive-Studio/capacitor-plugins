@@ -1,11 +1,8 @@
-require = require('esm')(module);
-
-const { relative, resolve, join } = require('node:path');
-const { existsSync } = require('node:fs');
-const core = require('@actions/core');
-
-const { root } = require('../../../scripts/lib/repo.mjs');
-const { execute } = require('../../../scripts/lib/cli.mjs');
+import { relative, resolve, join } from 'node:path';
+import * as core from '@actions/core';
+import { existsSync } from 'node:fs';
+import { root } from '../../../scripts/lib/repo.mjs';
+import { execute } from '../../../scripts/lib/cli.mjs';
 
 execute(async () => {
   const paths = JSON.parse(core.getInput('paths', '[]')).map((f) => resolve(root, f));
