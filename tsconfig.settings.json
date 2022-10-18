@@ -1,5 +1,12 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@captive/ts-config",
-  "compilerOptions": {}
+  "compilerOptions": {
+    "esModuleInterop": true,
+    // "inlineSources": true,
+    "lib": ["dom", "es2017"],
+    // "module": "esnext",
+    "moduleResolution": "node"
+    // "target": "es2017"
+  }
 }
