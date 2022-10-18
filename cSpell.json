@@ -1,0 +1,17 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [],
+  "flagWords": [],
+  "ignorePaths": [
+    "**/build/**",
+    "**/lib/**",
+    "**/node_modules/**",
+    "**/package.json",
+    "**/package-lock.json",
+    "**/yarn.lock",
+    "**/*.log",
+    "**/CHANGELOG.md",
+    "**/[.]*/**"
+  ]
+}

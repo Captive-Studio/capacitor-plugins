@@ -25,7 +25,7 @@ jobs:
           npm whoami
           npm install
       - name: Version & Publish
-        env: 
+        env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GH_TOKEN: ${{ secrets.CAP_GH_RELEASE_TOKEN }}
         run: |

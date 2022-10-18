@@ -3,15 +3,12 @@ import { WebPlugin } from '@capacitor/core';
 import type { FacebookAnalyticsPlugin } from './definitions';
 import type { FacebookEventName } from './event';
 
-export class FacebookAnalyticsWeb
-  extends WebPlugin
-  implements FacebookAnalyticsPlugin
-{
+export class FacebookAnalyticsWeb extends WebPlugin implements FacebookAnalyticsPlugin {
   async initAppEvents(): Promise<string> {
     throw super.unimplemented();
   }
 
-  async logEvent(_: { event: FacebookEventName | string, valueToSum?: number, params?: any }): Promise<string> {
+  async logEvent(_: { event: FacebookEventName | string; valueToSum?: number; params?: any }): Promise<string> {
     throw super.unimplemented();
   }
 

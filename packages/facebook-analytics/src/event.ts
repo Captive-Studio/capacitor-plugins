@@ -39,7 +39,6 @@ export const FacebookEventParameterName = Object.freeze({
   Level: 'fb_level',
   Description: 'fb_description',
   SourceApplication: 'fb_mobile_launch_source',
-
 });
 export type FacebookEventParameterName = typeof FacebookEventParameterName[keyof typeof FacebookEventParameterName];
 

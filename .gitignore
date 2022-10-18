@@ -1,3 +1,11 @@
+# BEGIN ### ESLint ###
+.eslintcache
+# END ### ESLint ###
+# BEGIN ### Typescript ###
+lib/
+*.tsbuildinfo
+typings/
+# END ### Typescript ###
 # BEGIN ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json

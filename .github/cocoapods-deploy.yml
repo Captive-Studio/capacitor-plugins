@@ -1,4 +1,3 @@
-
 # This workflow is a WIP to get the plugins to deploy to cocoapods
 # Its put on hold as it's currently failing during the pod trunk push command
 # See the docs on how to run during manual deployment
@@ -20,7 +19,7 @@
 #         with:
 #           fetch-depth: 0
 #       - name: Install Cocoapods
-#         run: | 
+#         run: |
 #           gem install cocoapods
 #       - name: Restore Dependency Cache
 #         id: cache-modules

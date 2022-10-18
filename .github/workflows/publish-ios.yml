@@ -23,7 +23,7 @@ jobs:
         with:
           ref: native-publish
       - name: Install Cocoapods
-        run: | 
+        run: |
           gem install cocoapods
       - name: Restore Dependency Cache
         id: cache-modules

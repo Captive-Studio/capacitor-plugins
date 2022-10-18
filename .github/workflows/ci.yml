@@ -32,7 +32,7 @@ jobs:
       - id: files
         uses: imhoffd/get-changed-files@v2
         with:
-          format: 'json'
+          format: json
       - id: packages
         uses: ./.github/actions/changed-packages
         with:

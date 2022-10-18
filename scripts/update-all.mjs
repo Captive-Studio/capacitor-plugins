@@ -9,11 +9,11 @@ import {
 execute(async () => {
   const packages = Object.fromEntries(
     await Promise.all(
-      PROJECTS.map(async project => [
+      PROJECTS.map(async (project) => [
         `@captive/capacitor-${project}`,
         `^${await getLatestVersion(`@captive/capacitor-${project}`, 'latest')}`,
-      ]),
-    ),
+      ])
+    )
   );
 
   await setLernaPackageDependencies(packages, 'devDependencies');

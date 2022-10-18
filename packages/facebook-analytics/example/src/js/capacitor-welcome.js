@@ -92,7 +92,7 @@ window.customElements.define(
     connectedCallback() {
       const self = this;
 
-      self.shadowRoot.querySelector('#take-photo').addEventListener('click', async function (e) {
+      self.shadowRoot.querySelector('#take-photo').addEventListener('click', async (e) => {
         try {
           const photo = await Camera.getPhoto({
             resultType: 'uri',
@@ -104,8 +104,8 @@ window.customElements.define(
           }
 
           image.src = photo.webPath;
-        } catch (e) {
-          console.warn('User cancelled', e);
+        } catch (error) {
+          console.warn('User cancelled', error);
         }
       });
     }

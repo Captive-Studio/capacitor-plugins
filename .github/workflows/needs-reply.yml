@@ -2,7 +2,7 @@ name: Close old issues that need reply
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 0 * * *'
 
 jobs:
   build:
@@ -12,7 +12,7 @@ jobs:
         uses: imhoffd/needs-reply@v2
         with:
           repo-token: ${{ secrets.BOT_TOKEN }}
-          issue-label: 'needs reply'
+          issue-label: needs reply
           days-before-close: 15
           close-message: |
             It looks like this issue didn't get the information it needed, so I'll close it for now. If I made a mistake, sorry! I am just a bot.
