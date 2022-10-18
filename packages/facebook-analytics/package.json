@@ -62,7 +62,17 @@
     "@capacitor/ios": "^4.0.0"
   },
   "peerDependencies": {
-    "@capacitor/core": "^4.0.0"
+    "@capacitor/android": "^4.0.0",
+    "@capacitor/core": "^4.0.0",
+    "@capacitor/ios": "^4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@capacitor/android": {
+      "optional": true
+    },
+    "@capacitor/ios": {
+      "optional": true
+    }
   },
   "swiftlint": "@ionic/swiftlint-config",
   "capacitor": {
