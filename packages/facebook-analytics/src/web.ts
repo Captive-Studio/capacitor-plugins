@@ -1,3 +1,4 @@
+/* eslint-disable class-methods-use-this */
 import { WebPlugin } from '@capacitor/core';
 
 import type { FacebookAnalyticsPlugin } from './definitions.js';
@@ -12,15 +13,13 @@ export class FacebookAnalyticsWeb extends WebPlugin implements FacebookAnalytics
     throw super.unimplemented();
   }
 
-  async enableAdvertiserTracking(): Promise<void> {
-    throw super.unimplemented();
-  }
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
+  async enableAdvertiserTracking(): Promise<void> {}
 
-  async disableAdvertiserTracking(): Promise<void> {
-    throw super.unimplemented();
-  }
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
+  async disableAdvertiserTracking(): Promise<void> {}
 
-  async getAdvertiserTrackingStatus(): Promise<any> {
-    throw super.unimplemented();
+  async getAdvertiserTrackingStatus(): Promise<boolean> {
+    return true;
   }
 }

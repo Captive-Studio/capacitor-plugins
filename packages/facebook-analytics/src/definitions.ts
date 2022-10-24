@@ -23,5 +23,5 @@ export interface FacebookAnalyticsPlugin {
    */
   enableAdvertiserTracking(): Promise<void>;
   disableAdvertiserTracking(): Promise<void>;
-  getAdvertiserTrackingStatus(): Promise<void>;
+  getAdvertiserTrackingStatus(): Promise<boolean>;
 }
