@@ -32,6 +32,23 @@ public class FacebookAnalyticsPlugin extends Plugin {
     }
 
     @PluginMethod
+    public void enableAdvertiserTracking(PluginCall call) {
+        call.resolve();
+    }
+
+    @PluginMethod
+    public void disableAdvertiserTracking(PluginCall call) {
+        call.resolve();
+    }
+
+    @PluginMethod
+    public void getAdvertiserTrackingStatus(PluginCall call) {
+      JSObject returnValue = new JSObject();
+      returnValue.put("status", true);
+      call.resolve(returnValue);
+    }
+
+    @PluginMethod
     public void logEvent(PluginCall call) {
         if (!call.getData().has("event")) {
             call.reject("Must provide an event");
