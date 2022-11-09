@@ -493,7 +493,7 @@ __metadata:
     "@capacitor/ios": 4.3.0
     concurrently: 7.4.0
     rimraf: 3.0.2
-    rollup: 3.2.3
+    rollup: 3.2.5
     typescript: 4.8.4
   peerDependencies:
     "@capacitor/android": ^4.0.0
@@ -12544,9 +12544,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:3.2.3":
-  version: 3.2.3
-  resolution: "rollup@npm:3.2.3"
+"rollup@npm:3.2.5":
+  version: 3.2.5
+  resolution: "rollup@npm:3.2.5"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -12554,7 +12554,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: e4b4f3b70fad4b8f7dabc579fb8bbe14399d5aed0cc1fcee39f15ae81804d6acd0e1063b653e6cf5ef50e8e954801689e2c822e99ed31ca18f1b1fbbea8075e5
+  checksum: 1779b778fe4b14f80a995a641d3a89a76e3651170536192022dce1821f1241ee49496353655aa812dc8f8334c89a302ad957b757d4370cf57e41ca270bb394fd
   languageName: node
   linkType: hard
 
