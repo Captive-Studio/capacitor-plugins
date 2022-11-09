@@ -27,7 +27,7 @@ jobs:
           gem install cocoapods
       - name: Restore Dependency Cache
         id: cache-modules
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: |
             node_modules
