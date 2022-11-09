@@ -518,9 +518,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/eslint-config@npm:1.4.0":
-  version: 1.4.0
-  resolution: "@captive/eslint-config@npm:1.4.0"
+"@captive/eslint-config@npm:1.6.0":
+  version: 1.6.0
+  resolution: "@captive/eslint-config@npm:1.6.0"
   dependencies:
     "@babel/core": ^7.0.0
     "@babel/eslint-parser": ^7.0.0
@@ -548,7 +548,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 146b0522b437bba437c27945adef9e37068af8e5382776da6a36bff9fb68bff9a9967b60dd0d8996879bca003c1a5356c26b7c1696acfb75b643800a1b5672c6
+  checksum: bdd0ccb0810d3f2d7a97a2a52717a75a0ac6ed740a79ca15f6b0cbefb060889939c9df9b58251b82a28ccbda99473af66ba5a9c39ef203677f19d3be6a8224b7
   languageName: node
   linkType: hard
 
@@ -4176,7 +4176,7 @@ __metadata:
     "@babel/core": latest
     "@babel/eslint-parser": latest
     "@captive/commitlint-config": 1.1.0
-    "@captive/eslint-config": 1.4.0
+    "@captive/eslint-config": 1.6.0
     "@captive/ts-config": 1.2.0
     "@commitlint/cli": latest
     "@ionic/swiftlint-config": 1.1.2

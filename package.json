@@ -104,7 +104,7 @@
     "@babel/core": "latest",
     "@babel/eslint-parser": "latest",
     "@captive/commitlint-config": "1.1.0",
-    "@captive/eslint-config": "1.4.0",
+    "@captive/eslint-config": "1.6.0",
     "@captive/ts-config": "1.2.0",
     "@commitlint/cli": "latest",
     "@ionic/swiftlint-config": "1.1.2",
