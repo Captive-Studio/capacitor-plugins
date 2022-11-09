@@ -125,7 +125,7 @@
     "lint-staged": "latest",
     "mrm": "latest",
     "prettier": "2.7.1",
-    "prettier-plugin-java": "1.0.2",
+    "prettier-plugin-java": "1.6.2",
     "prompts": "2.4.2",
     "rimraf": "3.0.2",
     "rollup": "2.79.1",
