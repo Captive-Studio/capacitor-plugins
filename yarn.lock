@@ -4170,7 +4170,7 @@ __metadata:
     lint-staged: latest
     mrm: latest
     prettier: 2.7.1
-    prettier-plugin-java: 1.0.2
+    prettier-plugin-java: 1.6.2
     prompts: 2.4.2
     rimraf: 3.0.2
     rollup: 2.79.1
@@ -8010,13 +8010,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"java-parser@npm:1.0.2":
-  version: 1.0.2
-  resolution: "java-parser@npm:1.0.2"
+"java-parser@npm:2.0.2":
+  version: 2.0.2
+  resolution: "java-parser@npm:2.0.2"
   dependencies:
     chevrotain: 6.5.0
     lodash: 4.17.21
-  checksum: 4ee0b6a9761eb7569944835ae746114be62223aafae174f8417de8179a588c2d82752d2cda5c49bf1b19e47e14b81c5896e3a87278bfce7865d7c66c73b0ce14
+  checksum: 324f58cc6886493c9b2bd9363c50e3b89e8e0487d87e1c3d4e94158ba08d2f296fe50e9ee034f4479de74ba894e6b7dac13e2821b18b12552a9abfa524528c43
   languageName: node
   linkType: hard
 
@@ -10641,23 +10641,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-java@npm:1.0.2":
-  version: 1.0.2
-  resolution: "prettier-plugin-java@npm:1.0.2"
+"prettier-plugin-java@npm:1.6.2":
+  version: 1.6.2
+  resolution: "prettier-plugin-java@npm:1.6.2"
   dependencies:
-    java-parser: 1.0.2
+    java-parser: 2.0.2
     lodash: 4.17.21
-    prettier: 2.2.1
-  checksum: 137a9b0de4937e2ef355da99d1288884ce95a5a9aa65a50b19da79a8d058e88592e9d9b76b9efe8b7f84bb35ad22113f00b9ed8bcca1c6fe48f1470e07d0ead6
+    prettier: 2.3.1
+  checksum: e6f7ab6209d9d42f8b03d1b9c8293d59b736470559d2ef833940cab68bfd42e159879e1cfd2f2f130007c29126f14ef41ba640fadf655f8945ef1a2716ec5a46
   languageName: node
   linkType: hard
 
-"prettier@npm:2.2.1":
-  version: 2.2.1
-  resolution: "prettier@npm:2.2.1"
+"prettier@npm:2.3.1":
+  version: 2.3.1
+  resolution: "prettier@npm:2.3.1"
   bin:
     prettier: bin-prettier.js
-  checksum: 800de2df3d37067ab24478c7f32c60ca0c57b01742133287829feeb4a70d239a7bf6bccb56196784777af591ad80fb9ba70c1a49b0fcecf9f5622a764d513edb
+  checksum: 3b37731ff7150feecf19736c77c790e7e276b404ac9af81cbaf87cfecefc48ef9a864f34c2a5caf5955378b8f2525984b8611703a0d9c1f052b4cfa6eb35899f
   languageName: node
   linkType: hard
 
