@@ -58,7 +58,7 @@ jobs:
       - name: Setup NodeJS & NPM
         uses: actions/setup-node@v3
         with:
-          node-version: 14.x
+          node-version: 18.x
 
       - name: Prepare Local Package
         run: yarn install && yarn run build && npm run pack-local
@@ -102,7 +102,7 @@ jobs:
       - name: Setup NodeJS & NPM
         uses: actions/setup-node@v3
         with:
-          node-version: 14.x
+          node-version: 18.x
 
       - name: Prepare Local Package
         run: npm run e2e:prepare
