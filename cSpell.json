@@ -1,9 +1,13 @@
 {
   "version": "0.2",
   "language": "en",
-  "words": [],
+  "words": ["swiftlint", "docgen", "gitmoji", "fbsdk", "autofix", "iife"],
   "flagWords": [],
   "ignorePaths": [
+    "packages/*/example/**",
+    "packages/*/ios/**",
+    "packages/*/android/**",
+    "**/dist/**",
     "**/build/**",
     "**/lib/**",
     "**/node_modules/**",

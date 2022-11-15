@@ -35,6 +35,7 @@ FacebookAnalytics.logEvent({ event: FacebookEventName.CompletedRegistration });
 
 </docgen-index>
 
+<!-- cSpell:disable -->
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
@@ -47,7 +48,6 @@ initAppEvents() => Promise<string>
 **Returns:** <code>Promise&lt;string&gt;</code>
 
 --------------------
-
 
 ### logEvent(...)
 
@@ -73,7 +73,6 @@ FacebookAnalytics.logEvent({ event: 'fb_mobile_complete_registration' })
 
 --------------------
 
-
 ### enableAdvertiserTracking()
 
 ```typescript
@@ -84,7 +83,6 @@ Only for IOS versions greater than 14
 
 --------------------
 
-
 ### disableAdvertiserTracking()
 
 ```typescript
@@ -92,7 +90,6 @@ disableAdvertiserTracking() => Promise<void>
 ```
 
 --------------------
-
 
 ### getAdvertiserTrackingStatus()
 
@@ -104,9 +101,7 @@ getAdvertiserTrackingStatus() => Promise<boolean>
 
 --------------------
 
-
 ### Type Aliases
-
 
 #### FacebookEventName
 
@@ -136,3 +131,4 @@ SpentCredits: 'fb_mobile_spent_credits',
 <code>typeof FacebookEventName[keyof typeof FacebookEventName]</code>
 
 </docgen-api>
+<!-- cSpell:enable -->

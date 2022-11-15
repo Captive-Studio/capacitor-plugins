@@ -19,7 +19,10 @@
     },
     "//#format:root": {},
     "docs": {},
-    "spellcheck": {},
+    "spellcheck": {
+      "dependsOn": ["//#spellcheck:root"]
+    },
+    "//#spellcheck:root": {},
     "clean": {
       "dependsOn": ["//#clean:root"],
       "cache": false
