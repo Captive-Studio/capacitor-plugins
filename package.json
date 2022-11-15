@@ -40,7 +40,7 @@
     "test": "turbo run test",
     "toggle-local": "node ./scripts/toggle-local.mjs",
     "update-all": "node ./scripts/update-all.mjs",
-    "validate": "npm run build && npm run lint && npm test",
+    "validate": "turbo run build lint test",
     "watch": "lerna run --parallel --stream watch"
   },
   "commitlint": {
