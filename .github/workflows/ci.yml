@@ -16,7 +16,7 @@ jobs:
       plugins: ${{ steps.packages.outputs.paths }}
     steps:
       - name: Cancel Previous Runs
-        uses: styfle/cancel-workflow-action@c27121f52251bf6ef2dca7364e525d8d19e631b3
+        uses: styfle/cancel-workflow-action@5d2f440ec86cdcd236025d4d871a13c4fc8ea068
         with:
           access_token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@v3
