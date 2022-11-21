@@ -113,7 +113,7 @@
     "@types/node": "latest",
     "@types/prompts": "2.4.1",
     "@w5s/mrm-preset": "latest",
-    "concurrently": "7.5.0",
+    "concurrently": "7.6.0",
     "conventional-changelog-gitmoji-config": "latest",
     "cspell": "latest",
     "es-jest": "latest",
