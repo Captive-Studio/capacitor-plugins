@@ -507,14 +507,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/commitlint-config@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@captive/commitlint-config@npm:1.1.0"
+"@captive/commitlint-config@npm:1.1.2":
+  version: 1.1.2
+  resolution: "@captive/commitlint-config@npm:1.1.2"
   dependencies:
-    "@commitlint/config-conventional": ^13.0.0
+    "@w5s/commitlint-config": ^1.0.1
   peerDependencies:
-    "@commitlint/cli": ">=8"
-  checksum: ac628500efe022aad8abcb337917907ca980868267bd8fd9e7691839862e85c2318a2406e431306f88c75538a56043d9888d579045528b1bd1ecd11afbcd9654
+    "@commitlint/cli": ^16.0.0 || ^17.0.0
+  checksum: 1f09ff89b57ce6173b66cb39ce762f9586e054800029d0d1ee895e60b6cb91625fdddd34a39524b97f3fb69ae10156dc7bb1cb4cec16fe279657a361fb707c77
   languageName: node
   linkType: hard
 
@@ -578,15 +578,6 @@ __metadata:
   bin:
     commitlint: cli.js
   checksum: 2f87c560ede9c731574ceb3a4be0d4a12fed60aedef57a567a98b978537105da0aa70d189803f7894ee7a079038f63ee45345ebd29e9d29789d9fdf4c64006d4
-  languageName: node
-  linkType: hard
-
-"@commitlint/config-conventional@npm:^13.0.0":
-  version: 13.2.0
-  resolution: "@commitlint/config-conventional@npm:13.2.0"
-  dependencies:
-    conventional-changelog-conventionalcommits: ^4.3.1
-  checksum: fd659269fe31df17bf479b90e915e063c7dc61b795396458d403c4154f037e152ad015463c078a881af18456c638ab3b6c1b67966abc42b131e5a900ad3c2753
   languageName: node
   linkType: hard
 
@@ -3332,6 +3323,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@w5s/commitlint-config@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@w5s/commitlint-config@npm:1.0.1"
+  dependencies:
+    "@commitlint/types": ^17.0.0
+    emoji-regex: ^10.2.1
+    gitmojis: ^3.13.0
+  peerDependencies:
+    "@commitlint/cli": ^16.0.0 || ^17.0.0
+  checksum: 55c988caf87bf110a70fde3a91ad1ef870b0af113ea97d8531aea03b5b14261ea6890357d582cddbcaa53ea63f49172bf51a247844e1158bdc3807fa3432b91b
+  languageName: node
+  linkType: hard
+
 "@w5s/mrm-preset@npm:latest":
   version: 1.0.0-alpha.27
   resolution: "@w5s/mrm-preset@npm:1.0.0-alpha.27"
@@ -4148,7 +4152,7 @@ __metadata:
     "@actions/core": 1.10.0
     "@babel/core": latest
     "@babel/eslint-parser": latest
-    "@captive/commitlint-config": 1.1.0
+    "@captive/commitlint-config": 1.1.2
     "@captive/eslint-config": 1.6.0
     "@captive/ts-config": 1.2.0
     "@commitlint/cli": latest
@@ -4726,17 +4730,6 @@ __metadata:
     compare-func: ^2.0.0
     q: ^1.5.1
   checksum: 6ed4972fce25a50f9f038c749cc9db501363131b0fb2efc1fccecba14e4b1c80651d0d758d4c350a609f32010c66fa343eefd49c02e79e911884be28f53f3f90
-  languageName: node
-  linkType: hard
-
-"conventional-changelog-conventionalcommits@npm:^4.3.1":
-  version: 4.6.3
-  resolution: "conventional-changelog-conventionalcommits@npm:4.6.3"
-  dependencies:
-    compare-func: ^2.0.0
-    lodash: ^4.17.15
-    q: ^1.5.1
-  checksum: 7b8e8a21ebb56f9aaa510e12917b7c609202072c3e71089e0a09630c37c2e8146cdb04364809839b0e3eb55f807fe84d03b2079500b37f6186d505848be5c562
   languageName: node
   linkType: hard
 
@@ -5435,6 +5428,13 @@ __metadata:
   version: 0.13.1
   resolution: "emittery@npm:0.13.1"
   checksum: 2b089ab6306f38feaabf4f6f02792f9ec85fc054fda79f44f6790e61bbf6bc4e1616afb9b232e0c5ec5289a8a452f79bfa6d905a6fd64e94b49981f0934001c6
+  languageName: node
+  linkType: hard
+
+"emoji-regex@npm:^10.2.1":
+  version: 10.2.1
+  resolution: "emoji-regex@npm:10.2.1"
+  checksum: 1aa2d16881c56531fdfc03d0b36f5c2b6221cc4097499a5665b88b711dc3fb4d5b8804f0ca6f00c56e5dcf89bac75f0487eee85da1da77df3a33accc6ecbe426
   languageName: node
   linkType: hard
 
@@ -6871,6 +6871,13 @@ __metadata:
   version: 1.4.0
   resolution: "github-slugger@npm:1.4.0"
   checksum: 4f52e7a21f5c6a4c5328f01fe4fe13ae8881fea78bfe31f9e72c4038f97e3e70d52fb85aa7633a52c501dc2486874474d9abd22aa61cbe9b113099a495551c6b
+  languageName: node
+  linkType: hard
+
+"gitmojis@npm:^3.13.0":
+  version: 3.13.0
+  resolution: "gitmojis@npm:3.13.0"
+  checksum: 3a40f2491a293c410523266a7de4089efad3e32254d08da4e4446d385d7d6b950aa8367a5d00b064dfe482fcde6cf43a78c173fc7c1b88587ef25f9480a0ed95
   languageName: node
   linkType: hard
 
