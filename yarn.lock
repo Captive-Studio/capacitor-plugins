@@ -518,29 +518,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/eslint-config@npm:1.6.0":
-  version: 1.6.0
-  resolution: "@captive/eslint-config@npm:1.6.0"
+"@captive/eslint-config@npm:1.7.1":
+  version: 1.7.1
+  resolution: "@captive/eslint-config@npm:1.7.1"
   dependencies:
     "@babel/core": ^7.0.0
     "@babel/eslint-parser": ^7.0.0
+    "@captive/prettier-config": ^1.1.1
     "@rushstack/eslint-patch": ^1.1.4
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.0.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-prettier: ^8.5.0
     eslint-plugin-import: ^2.26.0
-    eslint-plugin-jest: ^26.6.0
+    eslint-plugin-jest: ^27.0.0
     eslint-plugin-jsdoc: ^39.3.3
     eslint-plugin-jsonc: ^2.4.0
     eslint-plugin-prettier: ^4.2.1
     eslint-plugin-promise: ^6.0.0
     eslint-plugin-react: ^7.30.1
-    eslint-plugin-unicorn: ^43.0.2
+    eslint-plugin-unicorn: ^44.0.0
     eslint-plugin-vue: ^9.3.0
     eslint-plugin-yml: ^1.1.0
     find-up: ^5.0.0
-    parse-gitignore: ^1.0.0
+    parse-gitignore: ^2.0.0
   peerDependencies:
     eslint: 8.x
     prettier: 2.x
@@ -548,7 +549,21 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: bdd0ccb0810d3f2d7a97a2a52717a75a0ac6ed740a79ca15f6b0cbefb060889939c9df9b58251b82a28ccbda99473af66ba5a9c39ef203677f19d3be6a8224b7
+  checksum: 670c9a86ec6d77b93ed150927a4b20eb6f4fcd86568876fc11f6cc7271d83c700186aa3acf39486b669231b2df42dffebee8d345dd890d076e35e53b9be4e16a
+  languageName: node
+  linkType: hard
+
+"@captive/prettier-config@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@captive/prettier-config@npm:1.1.1"
+  dependencies:
+    "@w5s/prettier-config": ^1.0.1
+  peerDependencies:
+    prettier: ">= 2.0"
+  peerDependenciesMeta:
+    prettier:
+      optional: true
+  checksum: de8c1ac3b0a010c3f559159c255a1fc2fbcad014009dc35a14cc065a142451cf90bfb144d9e336c6399259d9c078078618678b6eb70dd804343ee0fb4f9a50a6
   languageName: node
   linkType: hard
 
@@ -3349,6 +3364,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@w5s/prettier-config@npm:^1.0.1":
+  version: 1.0.2
+  resolution: "@w5s/prettier-config@npm:1.0.2"
+  peerDependencies:
+    prettier: ">= 2.0"
+  peerDependenciesMeta:
+    prettier:
+      optional: true
+  checksum: ad573d72c1b5879dd4e6785bb2f9e520be79cbfce8a10997cf385df68c6eb187a73e40fe9617db3223ee9cb0bda853dbc11891bd472e29b3bb62b3f652761f53
+  languageName: node
+  linkType: hard
+
 "@yarnpkg/lockfile@npm:^1.1.0":
   version: 1.1.0
   resolution: "@yarnpkg/lockfile@npm:1.1.0"
@@ -4153,7 +4180,7 @@ __metadata:
     "@babel/core": latest
     "@babel/eslint-parser": latest
     "@captive/commitlint-config": 1.1.2
-    "@captive/eslint-config": 1.6.0
+    "@captive/eslint-config": 1.7.1
     "@captive/ts-config": 1.2.0
     "@commitlint/cli": latest
     "@ionic/swiftlint-config": 1.1.2
@@ -4308,10 +4335,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ci-info@npm:^3.2.0, ci-info@npm:^3.3.2":
+"ci-info@npm:^3.2.0":
   version: 3.5.0
   resolution: "ci-info@npm:3.5.0"
   checksum: 7def3789706ec18db3dc371dc699bd0df12057d54b796201f50ba87200e0849d3d83c68da00ab2ab8cdd738d91b25ab9e31620588f8d7e64ffaa1f760fd121cf
+  languageName: node
+  linkType: hard
+
+"ci-info@npm:^3.4.0":
+  version: 3.7.0
+  resolution: "ci-info@npm:3.7.0"
+  checksum: 6e5df0250382ff3732703b36b958d2d892dd3c481f9671666f96c2ab7888be744bc4dca81395be958dcb828502d94f18fa9aa8901c5a3c9923cda212df02724c
   languageName: node
   linkType: hard
 
@@ -5909,20 +5943,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^26.6.0":
-  version: 26.9.0
-  resolution: "eslint-plugin-jest@npm:26.9.0"
+"eslint-plugin-jest@npm:^27.0.0":
+  version: 27.1.6
+  resolution: "eslint-plugin-jest@npm:27.1.6"
   dependencies:
     "@typescript-eslint/utils": ^5.10.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^5.0.0
-    eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
+    eslint: ^7.0.0 || ^8.0.0
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
     jest:
       optional: true
-  checksum: 6d5fd5c95368f1ca2640389aeb7ce703d6202493c3ec6bdedb4eaca37233710508b0c75829e727765a16fd27029a466d34202bc7f2811c752038ccbbce224400
+  checksum: 5b1640b5d575f0d5e27da8ef8cb3110a29f94ebd50ae51edc5ea34c1054f5dcf305416865b2919ac424bc02c4569848bbe7fd2c86e7e1aff23e77f1ff9ef7dfd
   languageName: node
   linkType: hard
 
@@ -6004,17 +6038,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:^43.0.2":
-  version: 43.0.2
-  resolution: "eslint-plugin-unicorn@npm:43.0.2"
+"eslint-plugin-unicorn@npm:^44.0.0":
+  version: 44.0.2
+  resolution: "eslint-plugin-unicorn@npm:44.0.2"
   dependencies:
-    "@babel/helper-validator-identifier": ^7.18.6
-    ci-info: ^3.3.2
+    "@babel/helper-validator-identifier": ^7.19.1
+    ci-info: ^3.4.0
     clean-regexp: ^1.0.0
     eslint-utils: ^3.0.0
     esquery: ^1.4.0
     indent-string: ^4.0.0
-    is-builtin-module: ^3.1.0
+    is-builtin-module: ^3.2.0
     lodash: ^4.17.21
     pluralize: ^8.0.0
     read-pkg-up: ^7.0.1
@@ -6023,8 +6057,8 @@ __metadata:
     semver: ^7.3.7
     strip-indent: ^3.0.0
   peerDependencies:
-    eslint: ">=8.18.0"
-  checksum: 1b63eb013cbc0b3c9ef131a1e049b4b53d8e208393675d5f97d3fa83c050ebcb695a7fd210f4de1460f42f89c2ecca261280488834591d5c21e146d297a9ee2e
+    eslint: ">=8.23.1"
+  checksum: b0ed6b3a60e36efab5b19a0e2a1ea4e4faba79ef315aa1eff9bdebaf28b70ada059837a0a4cdf20e0b678d8eee6155afc2c6300d0ff7d51b68eced4f0bcb56e0
   languageName: node
   linkType: hard
 
@@ -7511,7 +7545,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-builtin-module@npm:^3.1.0":
+"is-builtin-module@npm:^3.2.0":
   version: 3.2.0
   resolution: "is-builtin-module@npm:3.2.0"
   dependencies:
@@ -10408,10 +10442,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parse-gitignore@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "parse-gitignore@npm:1.0.1"
-  checksum: 3ccb72ebe7dcc05c3bd43452c6afb733e3df90bc9c596fc92f16abed30fa3498ebe73045265cb1d45e0de4603f9be42a71101bd03b0db6470374340139bd307e
+"parse-gitignore@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "parse-gitignore@npm:2.0.0"
+  checksum: 81e2fc56aefe004bb1c2b70f69a4a599969c21d2e4ee66e1e9c7eb84ae30286a25cf84d3a3b09e8b1772fd0e2b028560d97998f2e2ad1c3eebb89f84cedf36ea
   languageName: node
   linkType: hard
 
