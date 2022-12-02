@@ -117,7 +117,7 @@
     "conventional-changelog-gitmoji-config": "latest",
     "cspell": "latest",
     "es-jest": "latest",
-    "eslint": "8.28.0",
+    "eslint": "8.29.0",
     "esm": "3.2.25",
     "husky": "latest",
     "is-ci": "latest",
