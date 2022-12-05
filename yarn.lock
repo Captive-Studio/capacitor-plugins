@@ -507,14 +507,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/commitlint-config@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@captive/commitlint-config@npm:1.1.2"
+"@captive/commitlint-config@npm:1.1.3":
+  version: 1.1.3
+  resolution: "@captive/commitlint-config@npm:1.1.3"
   dependencies:
     "@w5s/commitlint-config": ^1.0.1
   peerDependencies:
     "@commitlint/cli": ^16.0.0 || ^17.0.0
-  checksum: 1f09ff89b57ce6173b66cb39ce762f9586e054800029d0d1ee895e60b6cb91625fdddd34a39524b97f3fb69ae10156dc7bb1cb4cec16fe279657a361fb707c77
+  checksum: cd58e88bbe50b4c99b08bf8651e06d2f4d80377b4d141162edddbbe10f787f12ea219ca91bb69be27ff3cbc5ec76b1e5f06ca1e5a1960ba4bacd8fb544d2227c
   languageName: node
   linkType: hard
 
@@ -4179,7 +4179,7 @@ __metadata:
     "@actions/core": 1.10.0
     "@babel/core": latest
     "@babel/eslint-parser": latest
-    "@captive/commitlint-config": 1.1.2
+    "@captive/commitlint-config": 1.1.3
     "@captive/eslint-config": 1.7.1
     "@captive/ts-config": 1.3.1
     "@commitlint/cli": latest
