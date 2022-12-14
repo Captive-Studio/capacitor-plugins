@@ -636,14 +636,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/commitlint-config@npm:1.1.3":
-  version: 1.1.3
-  resolution: "@captive/commitlint-config@npm:1.1.3"
+"@captive/commitlint-config@npm:1.1.4":
+  version: 1.1.4
+  resolution: "@captive/commitlint-config@npm:1.1.4"
   dependencies:
-    "@w5s/commitlint-config": ^1.0.1
+    "@w5s/commitlint-config": ^1.0.3
   peerDependencies:
     "@commitlint/cli": ^16.0.0 || ^17.0.0
-  checksum: cd58e88bbe50b4c99b08bf8651e06d2f4d80377b4d141162edddbbe10f787f12ea219ca91bb69be27ff3cbc5ec76b1e5f06ca1e5a1960ba4bacd8fb544d2227c
+  checksum: 68ba8f5be2022f900caec5969d445e1713d74ad8425eac54236983788c5e9a9e34549427d74b56d8d2da80ff305c672bb2c5d9d6dcf06e4cbedeb5e0dd477fc3
   languageName: node
   linkType: hard
 
@@ -3523,16 +3523,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/commitlint-config@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@w5s/commitlint-config@npm:1.0.1"
+"@w5s/commitlint-config@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@w5s/commitlint-config@npm:1.0.3"
   dependencies:
     "@commitlint/types": ^17.0.0
     emoji-regex: ^10.2.1
     gitmojis: ^3.13.0
   peerDependencies:
     "@commitlint/cli": ^16.0.0 || ^17.0.0
-  checksum: 55c988caf87bf110a70fde3a91ad1ef870b0af113ea97d8531aea03b5b14261ea6890357d582cddbcaa53ea63f49172bf51a247844e1158bdc3807fa3432b91b
+  checksum: b8a3cb171be82b628c72513192961dc47de70f6a5ef59582dd992c5ffb31407cd1d468c7e73eb7469cf153f1dd3f541d1b7285a24944509a00beacacc70ca118
   languageName: node
   linkType: hard
 
@@ -4364,7 +4364,7 @@ __metadata:
     "@actions/core": 1.10.0
     "@babel/core": latest
     "@babel/eslint-parser": latest
-    "@captive/commitlint-config": 1.1.3
+    "@captive/commitlint-config": 1.1.4
     "@captive/eslint-config": 1.7.4
     "@captive/ts-config": 1.3.2
     "@commitlint/cli": latest
