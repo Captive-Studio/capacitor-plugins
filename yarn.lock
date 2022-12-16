@@ -647,18 +647,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/eslint-config@npm:1.7.4":
-  version: 1.7.4
-  resolution: "@captive/eslint-config@npm:1.7.4"
+"@captive/eslint-config@npm:1.7.9":
+  version: 1.7.9
+  resolution: "@captive/eslint-config@npm:1.7.9"
   dependencies:
     "@babel/core": ^7.19.1
     "@babel/eslint-parser": ^7.19.1
-    "@captive/prettier-config": ^1.1.2
+    "@captive/prettier-config": ^1.1.3
     "@rushstack/eslint-patch": ^1.1.4
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.45.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-prettier: ^8.5.0
+    eslint-plugin-cypress: ^2.12.1
     eslint-plugin-import: ^2.26.0
     eslint-plugin-jest: ^27.0.0
     eslint-plugin-jsdoc: ^39.3.3
@@ -677,13 +678,13 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 8b6d2e91570998c08ec6dd28729247a529f3384fd70c96a416c392a320ce73d3305c804013f92bade821a07c02a38afe1f491b28dc3f4dd312a99d79c294a094
+  checksum: 5f8d9d8db55443a19788bcecea61e887169be47abb4289e83b960cc7e08dc4a3646ea4c6b1c07627cb420d573fac3fb1af322255da1bd101773d349f16e6def2
   languageName: node
   linkType: hard
 
-"@captive/prettier-config@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "@captive/prettier-config@npm:1.1.2"
+"@captive/prettier-config@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "@captive/prettier-config@npm:1.1.3"
   dependencies:
     "@w5s/prettier-config": ^1.0.1
   peerDependencies:
@@ -691,7 +692,7 @@ __metadata:
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: f8083233d9a5bb03798a58852dc3788548d5927409f20e12310f1e67e8b4fcf98ef87ff930ef5fac2a41be530473e2c1c6b53a283e677633dfd5932ea1ce3d91
+  checksum: 94c57cb9c685b09bbcbf84f634ff2deecfc6c86f10bf65076bf8d016c00225524ea9820f417d1261df7e335f7061dbc44dbefd86bf68a659c6878868990df6eb
   languageName: node
   linkType: hard
 
@@ -4365,7 +4366,7 @@ __metadata:
     "@babel/core": latest
     "@babel/eslint-parser": latest
     "@captive/commitlint-config": 1.1.4
-    "@captive/eslint-config": 1.7.4
+    "@captive/eslint-config": 1.7.9
     "@captive/ts-config": 1.3.2
     "@commitlint/cli": latest
     "@ionic/swiftlint-config": 1.1.2
@@ -6105,6 +6106,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-cypress@npm:^2.12.1":
+  version: 2.12.1
+  resolution: "eslint-plugin-cypress@npm:2.12.1"
+  dependencies:
+    globals: ^11.12.0
+  peerDependencies:
+    eslint: ">= 3.2.1"
+  checksum: 1f1c36e149304e9a6f58e2292a761abad58274da33b3a48b24ad55ad20cbce3ac7467321f2b6fcb052f9563c89f67004de4766eba2e2bdbcb010a6a0666989cf
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-import@npm:^2.26.0":
   version: 2.26.0
   resolution: "eslint-plugin-import@npm:2.26.0"
@@ -7186,7 +7198,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^11.1.0":
+"globals@npm:^11.1.0, globals@npm:^11.12.0":
   version: 11.12.0
   resolution: "globals@npm:11.12.0"
   checksum: 67051a45eca3db904aee189dfc7cd53c20c7d881679c93f6146ddd4c9f4ab2268e68a919df740d39c71f4445d2b38ee360fc234428baea1dbdfe68bbcb46979e
