@@ -50,7 +50,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.19.1, @babel/core@npm:latest":
+"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:latest":
   version: 7.20.12
   resolution: "@babel/core@npm:7.20.12"
   dependencies:
@@ -73,7 +73,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/eslint-parser@npm:^7.19.1, @babel/eslint-parser@npm:latest":
+"@babel/eslint-parser@npm:latest":
   version: 7.19.1
   resolution: "@babel/eslint-parser@npm:7.19.1"
   dependencies:
@@ -522,13 +522,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/eslint-config@npm:1.7.9":
-  version: 1.7.9
-  resolution: "@captive/eslint-config@npm:1.7.9"
+"@captive/eslint-config@npm:1.7.11":
+  version: 1.7.11
+  resolution: "@captive/eslint-config@npm:1.7.11"
   dependencies:
-    "@babel/core": ^7.19.1
-    "@babel/eslint-parser": ^7.19.1
-    "@captive/prettier-config": ^1.1.3
+    "@captive/prettier-config": ^1.1.5
     "@rushstack/eslint-patch": ^1.1.4
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.45.0
@@ -551,15 +549,17 @@ __metadata:
     eslint: 8.x
     typescript: 4.x
   peerDependenciesMeta:
+    eslint:
+      optional: true
     typescript:
       optional: true
-  checksum: 5f8d9d8db55443a19788bcecea61e887169be47abb4289e83b960cc7e08dc4a3646ea4c6b1c07627cb420d573fac3fb1af322255da1bd101773d349f16e6def2
+  checksum: 6f15224cf304cf7e6968d0f0111771af1e62783f00177a3946666b2c96a9d33baa89cb6004cebf5461f98045038f266a53bff72c18aa50e10ce6ee88bc441eba
   languageName: node
   linkType: hard
 
-"@captive/prettier-config@npm:^1.1.3":
-  version: 1.1.3
-  resolution: "@captive/prettier-config@npm:1.1.3"
+"@captive/prettier-config@npm:^1.1.5":
+  version: 1.1.5
+  resolution: "@captive/prettier-config@npm:1.1.5"
   dependencies:
     "@w5s/prettier-config": ^1.0.1
   peerDependencies:
@@ -567,7 +567,7 @@ __metadata:
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: 94c57cb9c685b09bbcbf84f634ff2deecfc6c86f10bf65076bf8d016c00225524ea9820f417d1261df7e335f7061dbc44dbefd86bf68a659c6878868990df6eb
+  checksum: 0a5f244e2fa821156f583c5c0e17a7b35361253fdc480654425e0417dfe8f00222072f173b58e7317e79940ec3dc8d1e8a1605cae8f85e38e6d3b3fce149564e
   languageName: node
   linkType: hard
 
@@ -4308,7 +4308,7 @@ __metadata:
     "@babel/core": latest
     "@babel/eslint-parser": latest
     "@captive/commitlint-config": 1.1.6
-    "@captive/eslint-config": 1.7.9
+    "@captive/eslint-config": 1.7.11
     "@captive/ts-config": 1.3.2
     "@commitlint/cli": latest
     "@ionic/swiftlint-config": 1.1.2
