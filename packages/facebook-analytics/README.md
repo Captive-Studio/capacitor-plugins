@@ -49,6 +49,7 @@ initAppEvents() => Promise<string>
 
 --------------------
 
+
 ### logEvent(...)
 
 ```typescript
@@ -73,6 +74,7 @@ FacebookAnalytics.logEvent({ event: 'fb_mobile_complete_registration' })
 
 --------------------
 
+
 ### enableAdvertiserTracking()
 
 ```typescript
@@ -83,6 +85,7 @@ Only for IOS versions greater than 14
 
 --------------------
 
+
 ### disableAdvertiserTracking()
 
 ```typescript
@@ -90,6 +93,7 @@ disableAdvertiserTracking() => Promise<void>
 ```
 
 --------------------
+
 
 ### getAdvertiserTrackingStatus()
 
@@ -101,7 +105,9 @@ getAdvertiserTrackingStatus() => Promise<boolean>
 
 --------------------
 
+
 ### Type Aliases
+
 
 #### FacebookEventName
 

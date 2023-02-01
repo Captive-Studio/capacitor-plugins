@@ -32,7 +32,7 @@ public class FacebookAnalyticsPlugin: CAPPlugin {
     @objc func logEvent(_ call: CAPPluginCall) {
         guard let event = call.getString("event") else {
             call.reject("Missing event argument")
-            return;
+            return
         }
 
         print("sending facebook event: ", event)
@@ -40,7 +40,7 @@ public class FacebookAnalyticsPlugin: CAPPlugin {
         if let valueToSum = call.getDouble("valueToSum") {
             if let params = call.getString("params") {
                 let newParams = [
-                    AppEvents.ParameterName.content : params,
+                    AppEvents.ParameterName.content: params
                 ]
                 AppEvents.shared.logEvent(.init(event), valueToSum: valueToSum, parameters: newParams)
             } else {
@@ -50,7 +50,7 @@ public class FacebookAnalyticsPlugin: CAPPlugin {
             if let params = call.getString("params") {
                 print(params)
                 let newParams = [
-                    AppEvents.ParameterName.content : params,
+                    AppEvents.ParameterName.content: params
                 ]
                 AppEvents.shared.logEvent(.init(event), parameters: newParams)
             } else {

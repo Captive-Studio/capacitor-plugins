@@ -42,7 +42,7 @@ export const FacebookEventName = Object.freeze({
   UnlockedAchievement: 'fb_mobile_achievement_unlocked',
   SpentCredits: 'fb_mobile_spent_credits',
 } as const);
-export type FacebookEventName = typeof FacebookEventName[keyof typeof FacebookEventName];
+export type FacebookEventName = (typeof FacebookEventName)[keyof typeof FacebookEventName];
 
 /**
  * Enum of all Facebook standard parameters
@@ -76,7 +76,7 @@ export const FacebookEventParameterName = Object.freeze({
   Description: 'fb_description',
   SourceApplication: 'fb_mobile_launch_source',
 });
-export type FacebookEventParameterName = typeof FacebookEventParameterName[keyof typeof FacebookEventParameterName];
+export type FacebookEventParameterName = (typeof FacebookEventParameterName)[keyof typeof FacebookEventParameterName];
 
 /**
  * Enum of toggle values
@@ -85,4 +85,4 @@ export const FacebookToggle = Object.freeze({
   Yes: '1',
   No: '0',
 });
-export type FacebookToggle = typeof FacebookToggle[keyof typeof FacebookToggle];
+export type FacebookToggle = (typeof FacebookToggle)[keyof typeof FacebookToggle];
