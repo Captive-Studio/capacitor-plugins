@@ -56,10 +56,10 @@
     "example/"
   ],
   "devDependencies": {
-    "@capacitor/android": "4.6.2",
-    "@capacitor/core": "4.6.2",
+    "@capacitor/android": "4.6.3",
+    "@capacitor/core": "4.6.3",
     "@capacitor/docgen": "0.2.0",
-    "@capacitor/ios": "4.6.2",
+    "@capacitor/ios": "4.6.3",
     "concurrently": "7.6.0",
     "rimraf": "4.1.2",
     "rollup": "3.12.0",
