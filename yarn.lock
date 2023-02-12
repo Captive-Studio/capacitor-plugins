@@ -460,9 +460,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@capacitor/docgen@npm:0.2.0":
-  version: 0.2.0
-  resolution: "@capacitor/docgen@npm:0.2.0"
+"@capacitor/docgen@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@capacitor/docgen@npm:0.2.1"
   dependencies:
     "@types/node": ^14.18.0
     colorette: ^2.0.16
@@ -471,7 +471,7 @@ __metadata:
     typescript: ~4.2.4
   bin:
     docgen: bin/docgen
-  checksum: 8ce0e758ad771bdae6863cc369c221eb691ac35eb8e620c6f1b897edd8be3268181372c26c8ee8e43dfc36032f0dd9f690968f0fc5f2be54c7e28ea0951450c8
+  checksum: 590ae48e6cb2bc99303ca19bafeae0bb603afdc006f3ec6b44ab4f2e27e7613bf02f4b6c418673aee7300c47278cd1b27d00d68f2b04c0194952138fd96ea5e1
   languageName: node
   linkType: hard
 
@@ -490,7 +490,7 @@ __metadata:
   dependencies:
     "@capacitor/android": 4.6.3
     "@capacitor/core": 4.6.3
-    "@capacitor/docgen": 0.2.0
+    "@capacitor/docgen": 0.2.1
     "@capacitor/ios": 4.6.3
     concurrently: 7.6.0
     rimraf: 4.1.2
