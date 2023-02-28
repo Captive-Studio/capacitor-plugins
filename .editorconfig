@@ -14,31 +14,38 @@ spaces_around_brackets = outside
 spaces_around_operators = true
 trim_trailing_whitespace = true
 
-[*.json]
+[*.{json,json5,webmanifest}]
 indent_size = 2
 indent_style = space
 insert_final_newline = ignore
 
-[*.yml]
+[*.{yml,yaml}]
 indent_size = 2
 indent_style = space
 
-[*.{bat,reg,ps1,vbs,cs,,fs,ahk}]
+[*.{bat,reg,ps1,vbs,cs,cmd,fs,ahk}]
 end_of_line = crlf
 
-[*.{css,scss,less}]
+[*.{sh,zsh}]
+end_of_line = lf
+
+[*.{css,sass,scss,less,pcss}]
 indent_size = 2
 indent_style = space
 max_line_length = 120
 quote_type = single
 
-[*.{js,jsx,ts,tsx,js.hbs}]
+[*.{js,jsx,jsm,ts,tsx,cjs,cjs,cjsx,cts,ctsx,mjs,mts,mtsx,js.hbs}]
 indent_size = 2
 indent_style = space
 max_line_length = 120
 quote_type = single
 
-[*.{md,mdwn,mdown,markdown,apib}]
+[*.{htm,html,svg,vue}]
+indent_size = 2
+indent_style = space
+
+[*.{md,mdwn,mdown,markdown,mdx,apib}]
 indent_size = 4
 indent_style = space
 insert_final_newline = true
