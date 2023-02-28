@@ -28,7 +28,7 @@
     "format:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml --ignore-pattern='packages/*/**' --fix",
     "lint": "turbo run lint",
     "lint:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml --ignore-pattern='packages/*/**'",
-    "mrm": "mrm --preset @w5s/mrm-preset",
+    "mrm": "npm exec --package=mrm --package=@w5s/mrm-preset -- mrm --preset @w5s/mrm-preset",
     "prepare": "concurrently \"npm:prepare:*\" \":\"",
     "prepare:husky": "is-ci || husky install",
     "publish:cocoapod": "lerna run publish:cocoapod --concurrency 1",
@@ -56,6 +56,9 @@
       "eslint"
     ],
     "*.ts?(x)": [
+      "eslint"
+    ],
+    "*.json": [
       "eslint"
     ]
   },
@@ -85,14 +88,6 @@
       "yml/no-empty-document": "off"
     }
   },
-  "eslintIgnore": [
-    "lib/",
-    "node_modules/",
-    "coverage/",
-    "build/",
-    ".cache/",
-    "public/"
-  ],
   "jest": {
     "preset": "es-jest",
     "projects": [
@@ -111,19 +106,14 @@
     "@jest/globals": "latest",
     "@types/node": "latest",
     "@types/prompts": "2.4.2",
-    "@w5s/mrm-preset": "latest",
     "concurrently": "7.6.0",
     "conventional-changelog-gitmoji-config": "latest",
     "cspell": "latest",
     "es-jest": "latest",
     "eslint": "8.35.0",
     "esm": "3.2.25",
-    "husky": "latest",
-    "is-ci": "latest",
     "jest": "29.4.3",
     "lerna": "6.5.1",
-    "lint-staged": "latest",
-    "mrm": "latest",
     "prettier": "2.8.4",
     "prettier-plugin-java": "2.0.0",
     "prompts": "2.4.2",
