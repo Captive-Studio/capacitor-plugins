@@ -1,5 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>Captive-Studio/renovate-config:library"],
-  "ignorePaths": ["**/node_modules/**"]
+  "extends": ["github>Captive-Studio/renovate-config:library"]
 }
