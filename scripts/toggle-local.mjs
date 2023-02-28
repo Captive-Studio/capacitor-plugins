@@ -60,7 +60,5 @@ execute(async () => {
 
   await bootstrap();
 
-  await (markerFile
-    ? unlink(markerFilePath)
-    : writeJSON(markerFilePath, markerFileContents));
+  await (markerFile ? unlink(markerFilePath) : writeJSON(markerFilePath, markerFileContents));
 });

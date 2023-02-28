@@ -1,10 +1,7 @@
 import { PROJECTS } from './lib/capacitor.mjs';
 import { execute } from './lib/cli.mjs';
 import { bootstrap } from './lib/lerna.mjs';
-import {
-  getLatestVersion,
-  setLernaPackageDependencies,
-} from './lib/version.mjs';
+import { getLatestVersion, setLernaPackageDependencies } from './lib/version.mjs';
 
 execute(async () => {
   const packages = Object.fromEntries(

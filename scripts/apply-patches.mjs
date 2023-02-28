@@ -9,9 +9,7 @@ import { exec, spawn, wait } from './lib/subprocess.mjs';
 
 execute(async () => {
   if (!process.argv[2]) {
-    process.stderr.write(
-      'ERR: Supply lerna package for source of patch as first argument.\n'
-    );
+    process.stderr.write('ERR: Supply lerna package for source of patch as first argument.\n');
     process.exit(1);
   }
 
@@ -33,9 +31,7 @@ execute(async () => {
 
   const sourceDirectory = basename(source.location);
 
-  `${process.stdout.write(
-    customizePatch(coloredDiff, sourceDirectory, '<plugin>')
-  )}\n`;
+  `${process.stdout.write(customizePatch(coloredDiff, sourceDirectory, '<plugin>'))}\n`;
 
   await confirmOrExit('Make the changes above to all plugins?');
 
@@ -45,9 +41,7 @@ execute(async () => {
   for (const target of targets) {
     try {
       const targetDirectory = basename(target.location);
-      const s = Readable.from(
-        customizePatch(diff, sourceDirectory, targetDirectory)
-      );
+      const s = Readable.from(customizePatch(diff, sourceDirectory, targetDirectory));
       const p = spawn('git', ['apply'], {
         cwd: root,
         stdio: ['pipe', 'inherit', 'inherit'],
@@ -56,9 +50,7 @@ execute(async () => {
       await wait(p);
       succeeded.push(target);
     } catch {
-      await confirmOrExit(
-        `Could not apply patch to ${target.name}. Skip and continue?`
-      );
+      await confirmOrExit(`Could not apply patch to ${target.name}. Skip and continue?`);
       failed.push(target);
     }
   }
@@ -66,9 +58,7 @@ execute(async () => {
   process.stdout.write(
     `Successfully applied the patch to:\n${succeeded
       .map((target) => ` - ${target.name}`)
-      .join('\n')}\nCould not apply the patch to:\n${failed
-      .map((target) => ` - ${target.name}`)
-      .join('\n')}`
+      .join('\n')}\nCould not apply the patch to:\n${failed.map((target) => ` - ${target.name}`).join('\n')}`
   );
 });
 
