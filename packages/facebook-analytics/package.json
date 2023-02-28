@@ -31,7 +31,7 @@
   ],
   "scripts": {
     "build": "concurrently \"npm:build:*\" \":\"",
-    "build:src": "npm run clean && npm run docgen && tsc && rollup -c rollup.config.js",
+    "build:src": "npm run clean && tsc -b tsconfig.build.json && rollup -c rollup.config.js && (npm run docgen || true)",
     "clean": "concurrently \"npm:clean:*\" \":\"",
     "clean:src": "rimraf ./dist",
     "docgen": "docgen --api FacebookAnalyticsPlugin --output-readme README.md --output-json dist/docs.json",

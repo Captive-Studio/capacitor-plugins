@@ -134,7 +134,7 @@ AchievedLevel: 'fb_mobile_level_achieved',
 UnlockedAchievement: 'fb_mobile_achievement_unlocked',
 SpentCredits: 'fb_mobile_spent_credits',
 
-<code>typeof FacebookEventName[keyof typeof FacebookEventName]</code>
+<code>(typeof <a href="#facebookeventname">FacebookEventName</a>)[keyof typeof FacebookEventName]</code>
 
 </docgen-api>
 <!-- cSpell:enable -->
