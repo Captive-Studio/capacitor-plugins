@@ -28,11 +28,11 @@
     "format:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml --ignore-pattern='packages/*/**' --fix",
     "lint": "turbo run lint",
     "lint:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml --ignore-pattern='packages/*/**'",
-    "mrm": "npm exec --package=mrm --package=@w5s/mrm-preset -- mrm --preset @w5s/mrm-preset",
+    "mrm": "npm exec --package=mrm --package=@w5s/mrm-preset@latest -- mrm --preset @w5s/mrm-preset",
     "prepare": "concurrently \"npm:prepare:*\" \":\"",
-    "prepare:husky": "is-ci || husky install",
+    "prepare:githooks": "[ -n \"${CI:-}\" ] || npx husky install .githooks",
     "publish:cocoapod": "lerna run publish:cocoapod --concurrency 1",
-    "release": "is-ci && lerna publish --yes || lerna publish",
+    "release": "[ -n \"${CI:-}\" ] && lerna publish --yes || lerna publish",
     "rescue": "git clean -fdx;yarn install",
     "set-capacitor-version": "node ./scripts/set-capacitor-version.mjs",
     "spellcheck": "turbo run spellcheck",
@@ -58,7 +58,7 @@
     "*.ts?(x)": [
       "eslint"
     ],
-    "*.json": [
+    "*.{yml,yaml}": [
       "eslint"
     ]
   },
@@ -99,7 +99,6 @@
     "@captive/commitlint-config": "1.1.10",
     "@captive/eslint-config": "1.7.18",
     "@captive/ts-config": "1.3.8",
-    "@commitlint/cli": "latest",
     "@ionic/swiftlint-config": "1.1.2",
     "@jest/globals": "latest",
     "@types/node": "latest",
