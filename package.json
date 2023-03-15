@@ -102,7 +102,7 @@
     "@ionic/swiftlint-config": "1.1.2",
     "@jest/globals": "latest",
     "@types/node": "latest",
-    "@types/prompts": "2.4.2",
+    "@types/prompts": "2.4.3",
     "concurrently": "7.6.0",
     "conventional-changelog-gitmoji-config": "latest",
     "cspell": "latest",
