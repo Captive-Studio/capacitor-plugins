@@ -1,6 +1,6 @@
 {
   "name": "@captive/capacitor-facebook-analytics",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0",
   "description": "this is a capacitor 4 plugin for facebook analytics",
   "keywords": [
     "capacitor",
