@@ -60,7 +60,7 @@
     "@capacitor/core": "4.7.1",
     "@capacitor/docgen": "0.2.1",
     "@capacitor/ios": "4.7.1",
-    "concurrently": "7.6.0",
+    "concurrently": "8.0.1",
     "rimraf": "4.4.1",
     "rollup": "3.20.2",
     "typescript": "5.0.2"
