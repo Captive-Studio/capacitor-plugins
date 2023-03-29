@@ -103,7 +103,7 @@
     "@jest/globals": "latest",
     "@types/node": "latest",
     "@types/prompts": "2.4.3",
-    "concurrently": "7.6.0",
+    "concurrently": "8.0.1",
     "conventional-changelog-gitmoji-config": "latest",
     "cspell": "latest",
     "es-jest": "latest",
