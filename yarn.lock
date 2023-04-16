@@ -510,9 +510,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-python@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "@cspell/dict-python@npm:4.0.2"
-  checksum: 23825b92af39a9b43a6af3862babbeaf01a5718ffe621e9f487400dc62582e5bd840213af22f1b2f4a78ba8e8b24dbb4cd7de9c190aa2cfea2bff7c15338ae7a
+  version: 4.0.3
+  resolution: "@cspell/dict-python@npm:4.0.3"
+  checksum: 587b08e583afb9fcf53349737e2fc17a84d728c615eb38a353d2ffa91b4b83d0d839e518da44c192b5b24d87872e93fd756d399fa2a95d10b1f3dc4e86cd1f45
   languageName: node
   linkType: hard
 
