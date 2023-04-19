@@ -168,15 +168,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/ts-config@npm:1.3.12":
-  version: 1.3.12
-  resolution: "@captive/ts-config@npm:1.3.12"
+"@captive/ts-config@npm:1.3.13":
+  version: 1.3.13
+  resolution: "@captive/ts-config@npm:1.3.13"
   peerDependencies:
     typescript: ">=5.x"
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 1f71a2f5f53d2f612ce4201f189833c0eb5d9a82309d1055b6816f72bb987d1402eb26069bc7f0dabf77f2a8061ebd00221f037cc8cdeb88a4949118e42f131c
+  checksum: b50ed46f25f142a7d92b27b9c2232ffaacad12a141473215e89d43b4b388bb0ac3cf54665adb503c6cb5799081d2134a8c1d78bee8bfa5ad26865d4c2a523f24
   languageName: node
   linkType: hard
 
@@ -2423,7 +2423,7 @@ __metadata:
     "@actions/core": 1.10.0
     "@captive/commitlint-config": 1.1.15
     "@captive/eslint-config": 1.7.26
-    "@captive/ts-config": 1.3.12
+    "@captive/ts-config": 1.3.13
     "@ionic/swiftlint-config": 1.1.2
     "@types/node": latest
     "@types/prompts": 2.4.4
