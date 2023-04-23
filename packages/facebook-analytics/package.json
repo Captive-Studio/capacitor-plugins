@@ -62,7 +62,7 @@
     "@capacitor/ios": "4.7.3",
     "concurrently": "8.0.1",
     "rimraf": "5.0.0",
-    "rollup": "3.20.7",
+    "rollup": "3.21.0",
     "typescript": "5.0.4"
   },
   "peerDependencies": {
