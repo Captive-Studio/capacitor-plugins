@@ -140,13 +140,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/eslint-config@npm:1.7.28":
-  version: 1.7.28
-  resolution: "@captive/eslint-config@npm:1.7.28"
+"@captive/eslint-config@npm:1.7.30":
+  version: 1.7.30
+  resolution: "@captive/eslint-config@npm:1.7.30"
   dependencies:
     "@captive/prettier-config": ^1.1.13
-    "@w5s/dev": ^1.0.0-alpha.3
-    "@w5s/eslint-config": 1.0.7
+    "@w5s/dev": ^1.0.4
+    "@w5s/eslint-config": 1.0.9
     eslint-plugin-cypress: ^2.12.1
     eslint-plugin-vue: ^9.9.0
     find-up: ^5.0.0
@@ -159,7 +159,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: aa4594f34d65f1fe75bf33a28d535bb3f774bc3fec9d8b8bc2aae4535981082b77eaf75787957b1097f2837fc790e9fdc77562e19c6988d7e3ff2775577de727
+  checksum: 2e65375f04b6b9fe307844208d6ea493c257a3cb15b1fe36e57f5d79e42741a61869b1e16042b2f7c3a5896e2774c3e98eb22838c49fbae4f397211b8900a430
   languageName: node
   linkType: hard
 
@@ -1775,15 +1775,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/dev@npm:^1.0.0-alpha.3":
-  version: 1.0.3
-  resolution: "@w5s/dev@npm:1.0.3"
-  dependencies:
-    "@types/eslint": ^8.4.10
-  checksum: 8e4185ce580fefb1981361c4da040f9cc5b14b9359e973ba304ba702703fbb6a0feecd7306733f97bfd99c1558e15932554f586d343b3cc5cb4b9aa83608b7d0
-  languageName: node
-  linkType: hard
-
 "@w5s/dev@npm:^1.0.4":
   version: 1.0.4
   resolution: "@w5s/dev@npm:1.0.4"
@@ -1793,9 +1784,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/eslint-config@npm:1.0.7":
-  version: 1.0.7
-  resolution: "@w5s/eslint-config@npm:1.0.7"
+"@w5s/eslint-config@npm:1.0.9":
+  version: 1.0.9
+  resolution: "@w5s/eslint-config@npm:1.0.9"
   dependencies:
     "@rushstack/eslint-patch": ^1.1.0
     "@typescript-eslint/eslint-plugin": ^5.0.0
@@ -1806,7 +1797,7 @@ __metadata:
     eslint-config-prettier: ^8.0.0
     eslint-plugin-import: ^2.25.0
     eslint-plugin-jest: ^27.0.0
-    eslint-plugin-jsdoc: ^43.0.0
+    eslint-plugin-jsdoc: ^44.1.0
     eslint-plugin-jsonc: ^2.4.0
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-promise: ^6.0.0
@@ -1823,7 +1814,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 55ab3139dd8029dd65251a371bbed5644c050a09ce6ca54ec6ec14aaabcad0a7adbce2993d57ac207874fa978a4b24f257b50fd778ab20901ae2c5bad5ca8670
+  checksum: 527edd499578f2e6bc11987fd5af2081f3eb32b90cfeeb310c20ab04cdc78048cfdfd3589814438245bbd9f7991aca7f608cad4d464fda11dec3230ee1668825
   languageName: node
   linkType: hard
 
@@ -2451,7 +2442,7 @@ __metadata:
   dependencies:
     "@actions/core": 1.10.0
     "@captive/commitlint-config": 1.1.17
-    "@captive/eslint-config": 1.7.28
+    "@captive/eslint-config": 1.7.30
     "@captive/ts-config": 1.3.13
     "@ionic/swiftlint-config": 1.1.2
     "@types/node": latest
@@ -3667,9 +3658,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:^43.0.0":
-  version: 43.2.0
-  resolution: "eslint-plugin-jsdoc@npm:43.2.0"
+"eslint-plugin-jsdoc@npm:^44.1.0":
+  version: 44.2.2
+  resolution: "eslint-plugin-jsdoc@npm:44.2.2"
   dependencies:
     "@es-joy/jsdoccomment": ~0.38.0
     are-docs-informative: ^0.0.2
@@ -3681,7 +3672,7 @@ __metadata:
     spdx-expression-parse: ^3.0.1
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0
-  checksum: 8fc276c77a16903a2f130728dc360fc72f1679d6ebc55dc7b416c43c69a75d9b4ce48b212ff3a1a11382c15283b2e97e49f4f0b2b95c314d653f24a658eac436
+  checksum: 0bb0f21ffe0994423a75b96176022f34dbf8968a21cb23dd1471080e8fa5fda46d3c3d1100f49654616cc143cdc00d3f12f4484ad94b71427a9eee229a831e72
   languageName: node
   linkType: hard
 
