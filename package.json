@@ -106,7 +106,7 @@
     "prettier-plugin-java": "2.1.0",
     "prompts": "2.4.2",
     "rimraf": "5.0.0",
-    "rollup": "3.21.6",
+    "rollup": "3.21.7",
     "swiftlint": "1.0.2",
     "turbo": "1.9.4",
     "typescript": "5.0.4"
