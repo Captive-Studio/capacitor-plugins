@@ -9,6 +9,10 @@ on:
     branches:
       - '**'
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
 jobs:
   setup:
     runs-on: ubuntu-latest
@@ -16,10 +20,6 @@ jobs:
     outputs:
       plugins: ${{ steps.packages.outputs.paths }}
     steps:
-      - name: Cancel Previous Runs
-        uses: styfle/cancel-workflow-action@034d0e91921de4e82c4b8c958df266ca615543e8
-        with:
-          access_token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@v3
       - name: Restore Dependency Cache
         id: cache-modules
