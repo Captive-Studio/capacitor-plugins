@@ -90,7 +90,7 @@
   },
   "devDependencies": {
     "@actions/core": "1.10.0",
-    "@captive/commitlint-config": "1.1.18",
+    "@captive/commitlint-config": "1.1.19",
     "@captive/eslint-config": "1.7.32",
     "@captive/ts-config": "1.4.0",
     "@ionic/swiftlint-config": "1.1.2",
