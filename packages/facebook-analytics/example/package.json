@@ -10,15 +10,15 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "start": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite"
   },
   "dependencies": {
-    "@capacitor/android": "^4.0.0",
+    "@capacitor/android": "^5.0.0",
     "@capacitor/camera": "latest",
     "@capacitor/core": "latest",
-    "@capacitor/ios": "^4.0.0",
+    "@capacitor/ios": "^5.0.0",
     "@capacitor/splash-screen": "latest",
     "@captive/capacitor-facebook-analytics": "file:.."
   },
