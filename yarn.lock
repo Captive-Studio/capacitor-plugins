@@ -2876,13 +2876,14 @@ __metadata:
   linkType: hard
 
 "conventional-changelog-gitmoji-config@npm:latest":
-  version: 1.4.7
-  resolution: "conventional-changelog-gitmoji-config@npm:1.4.7"
+  version: 1.5.1
+  resolution: "conventional-changelog-gitmoji-config@npm:1.5.1"
   dependencies:
     "@gitmoji/commit-types": 1.1.5
     "@gitmoji/parser-opts": 1.4.0
-    cosmiconfig: ^7.0.0
-  checksum: e971f0c1a4dffd4a7d4c601899c516bb68f460bcc46821fab53b2b44bdd690db1d8ce1896137644f2fcbcd3638a8312c70d3c2768435a11117151001e4204a7a
+    cosmiconfig: ^7
+    pangu: ^4
+  checksum: ffbb070cdc2d55cbb4141891633f532f0dd0d0d34c2bfd4dc90ea63d5c9d98767d412c1247429d0c129e472874eef56e5f79892e67e6333f9f8766c194e3bebe
   languageName: node
   linkType: hard
 
@@ -3001,7 +3002,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig@npm:^7.0.0":
+"cosmiconfig@npm:^7":
   version: 7.1.0
   resolution: "cosmiconfig@npm:7.1.0"
   dependencies:
@@ -7006,6 +7007,15 @@ __metadata:
   bin:
     pacote: lib/bin.js
   checksum: c731572be2bf226b117eba076d242bd4cd8be7aa01e004af3374a304ad7ab330539e22644bc33de12d2a7d45228ccbcbf4d710f59c84414f3d09a1a95ee6f0bf
+  languageName: node
+  linkType: hard
+
+"pangu@npm:^4":
+  version: 4.0.7
+  resolution: "pangu@npm:4.0.7"
+  bin:
+    pangu: ./dist/node/cli.js
+  checksum: e6d2278b68c9eac3c29ef90ab6fa4ef2f1f32a066406597cc562f9b7f7d16a30debb0771cb811240d0585206baf5ee05c15504dd830f4854cb539bef1956dfc0
   languageName: node
   linkType: hard
 
