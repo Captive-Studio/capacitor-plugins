@@ -96,7 +96,7 @@
     "@ionic/swiftlint-config": "1.1.2",
     "@types/node": "latest",
     "@types/prompts": "2.4.4",
-    "concurrently": "8.1.0",
+    "concurrently": "8.2.0",
     "conventional-changelog-gitmoji-config": "latest",
     "cspell": "latest",
     "eslint": "8.42.0",
