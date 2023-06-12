@@ -17,6 +17,5 @@
   "version": "independent",
   "$schema": "https://json.schemastore.org/lerna.json",
   "npmClient": "yarn",
-  "useWorkspaces": true,
   "changelogPreset": "gitmoji-config"
 }
