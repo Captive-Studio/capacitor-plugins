@@ -1191,28 +1191,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/request-error@npm:^4.0.0":
-  version: 4.0.2
-  resolution: "@octokit/request-error@npm:4.0.2"
-  dependencies:
-    "@octokit/types": ^10.0.0
-    deprecation: ^2.0.0
-    once: ^1.4.0
-  checksum: 9510078f718be08cf74e7b04b45f67aa545a388787192ff1cd3ca0d066499963d641bf1fea76ef47d2657a55f0cf3e612e46bbf4f33a96436415d30a2e3bb00a
-  languageName: node
-  linkType: hard
-
 "@octokit/request@npm:^6.0.0":
-  version: 6.2.7
-  resolution: "@octokit/request@npm:6.2.7"
+  version: 6.2.8
+  resolution: "@octokit/request@npm:6.2.8"
   dependencies:
     "@octokit/endpoint": ^7.0.0
-    "@octokit/request-error": ^4.0.0
+    "@octokit/request-error": ^3.0.0
     "@octokit/types": ^9.0.0
     is-plain-object: ^5.0.0
     node-fetch: ^2.6.7
     universal-user-agent: ^6.0.0
-  checksum: 7028fdc17b476139fcc0f88f70802a973470cb19b3a3dfb314c3d8c7e97a3b04aef6cf644cb31031a386c4fe5a9e39c94e1f802d1fe95144610acc50fccb03bd
+  checksum: 3747106f50d7c462131ff995b13defdd78024b7becc40283f4ac9ea0af2391ff33a0bb476a05aa710346fe766d20254979079a1d6f626112015ba271fe38f3e2
   languageName: node
   linkType: hard
 
