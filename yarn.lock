@@ -121,7 +121,7 @@ __metadata:
     "@capacitor/ios": 5.1.0
     concurrently: 8.2.0
     rimraf: 5.0.1
-    rollup: 3.25.3
+    rollup: 3.26.0
     typescript: 5.1.6
   peerDependencies:
     "@capacitor/android": ^5.0.0
@@ -2165,7 +2165,7 @@ __metadata:
     prettier-plugin-java: 2.1.0
     prompts: 2.4.2
     rimraf: 5.0.1
-    rollup: 3.25.3
+    rollup: 3.26.0
     swiftlint: 1.0.2
     turbo: 1.10.6
     typescript: 5.1.6
@@ -7033,9 +7033,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:3.25.3":
-  version: 3.25.3
-  resolution: "rollup@npm:3.25.3"
+"rollup@npm:3.26.0":
+  version: 3.26.0
+  resolution: "rollup@npm:3.26.0"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -7043,7 +7043,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 397965706bb46a217e2815995133c11ce9a843e7b80018a91594d36d7a7708fe3a33acd1635deaa3138c42918397f38b32ca975951519fdfe3b4201875ecfd3d
+  checksum: 2d00f1ec8f5b3e84b005b7158446aacfbe669b61a55cea26d4cfb7014fed9169d78dffa8f845c8ef2c8cbc596b9de6e9f925597b87e7ef9b7de4c7da21f188ad
   languageName: node
   linkType: hard
 
