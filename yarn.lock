@@ -76,21 +76,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@capacitor/android@npm:5.1.0":
-  version: 5.1.0
-  resolution: "@capacitor/android@npm:5.1.0"
+"@capacitor/android@npm:5.1.1":
+  version: 5.1.1
+  resolution: "@capacitor/android@npm:5.1.1"
   peerDependencies:
     "@capacitor/core": ^5.1.0
-  checksum: 391f2a40d26bf4909d2a569c6b11ff6dce216238c65cf32450a4942d77467f5309b05efbd8193d90066f6cfdb9d24743213afb430113bc126e5c2dd61511baef
+  checksum: 46e008fe940e44baa3f9bca78b7fc4ed0fde67cf4ced9b8206e6ad301805d3e26452d8100cb4ee0e465d7278d5357696d816478c1817f50fee9f8b21ef80655a
   languageName: node
   linkType: hard
 
-"@capacitor/core@npm:5.1.0":
-  version: 5.1.0
-  resolution: "@capacitor/core@npm:5.1.0"
+"@capacitor/core@npm:5.1.1":
+  version: 5.1.1
+  resolution: "@capacitor/core@npm:5.1.1"
   dependencies:
     tslib: ^2.1.0
-  checksum: 98c27dbe3ec22357f7f6ceb765b3ee56bd75210d2fa65d90b85a530494cce8b8ed8f609a12e739ac4839eec4d280d2f35b96598ad81eb426ba9337aba09291f3
+  checksum: 5ee3e2980fa98ed2aeb33ed63a92d16b7f00a1b07385aae7d4f596b9627eec42b63f8c5d523be7038f3087cc000a4b2f5d18a38d7c73deb07f28abcf16e2d759
   languageName: node
   linkType: hard
 
@@ -109,12 +109,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@capacitor/ios@npm:5.1.0":
-  version: 5.1.0
-  resolution: "@capacitor/ios@npm:5.1.0"
+"@capacitor/ios@npm:5.1.1":
+  version: 5.1.1
+  resolution: "@capacitor/ios@npm:5.1.1"
   peerDependencies:
     "@capacitor/core": ^5.1.0
-  checksum: f5554c7606f5df146e9b76d4e712a7e64dc404318d3466258cc02b6c7a3b0706fd61b8ef0ab01eef3e6cc1b0dda54cae7b39bada62713bbf3579af0a7c99b869
+  checksum: ea159907880c82b7dee326c94d38a5d68bc43805c1460427541ef9a6e526bc1d86b8ff70b3e8842982d849cee44a2da9ff6dae801863472b2dd382358ab2f213
   languageName: node
   linkType: hard
 
@@ -122,10 +122,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/capacitor-facebook-analytics@workspace:packages/facebook-analytics"
   dependencies:
-    "@capacitor/android": 5.1.0
-    "@capacitor/core": 5.1.0
+    "@capacitor/android": 5.1.1
+    "@capacitor/core": 5.1.1
     "@capacitor/docgen": 0.2.1
-    "@capacitor/ios": 5.1.0
+    "@capacitor/ios": 5.1.1
     concurrently: 8.2.0
     rimraf: 5.0.1
     rollup: 3.26.0
