@@ -866,22 +866,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lerna/child-process@npm:7.1.3":
-  version: 7.1.3
-  resolution: "@lerna/child-process@npm:7.1.3"
+"@lerna/child-process@npm:7.1.4":
+  version: 7.1.4
+  resolution: "@lerna/child-process@npm:7.1.4"
   dependencies:
     chalk: ^4.1.0
     execa: ^5.0.0
     strong-log-transformer: ^2.1.0
-  checksum: 7bce9759f5b5082876f664a321b03ba0ab8710d41189f359c6500ed67013ee75acaac48abb3861aa18dca058cbcc30067bb291c02ead8cbbe3713ecb318bd80a
+  checksum: faac89a6c0b2eb205688fdf4307ce7fd06ee60b0c10f45e159c257cebcdb02a1bd048682ec56d3fa8c52d3f4e0b5d9113a6f419a0b040da70b1eba5aea2a3945
   languageName: node
   linkType: hard
 
-"@lerna/create@npm:7.1.3":
-  version: 7.1.3
-  resolution: "@lerna/create@npm:7.1.3"
+"@lerna/create@npm:7.1.4":
+  version: 7.1.4
+  resolution: "@lerna/create@npm:7.1.4"
   dependencies:
-    "@lerna/child-process": 7.1.3
+    "@lerna/child-process": 7.1.4
     dedent: 0.7.0
     fs-extra: ^11.1.1
     init-package-json: 5.0.0
@@ -894,7 +894,7 @@ __metadata:
     validate-npm-package-license: ^3.0.4
     validate-npm-package-name: 5.0.0
     yargs-parser: 20.2.4
-  checksum: e02fd9cded539a6ca4df71e55fc6a1bd868b4f95de00e80eb008266763ebce42cb8ed552defe7e3c4f4293197cced1754062055277f81135f0224f09b5187d56
+  checksum: e826bc5cf07d8e2ddf100a96bb8f39f2ee907343c91e0a111e03bd02fc03c62b783686fb7497dfcf7ae95cb6448e3bff07f5b4b3419d1bd7069a8bb15572b1d1
   languageName: node
   linkType: hard
 
@@ -1011,7 +1011,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nx/devkit@npm:16.5.2, @nx/devkit@npm:>=16.1.3 < 17":
+"@nx/devkit@npm:16.5.2, @nx/devkit@npm:>=16.5.1 < 17":
   version: 16.5.2
   resolution: "@nx/devkit@npm:16.5.2"
   dependencies:
@@ -2166,7 +2166,7 @@ __metadata:
     cspell: latest
     eslint: 8.45.0
     esm: 3.2.25
-    lerna: 7.1.3
+    lerna: 7.1.4
     prettier: 3.0.0
     prettier-plugin-java: 2.1.0
     prompts: 2.4.2
@@ -5158,14 +5158,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lerna@npm:7.1.3":
-  version: 7.1.3
-  resolution: "lerna@npm:7.1.3"
+"lerna@npm:7.1.4":
+  version: 7.1.4
+  resolution: "lerna@npm:7.1.4"
   dependencies:
-    "@lerna/child-process": 7.1.3
-    "@lerna/create": 7.1.3
+    "@lerna/child-process": 7.1.4
+    "@lerna/create": 7.1.4
     "@npmcli/run-script": 6.0.2
-    "@nx/devkit": ">=16.1.3 < 17"
+    "@nx/devkit": ">=16.5.1 < 17"
     "@octokit/plugin-enterprise-rest": 6.0.1
     "@octokit/rest": 19.0.11
     byte-size: 8.1.1
@@ -5199,6 +5199,7 @@ __metadata:
     libnpmaccess: 7.0.2
     libnpmpublish: 7.3.0
     load-json-file: 6.2.0
+    lodash: ^4.17.21
     make-dir: 3.1.0
     minimatch: 3.0.5
     multimatch: 5.0.0
@@ -5207,7 +5208,7 @@ __metadata:
     npm-packlist: 5.1.1
     npm-registry-fetch: ^14.0.5
     npmlog: ^6.0.2
-    nx: ">=16.1.3 < 17"
+    nx: ">=16.5.1 < 17"
     p-map: 4.0.0
     p-map-series: 2.1.0
     p-pipe: 3.1.0
@@ -5238,7 +5239,7 @@ __metadata:
     yargs-parser: 20.2.4
   bin:
     lerna: dist/cli.js
-  checksum: 11495703ea32b748d584b1c1d4c0053e7f97ff576df47a951433b310737d741d3d70e9f97c511056c3077281a8cda3c142697faec5c080a2ab20a7115c9141f5
+  checksum: 5abd20dd13cfc770e1ca0c0915f5c1c820e08824379dabffc27376684f386d1aa43036294aa252106b25acd5ac20dbcf8a535eb4e59b783d60fcae7783eeacf4
   languageName: node
   linkType: hard
 
@@ -6036,7 +6037,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nx@npm:16.5.2, nx@npm:>=16.1.3 < 17":
+"nx@npm:16.5.2, nx@npm:>=16.5.1 < 17":
   version: 16.5.2
   resolution: "nx@npm:16.5.2"
   dependencies:
