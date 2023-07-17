@@ -108,7 +108,7 @@
     "rimraf": "5.0.1",
     "rollup": "3.26.2",
     "swiftlint": "1.0.2",
-    "turbo": "1.10.7",
+    "turbo": "1.10.8",
     "typescript": "5.1.6"
   },
   "packageManager": "yarn@3.6.1",
