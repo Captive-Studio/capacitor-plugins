@@ -156,9 +156,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/eslint-config@npm:1.8.1":
-  version: 1.8.1
-  resolution: "@captive/eslint-config@npm:1.8.1"
+"@captive/eslint-config@npm:1.9.0":
+  version: 1.9.0
+  resolution: "@captive/eslint-config@npm:1.9.0"
   dependencies:
     "@captive/prettier-config": ^1.1.14
     "@w5s/dev": ^1.0.5
@@ -175,7 +175,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 0e1f2ad3a3e28d202a27a11c3de25ae352a007d7799b19255de806a738d396db0bdae0c8f54585d496d048e0821a52edcae7b413e9f13340ced56c803dd83b08
+  checksum: f7f85a30b9cb8f9710284bfe35f1d505fab15741b3494ef2df0dd5174e8c1f81abc327239f8a80fed4680483ecef88a5b461a0489c4786a029b2d9187d75d79c
   languageName: node
   linkType: hard
 
@@ -2218,7 +2218,7 @@ __metadata:
   dependencies:
     "@actions/core": 1.10.0
     "@captive/commitlint-config": 1.1.20
-    "@captive/eslint-config": 1.8.1
+    "@captive/eslint-config": 1.9.0
     "@captive/ts-config": 1.4.2
     "@ionic/swiftlint-config": 1.1.2
     "@types/node": latest
