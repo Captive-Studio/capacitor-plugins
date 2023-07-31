@@ -17,15 +17,11 @@ jobs:
     outputs:
       plugins: ${{ steps.e2e-packages.outputs.e2e-paths }}
     steps:
-      - uses: actions/checkout@v3
-      - name: Restore Dependency Cache
-        id: cache-modules
-        uses: actions/cache@v3
+      - uses: dtinth/setup-github-actions-caching-for-turbo@v1
+      - uses: actions/setup-node@v3
         with:
-          path: |
-            node_modules
-            */node_modules
-          key: dependency-cache-${{ hashFiles('package.json', '*/package.json') }}
+          node-version-file: .tool-versions
+          cache: yarn
       - run: yarn install
       - id: files
         uses: imhoffd/get-changed-files@v2
@@ -55,10 +51,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup NodeJS & NPM
-        uses: actions/setup-node@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 18.x
+          node-version-file: .tool-versions
+          cache: yarn
 
       - name: Prepare Local Package
         run: yarn install && yarn run build && npm run pack-local
@@ -99,10 +95,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup NodeJS & NPM
-        uses: actions/setup-node@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 18.x
+          node-version-file: .tool-versions
+          cache: yarn
 
       - name: Prepare Local Package
         run: npm run e2e:prepare
