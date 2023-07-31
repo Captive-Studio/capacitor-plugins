@@ -1,6 +1,6 @@
 import { relative, resolve, join } from 'node:path';
-import * as core from '@actions/core';
 import { existsSync } from 'node:fs';
+import * as core from '@actions/core';
 import { root } from '../../../scripts/lib/repo.mjs';
 import { execute } from '../../../scripts/lib/cli.mjs';
 

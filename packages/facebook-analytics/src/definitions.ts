@@ -15,7 +15,7 @@ export interface FacebookAnalyticsPlugin {
    *
    * @param options
    */
-  logEvent(options: { event: FacebookEventName | string; valueToSum?: number; params?: any }): Promise<string>;
+  logEvent(options: { event: FacebookEventName; valueToSum?: number; params?: any }): Promise<string>;
   /**
    * Only for IOS versions greater than 14
    *

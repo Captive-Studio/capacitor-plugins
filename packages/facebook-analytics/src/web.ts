@@ -9,7 +9,7 @@ export class FacebookAnalyticsWeb extends WebPlugin implements FacebookAnalytics
     throw super.unimplemented();
   }
 
-  async logEvent(_: { event: FacebookEventName | string; valueToSum?: number; params?: any }): Promise<string> {
+  async logEvent(_: { event: FacebookEventName; valueToSum?: number; params?: any }): Promise<string> {
     throw super.unimplemented();
   }
 

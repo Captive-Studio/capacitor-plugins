@@ -42,7 +42,7 @@ export const FacebookEventName = Object.freeze({
   UnlockedAchievement: 'fb_mobile_achievement_unlocked',
   SpentCredits: 'fb_mobile_spent_credits',
 } as const);
-export type FacebookEventName = (typeof FacebookEventName)[keyof typeof FacebookEventName];
+export type FacebookEventName = string; // (typeof FacebookEventName)[keyof typeof FacebookEventName];
 
 /**
  * Enum of all Facebook standard parameters
