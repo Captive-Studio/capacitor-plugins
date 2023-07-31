@@ -21,15 +21,11 @@ jobs:
       plugins: ${{ steps.packages.outputs.paths }}
     steps:
       - uses: actions/checkout@v3
-      - name: Restore Dependency Cache
-        id: cache-modules
-        uses: actions/cache@v3
-        with:
-          path: |
-            node_modules
-            */node_modules
-          key: dependency-cache-${{ hashFiles('package.json', '*/package.json') }}
       - uses: dtinth/setup-github-actions-caching-for-turbo@v1
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: .tool-versions
+          cache: yarn
       - run: yarn install
       - id: files
         uses: imhoffd/get-changed-files@v2
@@ -45,19 +41,12 @@ jobs:
     needs:
       - setup
     steps:
+      - uses: actions/checkout@v3
+      - uses: dtinth/setup-github-actions-caching-for-turbo@v1
       - uses: actions/setup-node@v3
         with:
-          node-version: 18.x
-      - uses: actions/checkout@v3
-      - name: Restore Dependency Cache
-        id: cache-modules
-        uses: actions/cache@v3
-        with:
-          path: |
-            node_modules
-            */node_modules
-          key: dependency-cache-${{ hashFiles('package.json', '*/package.json') }}
-      - uses: dtinth/setup-github-actions-caching-for-turbo@v1
+          node-version-file: .tool-versions
+          cache: yarn
       - run: yarn install
       - run: yarn run validate
   verify-ios:
@@ -66,7 +55,7 @@ jobs:
     timeout-minutes: 30
     needs:
       - setup
-      - lint
+      - validate
     strategy:
       matrix:
         xcode:
@@ -74,18 +63,11 @@ jobs:
         plugin: ${{ fromJson(needs.setup.outputs.plugins) }}
     steps:
       - run: sudo xcode-select --switch ${{ matrix.xcode }}
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 18.x
-      - uses: actions/checkout@v3
-      - name: Restore Dependency Cache
-        id: cache-modules
-        uses: actions/cache@v3
-        with:
-          path: |
-            node_modules
-            */node_modules
-          key: dependency-cache-${{ hashFiles('package.json', '*/package.json') }}
+          node-version-file: .tool-versions
+          cache: yarn
       - run: yarn install
       - run: yarn run verify:ios
         working-directory: ${{ matrix.plugin }}
@@ -95,23 +77,16 @@ jobs:
     timeout-minutes: 30
     needs:
       - setup
-      - lint
+      - validate
     strategy:
       matrix:
         plugin: ${{ fromJson(needs.setup.outputs.plugins) }}
     steps:
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 18.x
-      - uses: actions/checkout@v3
-      - name: Restore Dependency Cache
-        id: cache-modules
-        uses: actions/cache@v3
-        with:
-          path: |
-            node_modules
-            */node_modules
-          key: dependency-cache-${{ hashFiles('package.json', '*/package.json') }}
+          node-version-file: .tool-versions
+          cache: yarn
       - run: yarn install
       - run: yarn run verify:android
         working-directory: ${{ matrix.plugin }}
@@ -121,23 +96,16 @@ jobs:
     timeout-minutes: 30
     needs:
       - setup
-      - lint
+      - validate
     strategy:
       matrix:
         plugin: ${{ fromJson(needs.setup.outputs.plugins) }}
     steps:
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 18.x
-      - uses: actions/checkout@v3
-      - name: Restore Dependency Cache
-        id: cache-modules
-        uses: actions/cache@v3
-        with:
-          path: |
-            node_modules
-            */node_modules
-          key: dependency-cache-${{ hashFiles('package.json', '*/package.json') }}
+          node-version-file: .tool-versions
+          cache: yarn
       - run: yarn install
       - run: yarn run verify:web
         working-directory: ${{ matrix.plugin }}
