@@ -156,13 +156,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/eslint-config@npm:1.10.1":
-  version: 1.10.1
-  resolution: "@captive/eslint-config@npm:1.10.1"
+"@captive/eslint-config@npm:1.10.2":
+  version: 1.10.2
+  resolution: "@captive/eslint-config@npm:1.10.2"
   dependencies:
-    "@captive/prettier-config": ^1.1.15
+    "@captive/prettier-config": ^1.1.16
     "@w5s/dev": ^1.3.0
-    "@w5s/eslint-config": 1.3.1
+    "@w5s/eslint-config": 1.4.0
     eslint-plugin-cypress: ^2.12.1
     eslint-plugin-vue: ^9.9.0
     find-up: ^5.0.0
@@ -175,13 +175,13 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 9baf0549001b4f5031c7cbe366a52ce94f60706aac2db051f13b688b6a1199aa6872ab324dea06e08a32bd1db83d7b413519e7bbcc17700f320fd7c36a3a61d8
+  checksum: 931c8ffa1b99fc1e284cd1354c7c26e04274d2e4cc0ddeead65afcb523f4d00cb883ab5b25b6a69546a4258b24d6eb5748a72fee605243c9ae53257f82c25b4d
   languageName: node
   linkType: hard
 
-"@captive/prettier-config@npm:^1.1.15":
-  version: 1.1.15
-  resolution: "@captive/prettier-config@npm:1.1.15"
+"@captive/prettier-config@npm:^1.1.16":
+  version: 1.1.16
+  resolution: "@captive/prettier-config@npm:1.1.16"
   dependencies:
     "@w5s/prettier-config": ^1.1.1
   peerDependencies:
@@ -189,7 +189,7 @@ __metadata:
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: 8c27878e751cdc1908db94a73681ac3b7bdba2604574435c51595bae7363fa19bd7130ddcb805603020f83faf322da4e5f3703e60117266de47769803de19b41
+  checksum: bfd1175cdc5912a675728c362cead1ae152fd1d117fdcc654db198dc52f001a6b5d46fb18a440b0c8af6596a5fac5e9abbb4cf88a69877d119a7d8176f4ae439
   languageName: node
   linkType: hard
 
@@ -1673,15 +1673,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/eslint-config@npm:1.3.1":
+"@w5s/dev@npm:^1.3.1":
   version: 1.3.1
-  resolution: "@w5s/eslint-config@npm:1.3.1"
+  resolution: "@w5s/dev@npm:1.3.1"
+  dependencies:
+    "@types/eslint": ^8.44.0
+  checksum: bea2f1a115542ac463e0e8c3acdf47ab2746b89d369ba0e32b18361d64e7a13b0a044d6d0daa258f09a472cf660098c97a3816d82fb322acdba3be087972079d
+  languageName: node
+  linkType: hard
+
+"@w5s/eslint-config@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@w5s/eslint-config@npm:1.4.0"
   dependencies:
     "@rushstack/eslint-patch": ^1.1.0
     "@typescript-eslint/eslint-plugin": ^6.0.0
     "@typescript-eslint/parser": ^6.0.0
-    "@w5s/dev": ^1.3.0
-    "@w5s/prettier-config": ^1.1.2
+    "@w5s/dev": ^1.3.1
+    "@w5s/prettier-config": ^1.1.3
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-prettier: ^8.0.0
     eslint-plugin-import: ^2.25.0
@@ -1703,11 +1712,11 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: d5c0332f576cfa835fec9b602656be051cda672242eeb857b405dd006795e212056ba665d865c03862947353ed8ae04cf4ed7b04878a78aa53689ff8b21b6e17
+  checksum: 712db8af66096da4ab3de3732a29c92d56614f3cafb58f2e99ad1894133c5277db27a386b92f81a11e887dc4d7fef7e8cf242db4a99d4d66fd21f689a520d22c
   languageName: node
   linkType: hard
 
-"@w5s/prettier-config@npm:^1.1.1, @w5s/prettier-config@npm:^1.1.2":
+"@w5s/prettier-config@npm:^1.1.1":
   version: 1.1.2
   resolution: "@w5s/prettier-config@npm:1.1.2"
   peerDependencies:
@@ -1716,6 +1725,18 @@ __metadata:
     prettier:
       optional: true
   checksum: 62403c08211a332ff999fe47ee462455ffd706eab565e3d0055a75cd70dd13b0ae22f569d362b1e6abea7bd69f6040124dc940a1dc2a696e7a5178364fa07dd1
+  languageName: node
+  linkType: hard
+
+"@w5s/prettier-config@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "@w5s/prettier-config@npm:1.1.3"
+  peerDependencies:
+    prettier: 2.x || 3.x
+  peerDependenciesMeta:
+    prettier:
+      optional: true
+  checksum: 378572e6c74e3027796209725d6bf12d4b93e4a0c980e98c67be1ac4228a3941d233ff6fe1e762f3358dbf4f762b44f1c74e04c6c21eca4569486e9668e2e1ce
   languageName: node
   linkType: hard
 
@@ -2295,7 +2316,7 @@ __metadata:
   dependencies:
     "@actions/core": 1.10.0
     "@captive/commitlint-config": 1.1.21
-    "@captive/eslint-config": 1.10.1
+    "@captive/eslint-config": 1.10.2
     "@captive/ts-config": 1.4.2
     "@ionic/swiftlint-config": 1.1.2
     "@types/node": latest
