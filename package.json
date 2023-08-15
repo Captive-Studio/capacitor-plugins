@@ -102,7 +102,7 @@
     "eslint": "8.47.0",
     "esm": "3.2.25",
     "lerna": "7.1.5",
-    "prettier": "3.0.1",
+    "prettier": "3.0.2",
     "prettier-plugin-java": "2.2.0",
     "prompts": "2.4.2",
     "rimraf": "5.0.1",
