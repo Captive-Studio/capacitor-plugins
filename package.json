@@ -92,7 +92,7 @@
     "@actions/core": "1.10.0",
     "@captive/commitlint-config": "1.1.22",
     "@captive/eslint-config": "1.10.2",
-    "@captive/ts-config": "1.4.2",
+    "@captive/ts-config": "1.4.3",
     "@ionic/swiftlint-config": "1.1.2",
     "@types/node": "latest",
     "@types/prompts": "2.4.4",
