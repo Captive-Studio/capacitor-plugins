@@ -157,13 +157,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/eslint-config@npm:1.10.2":
-  version: 1.10.2
-  resolution: "@captive/eslint-config@npm:1.10.2"
+"@captive/eslint-config@npm:1.10.3":
+  version: 1.10.3
+  resolution: "@captive/eslint-config@npm:1.10.3"
   dependencies:
-    "@captive/prettier-config": ^1.1.16
+    "@captive/prettier-config": ^1.1.17
     "@w5s/dev": ^1.3.0
-    "@w5s/eslint-config": 1.4.0
+    "@w5s/eslint-config": 1.4.1
     eslint-plugin-cypress: ^2.12.1
     eslint-plugin-vue: ^9.9.0
     find-up: ^5.0.0
@@ -176,13 +176,13 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 931c8ffa1b99fc1e284cd1354c7c26e04274d2e4cc0ddeead65afcb523f4d00cb883ab5b25b6a69546a4258b24d6eb5748a72fee605243c9ae53257f82c25b4d
+  checksum: cabb71cfdd2ae946acbde804c9828e8e6bfb9244a2d3c2df1d53921fde61e60022612cd682a1c3cc3e90c4c4f22783da4e38ddf612f13d2d60b18d8434a050ea
   languageName: node
   linkType: hard
 
-"@captive/prettier-config@npm:^1.1.16":
-  version: 1.1.16
-  resolution: "@captive/prettier-config@npm:1.1.16"
+"@captive/prettier-config@npm:^1.1.17":
+  version: 1.1.17
+  resolution: "@captive/prettier-config@npm:1.1.17"
   dependencies:
     "@w5s/prettier-config": ^1.1.1
   peerDependencies:
@@ -190,7 +190,7 @@ __metadata:
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: bfd1175cdc5912a675728c362cead1ae152fd1d117fdcc654db198dc52f001a6b5d46fb18a440b0c8af6596a5fac5e9abbb4cf88a69877d119a7d8176f4ae439
+  checksum: a0ad1ef492a4dacc064b891733fb10ff19d8f8c025fd9622afd7199c0fd125398c5e8dcead35a59d17045bd0c58855afb5413a4dd4410ae00adb10a19574a490
   languageName: node
   linkType: hard
 
@@ -1753,7 +1753,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/dev@npm:^1.3.0, @w5s/dev@npm:^1.3.1":
+"@w5s/dev@npm:^1.3.0, @w5s/dev@npm:^1.3.2":
   version: 1.3.2
   resolution: "@w5s/dev@npm:1.3.2"
   dependencies:
@@ -1762,17 +1762,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/eslint-config@npm:1.4.0":
-  version: 1.4.0
-  resolution: "@w5s/eslint-config@npm:1.4.0"
+"@w5s/eslint-config@npm:1.4.1":
+  version: 1.4.1
+  resolution: "@w5s/eslint-config@npm:1.4.1"
   dependencies:
     "@rushstack/eslint-patch": ^1.1.0
     "@typescript-eslint/eslint-plugin": ^6.0.0
     "@typescript-eslint/parser": ^6.0.0
-    "@w5s/dev": ^1.3.1
-    "@w5s/prettier-config": ^1.1.3
+    "@w5s/dev": ^1.3.2
+    "@w5s/prettier-config": ^1.1.4
     eslint-config-airbnb-base: ^15.0.0
-    eslint-config-prettier: ^8.0.0
+    eslint-config-prettier: ^9.0.0
     eslint-plugin-import: ^2.25.0
     eslint-plugin-jest: ^27.0.0
     eslint-plugin-jsdoc: ^46.0.0
@@ -1792,11 +1792,11 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 712db8af66096da4ab3de3732a29c92d56614f3cafb58f2e99ad1894133c5277db27a386b92f81a11e887dc4d7fef7e8cf242db4a99d4d66fd21f689a520d22c
+  checksum: f68a311d12b0414739395b22246f88ac361d3e6cbdc9aeac179be2806d7048f73cf6079bf0230b862853c213eb67c68ffc9b3fb5cc75687f944e3220550c6e51
   languageName: node
   linkType: hard
 
-"@w5s/prettier-config@npm:^1.1.1, @w5s/prettier-config@npm:^1.1.3":
+"@w5s/prettier-config@npm:^1.1.1, @w5s/prettier-config@npm:^1.1.4":
   version: 1.1.4
   resolution: "@w5s/prettier-config@npm:1.1.4"
   peerDependencies:
@@ -2384,7 +2384,7 @@ __metadata:
   dependencies:
     "@actions/core": 1.10.0
     "@captive/commitlint-config": 1.1.22
-    "@captive/eslint-config": 1.10.2
+    "@captive/eslint-config": 1.10.3
     "@captive/ts-config": 1.4.3
     "@ionic/swiftlint-config": 1.1.2
     "@types/node": latest
@@ -3510,14 +3510,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.0.0":
-  version: 8.10.0
-  resolution: "eslint-config-prettier@npm:8.10.0"
+"eslint-config-prettier@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "eslint-config-prettier@npm:9.0.0"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: 153266badd477e49b0759816246b2132f1dbdb6c7f313ca60a9af5822fd1071c2bc5684a3720d78b725452bbac04bb130878b2513aea5e72b1b792de5a69fec8
+  checksum: 362e991b6cb343f79362bada2d97c202e5303e6865888918a7445c555fb75e4c078b01278e90be98aa98ae22f8597d8e93d48314bec6824f540f7efcab3ce451
   languageName: node
   linkType: hard
 
