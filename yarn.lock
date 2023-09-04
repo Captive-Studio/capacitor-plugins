@@ -2397,7 +2397,7 @@ __metadata:
     esm: 3.2.25
     lerna: 7.2.0
     prettier: 3.0.3
-    prettier-plugin-java: 2.3.0
+    prettier-plugin-java: 2.3.1
     prompts: 2.4.2
     rimraf: 5.0.1
     rollup: 3.28.1
@@ -7100,23 +7100,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-java@npm:2.3.0":
-  version: 2.3.0
-  resolution: "prettier-plugin-java@npm:2.3.0"
+"prettier-plugin-java@npm:2.3.1":
+  version: 2.3.1
+  resolution: "prettier-plugin-java@npm:2.3.1"
   dependencies:
     java-parser: 2.0.5
     lodash: 4.17.21
-    prettier: 3.0.2
-  checksum: 35a10a61a25ba6da0e5d24897323962edb122bec21b6db1e5a48ceca01fbea7aac8bc5da3ab69ef343c4d760314a12824acd2308f6ee63d3f74784769f72dcb9
-  languageName: node
-  linkType: hard
-
-"prettier@npm:3.0.2":
-  version: 3.0.2
-  resolution: "prettier@npm:3.0.2"
-  bin:
-    prettier: bin/prettier.cjs
-  checksum: 118b59ddb6c80abe2315ab6d0f4dd1b253be5cfdb20622fa5b65bb1573dcd362e6dd3dcf2711dd3ebfe64aecf7bdc75de8a69dc2422dcd35bdde7610586b677a
+    prettier: 3.0.3
+  checksum: ac6f95fcfccbbc370daf054ff81c1d13ffc3aa152b677f37b63986c0ac7b7f9e0c3f01c4db5b4417f30f11be47b73ce1a84f38690d8a53c2494ee2bb0af9ffb6
   languageName: node
   linkType: hard
 
