@@ -20,7 +20,7 @@ jobs:
     outputs:
       plugins: ${{ steps.packages.outputs.paths }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: dtinth/setup-github-actions-caching-for-turbo@v1
       - uses: actions/setup-node@v3
         with:
@@ -41,7 +41,7 @@ jobs:
     needs:
       - setup
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: dtinth/setup-github-actions-caching-for-turbo@v1
       - uses: actions/setup-node@v3
         with:
@@ -63,7 +63,7 @@ jobs:
         plugin: ${{ fromJson(needs.setup.outputs.plugins) }}
     steps:
       - run: sudo xcode-select --switch ${{ matrix.xcode }}
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
           node-version-file: .tool-versions
@@ -82,7 +82,7 @@ jobs:
       matrix:
         plugin: ${{ fromJson(needs.setup.outputs.plugins) }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
           node-version-file: .tool-versions
@@ -101,7 +101,7 @@ jobs:
       matrix:
         plugin: ${{ fromJson(needs.setup.outputs.plugins) }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
           node-version-file: .tool-versions
