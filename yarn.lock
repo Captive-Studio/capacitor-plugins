@@ -1492,16 +1492,16 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:latest":
-  version: 20.6.1
-  resolution: "@types/node@npm:20.6.1"
-  checksum: f9848617221b513d558071c804b006750d1ee1734c5ffea3ada9a0edd1642334ad0812222d6b99b7b8c0e1a5f1e557946ae99444c2705e9afc125abdf9fa36c2
+  version: 20.6.2
+  resolution: "@types/node@npm:20.6.2"
+  checksum: 96fe5303872640a173f3fd43e289a451776ed5b8f0090094447c6790b43f23fb607eea8268af0829cef4d132e5afa0bfa4cd871aa7412e9042a414a698e9e971
   languageName: node
   linkType: hard
 
 "@types/node@npm:^14.18.0":
-  version: 14.18.60
-  resolution: "@types/node@npm:14.18.60"
-  checksum: 6195c10fea639603586bba3c1d671f6e42dc8c8f0d0fa2f99ea71a6318483269809c1063bbf6c59d8b7d53b3ff8ed76a02dcac3ea84b23b169dd91c855946542
+  version: 14.18.61
+  resolution: "@types/node@npm:14.18.61"
+  checksum: 531f6df70335e3c6dd0c0613ae2ef921abd4a2c38a6683406ea4f8c7bba0ed1bd8b011ef2f91b1e3ab4a002962dea959b1c003c8a8582273bab846e66d023b4a
   languageName: node
   linkType: hard
 
@@ -4142,9 +4142,9 @@ __metadata:
   linkType: hard
 
 "flatted@npm:^3.2.7":
-  version: 3.2.7
-  resolution: "flatted@npm:3.2.7"
-  checksum: 427633049d55bdb80201c68f7eb1cbd533e03eac541f97d3aecab8c5526f12a20ccecaeede08b57503e772c769e7f8680b37e8d482d1e5f8d7e2194687f9ea35
+  version: 3.2.8
+  resolution: "flatted@npm:3.2.8"
+  checksum: 830a438997f004a6053c247b427d2566ad5b925b48367e9fd0cbaec1543e6b1950d2eb61e6a53b37cac2e1e2870f2578ac8ed5c9fb565bc1fce9bb57e488c789
   languageName: node
   linkType: hard
 
