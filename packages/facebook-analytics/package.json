@@ -61,7 +61,7 @@
     "@capacitor/docgen": "0.2.1",
     "@capacitor/ios": "5.4.1",
     "concurrently": "8.2.1",
-    "rimraf": "5.0.1",
+    "rimraf": "5.0.2",
     "rollup": "3.29.3",
     "typescript": "5.2.2"
   },
