@@ -144,9 +144,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/commitlint-config@npm:1.1.22":
-  version: 1.1.22
-  resolution: "@captive/commitlint-config@npm:1.1.22"
+"@captive/commitlint-config@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@captive/commitlint-config@npm:2.0.0"
   dependencies:
     "@w5s/commitlint-config": ^1.0.24
   peerDependencies:
@@ -154,7 +154,7 @@ __metadata:
   peerDependenciesMeta:
     "@commitlint/cli":
       optional: true
-  checksum: 18f07f3db40e690cce49edd29e6bfb7be2fa811ad10213db945bad1f8d3ac76f5c660be85b5af9b5d54118e2861de592de9e938a08bd2548cd2159d9abc6330c
+  checksum: 0ac5357dcca7ff46e515a32c2d7558b7cce1867eb44448fe64e15c371107adfef14eb405aa5afabc927d439ae2932129b1b3d703f930e908cee1633884a4a405
   languageName: node
   linkType: hard
 
@@ -2395,7 +2395,7 @@ __metadata:
   resolution: "capacitor-plugins@workspace:."
   dependencies:
     "@actions/core": 1.10.1
-    "@captive/commitlint-config": 1.1.22
+    "@captive/commitlint-config": 2.0.0
     "@captive/eslint-config": 1.10.5
     "@captive/ts-config": 1.4.3
     "@ionic/swiftlint-config": 1.1.2
