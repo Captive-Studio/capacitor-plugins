@@ -101,7 +101,7 @@
     "cspell": "latest",
     "eslint": "8.51.0",
     "esm": "3.2.25",
-    "lerna": "7.4.0",
+    "lerna": "7.4.1",
     "prettier": "3.0.3",
     "prettier-plugin-java": "2.3.1",
     "prompts": "2.4.2",
