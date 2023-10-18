@@ -1529,13 +1529,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prompts@npm:2.4.6":
-  version: 2.4.6
-  resolution: "@types/prompts@npm:2.4.6"
+"@types/prompts@npm:2.4.7":
+  version: 2.4.7
+  resolution: "@types/prompts@npm:2.4.7"
   dependencies:
     "@types/node": "*"
     kleur: ^3.0.3
-  checksum: 4e1388b6a96e5995d532efc40aee663fdae07cbd579d919245cbc9d7d91e39c780c2383c8fcf3aeff30459595ea1da9f29b8ad090b70a9b9033735bd85c124e3
+  checksum: 2c57b3c419b4be72039dcd0d099c4643a5f7d06cf20156709e87498cd4f6cb4000edc1cafde95786b46d137eb5ace01e3ba83dbc5f29cb69f4b778fdd42b7d81
   languageName: node
   linkType: hard
 
@@ -2412,7 +2412,7 @@ __metadata:
     "@captive/ts-config": 2.0.0
     "@ionic/swiftlint-config": 1.1.2
     "@types/node": latest
-    "@types/prompts": 2.4.6
+    "@types/prompts": 2.4.7
     concurrently: 8.2.1
     conventional-changelog-gitmoji-config: latest
     cspell: latest
