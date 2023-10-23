@@ -144,17 +144,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/commitlint-config@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@captive/commitlint-config@npm:2.0.0"
+"@captive/commitlint-config@npm:2.1.0":
+  version: 2.1.0
+  resolution: "@captive/commitlint-config@npm:2.1.0"
   dependencies:
-    "@w5s/commitlint-config": ^1.0.24
+    "@w5s/commitlint-config": ^2.0.0
   peerDependencies:
-    "@commitlint/cli": ^16.0.0 || ^17.0.0
+    "@commitlint/cli": ^16.0.0 || ^17.0.0 || ^18.0.0
   peerDependenciesMeta:
     "@commitlint/cli":
       optional: true
-  checksum: 0ac5357dcca7ff46e515a32c2d7558b7cce1867eb44448fe64e15c371107adfef14eb405aa5afabc927d439ae2932129b1b3d703f930e908cee1633884a4a405
+  checksum: a4cdbe51a5f3b237ce343b5c4d43292d2d06a25b59e3ad5fda92269172cee6c9d9fbbc8f210e76b06ade3aed6803a77aa78f096545094f2709b1ef05e25c57da
   languageName: node
   linkType: hard
 
@@ -1745,29 +1745,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/commitlint-config@npm:^1.0.24":
-  version: 1.2.4
-  resolution: "@w5s/commitlint-config@npm:1.2.4"
+"@w5s/commitlint-config@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "@w5s/commitlint-config@npm:2.0.1"
   dependencies:
     "@commitlint/types": ^17.0.0
-    "@w5s/conventional-changelog": ^1.2.4
+    "@w5s/conventional-changelog": ^2.0.0
   peerDependencies:
     "@commitlint/cli": ^16.0.0 || ^17.0.0
   peerDependenciesMeta:
     "@commitlint/cli":
       optional: true
-  checksum: 8209db099444706988e40d8752113fa4fc5e1d63abd124d82860bbe08df9f5ba59ca16325ea7ee9e7b9fb438a6427228fdbf426e00e8c8850efd70520bf7956b
+  checksum: 89abbf6697ef630377be79546e65d7861c1d39323b113da32721a45d66f0192b56b58a01f9939b7dfe4e5cf7f2846431ac354c07f2a674651330e7f8db67d2f6
   languageName: node
   linkType: hard
 
-"@w5s/conventional-changelog@npm:^1.2.4":
-  version: 1.2.4
-  resolution: "@w5s/conventional-changelog@npm:1.2.4"
+"@w5s/conventional-changelog@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@w5s/conventional-changelog@npm:2.0.0"
   dependencies:
     "@commitlint/types": ^17.0.0
     emoji-regex: ^10.2.1
     gitmojis: ^3.13.4
-  checksum: 2b01c7efa7e99a80be07da8563e7c448c49d02b169f74a78628772d401dd95b3d4d4dd3998c12f8b87aa91c5ce1ab28ff0cf8cd20480eebe68428752505731f9
+  checksum: 95d34851974cbfd064ecaa0af5aaaec0313eff98759512e547abab22c0346754cbf9b440724f8b46cacd5f9da242455b37cdb26cee8cc852da3172a78b4d8be1
   languageName: node
   linkType: hard
 
@@ -2403,7 +2403,7 @@ __metadata:
   resolution: "capacitor-plugins@workspace:."
   dependencies:
     "@actions/core": 1.10.1
-    "@captive/commitlint-config": 2.0.0
+    "@captive/commitlint-config": 2.1.0
     "@captive/eslint-config": 2.0.3
     "@captive/ts-config": 2.0.0
     "@ionic/swiftlint-config": 1.1.2
