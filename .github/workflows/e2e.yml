@@ -18,7 +18,7 @@ jobs:
       plugins: ${{ steps.e2e-packages.outputs.e2e-paths }}
     steps:
       - uses: dtinth/setup-github-actions-caching-for-turbo@v1
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version-file: .tool-versions
           cache: yarn
@@ -51,7 +51,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version-file: .tool-versions
           cache: yarn
@@ -95,7 +95,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version-file: .tool-versions
           cache: yarn
