@@ -24,7 +24,7 @@
     "code-analysis": ":",
     "configure": "yarn mrm configure",
     "develop": ":",
-    "format": "turbo run format",
+    "format": "turbo run format --continue",
     "format:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml --ignore-pattern='packages/*/**' --fix",
     "lint": "turbo run lint",
     "lint:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml --ignore-pattern='packages/*/**'",
@@ -113,7 +113,7 @@
   },
   "packageManager": "yarn@3.6.4",
   "engines": {
-    "node": ">=16.0.0",
+    "node": ">=18.0.0",
     "npm": ">=6.0.0",
     "yarn": ">=1.0.0"
   },

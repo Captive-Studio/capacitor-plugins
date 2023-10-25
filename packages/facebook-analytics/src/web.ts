@@ -1,4 +1,3 @@
-/* eslint-disable class-methods-use-this */
 import { WebPlugin } from '@capacitor/core';
 
 import type { FacebookAnalyticsPlugin } from './definitions.js';
