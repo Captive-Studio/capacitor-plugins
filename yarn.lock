@@ -78,21 +78,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@capacitor/android@npm:5.5.0":
-  version: 5.5.0
-  resolution: "@capacitor/android@npm:5.5.0"
+"@capacitor/android@npm:5.5.1":
+  version: 5.5.1
+  resolution: "@capacitor/android@npm:5.5.1"
   peerDependencies:
     "@capacitor/core": ^5.5.0
-  checksum: 0aa69138e5d5f57df6c00d33aabab04350144d8e5a6ba265cdc1e5ddfa73d4e21e6972706a1caa3510313fcf98cdafcf65da64a601de31309f81b795df9a0f01
+  checksum: c63f43394f919748c089e9b747784ccbc3a38a497251cd2e40deb09fe4e8ec486a4014152ad0308d0c4e3b225ec65e85c14be8c744a3e94fdb8cd42b6709a899
   languageName: node
   linkType: hard
 
-"@capacitor/core@npm:5.5.0":
-  version: 5.5.0
-  resolution: "@capacitor/core@npm:5.5.0"
+"@capacitor/core@npm:5.5.1":
+  version: 5.5.1
+  resolution: "@capacitor/core@npm:5.5.1"
   dependencies:
     tslib: "npm:^2.1.0"
-  checksum: 1e18125da24be48d0eef2823a0b4509d9dadaf32969d92d249c9f0a1a1c0165ec6e46df55bff2326ef3fedfe3feb58e5903bd478612eb3eadd3c04e0c2261f3a
+  checksum: 181102ea102821a73c43672f1b26af8bf575108be0961a8ef3df41c853e3419696c9077e3a150a8af4fcbdfb81287d18f069e35a08c2c96a8eb1cc665b1431d1
   languageName: node
   linkType: hard
 
@@ -111,12 +111,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@capacitor/ios@npm:5.5.0":
-  version: 5.5.0
-  resolution: "@capacitor/ios@npm:5.5.0"
+"@capacitor/ios@npm:5.5.1":
+  version: 5.5.1
+  resolution: "@capacitor/ios@npm:5.5.1"
   peerDependencies:
     "@capacitor/core": ^5.5.0
-  checksum: 43b2c578f384d8da96a4a2683045762f9722aac13bccbbb2de1176ef855a1078bfa83ec6280bd9e199bd50af0902b43568174a10796822f1071f7e733d6f7de8
+  checksum: 0fbb866d6f08643078ab2bd4103ea8c587f6a06e282caf983dfe4e63bf3a6f8aa8b92edb1061ff56d73d9c846049a9abdc42cf6f211a17721f6110a8b3b3da04
   languageName: node
   linkType: hard
 
@@ -124,10 +124,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/capacitor-facebook-analytics@workspace:packages/facebook-analytics"
   dependencies:
-    "@capacitor/android": "npm:5.5.0"
-    "@capacitor/core": "npm:5.5.0"
+    "@capacitor/android": "npm:5.5.1"
+    "@capacitor/core": "npm:5.5.1"
     "@capacitor/docgen": "npm:0.2.1"
-    "@capacitor/ios": "npm:5.5.0"
+    "@capacitor/ios": "npm:5.5.1"
     concurrently: "npm:8.2.2"
     rimraf: "npm:5.0.5"
     rollup: "npm:3.29.4"
