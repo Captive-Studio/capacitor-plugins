@@ -333,9 +333,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-companies@npm:^3.0.27":
-  version: 3.0.27
-  resolution: "@cspell/dict-companies@npm:3.0.27"
-  checksum: 4a51cccba3de41bec8561c140d03d6ec1cb4dd32dcc2b5ee9561ba3a1d65349f42f2a7e1e2e8db21930940925fc8f4d3b3016223c29ad80236598df2ec87a520
+  version: 3.0.28
+  resolution: "@cspell/dict-companies@npm:3.0.28"
+  checksum: 3566afe6973ea767bd4f57efb23cb4716519eff52cc7239c6304eee369a8e865b2f0ac0d88f43fe3aaca51668c8e9288de3ef948312c27ab345ba437cabc5f15
   languageName: node
   linkType: hard
 
@@ -431,9 +431,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-filetypes@npm:^3.0.2":
-  version: 3.0.2
-  resolution: "@cspell/dict-filetypes@npm:3.0.2"
-  checksum: 929b5d9d547edfffb5ab507b5fe09afe3d7802db6f30484cff475ce3b6d3ddedca060a4d8fb69c32dede0b3312d6b773a136065457569179cf3c6b72bff0a446
+  version: 3.0.3
+  resolution: "@cspell/dict-filetypes@npm:3.0.3"
+  checksum: 22c38a0b2e98d6223b364ddb5948d14bf6427c8286d4ddb111d5da9bdd4c47ddc0c9199a575c314142da9aefcaa5777a4ea33ac07f239cb4b9b303e4bd888aa1
   languageName: node
   linkType: hard
 
@@ -550,9 +550,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-npm@npm:^5.0.12":
-  version: 5.0.12
-  resolution: "@cspell/dict-npm@npm:5.0.12"
-  checksum: ac388cbe10426ec3504ca19ac2dfaaeb012a372099e7a8fd1032625fb434fec9157511d09e34c974eb71e5bcb4f26a0027332ce6d754970722ac98835aba07d3
+  version: 5.0.13
+  resolution: "@cspell/dict-npm@npm:5.0.13"
+  checksum: eaf190311a3bed7d8aafde8249a3c6ec873a8ae23ae17bfa139593a476cc3ea801693ab2233b2af60812610697d605b744411d0ee3b0e30c573f8c17340aeb42
   languageName: node
   linkType: hard
 
@@ -615,9 +615,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-software-terms@npm:^3.3.9":
-  version: 3.3.9
-  resolution: "@cspell/dict-software-terms@npm:3.3.9"
-  checksum: 8c37af9f5191a510463994835b6730e977aeb62e1712ee815e8e8410ccf72f5d857331c0a24639974f949c8d12b8fea7fdd0995f9923882b145fadcc84b1f494
+  version: 3.3.10
+  resolution: "@cspell/dict-software-terms@npm:3.3.10"
+  checksum: 4b24caa4935965fc924c2670aea45615ac0a1f5893fb34b062d294cf6bc34d5043a558a13455a39c7b660d1f48cc5963c6ed02898804c1a82c356f0f6dc41930
   languageName: node
   linkType: hard
 
