@@ -424,9 +424,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.3.12":
-  version: 4.3.12
-  resolution: "@cspell/dict-en_us@npm:4.3.12"
-  checksum: 6a474bdc1e5bd805b95aea431860c005803cefd917730f74e27266c5b1ef6cd60c5c6d3fb13fc88f212f390f6d399eca9cf09d292e4f9aec9942b8f9d0082e4b
+  version: 4.3.13
+  resolution: "@cspell/dict-en_us@npm:4.3.13"
+  checksum: c6eddfa685eafde33ad53e3c0ca2f50a106dfcd9f7b42f1a10b95a72b5917bd3ab93514afc6ee57db3e7f5e2fee65134f8a8445ea85baba52dfde5358dd570f1
   languageName: node
   linkType: hard
 
@@ -4146,12 +4146,12 @@ __metadata:
   linkType: hard
 
 "follow-redirects@npm:^1.15.0":
-  version: 1.15.3
-  resolution: "follow-redirects@npm:1.15.3"
+  version: 1.15.4
+  resolution: "follow-redirects@npm:1.15.4"
   peerDependenciesMeta:
     debug:
       optional: true
-  checksum: 60d98693f4976892f8c654b16ef6d1803887a951898857ab0cdc009570b1c06314ad499505b7a040ac5b98144939f8597766e5e6a6859c0945d157b473aa6f5f
+  checksum: 2e8f5f259a6b02dfa8dc199e08431848a7c3beed32eb4c19945966164a52c89f07b86c3afcc32ebe4279cf0a960520e45a63013d6350309c5ec90133c5d9351a
   languageName: node
   linkType: hard
 
