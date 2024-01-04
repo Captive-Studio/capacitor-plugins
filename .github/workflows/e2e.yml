@@ -17,14 +17,14 @@ jobs:
     outputs:
       plugins: ${{ steps.e2e-packages.outputs.e2e-paths }}
     steps:
-      - uses: dtinth/setup-github-actions-caching-for-turbo@v1
-      - uses: actions/setup-node@v4
+      - uses: dtinth/setup-github-actions-caching-for-turbo@e26dc6b0473cc072107f6cb4f6e69d33ac2fc386 # v1
+      - uses: actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8 # v4
         with:
           node-version-file: .tool-versions
           cache: yarn
       - run: yarn install
       - id: files
-        uses: imhoffd/get-changed-files@v2
+        uses: imhoffd/get-changed-files@4064453b1b00f8f8d17f1493c90fbe1f9c40daff # v2
         with:
           format: json
       - id: packages
@@ -49,9 +49,9 @@ jobs:
       run:
         working-directory: ${{ matrix.plugin }}/e2e-tests
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8 # v4
         with:
           node-version-file: .tool-versions
           cache: yarn
@@ -93,9 +93,9 @@ jobs:
       run:
         working-directory: ${{ matrix.plugin }}/e2e-tests
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8 # v4
         with:
           node-version-file: .tool-versions
           cache: yarn
@@ -123,7 +123,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.E2E_NPM_TOKEN }}
 
       - name: AVD cache
-        uses: actions/cache@v3
+        uses: actions/cache@704facf57e6136b1bc63b828d79edcd491f0ee84 # v3
         id: avd-cache
         with:
           path: |
@@ -133,7 +133,7 @@ jobs:
 
       - name: Create AVD and generate snapshot for caching
         if: steps.avd-cache.outputs.cache-hit != 'true'
-        uses: reactivecircus/android-emulator-runner@v2
+        uses: reactivecircus/android-emulator-runner@99a4aac18b4df9b3af66c4a1f04c1f23fa10c270 # v2
         with:
           avd-name: e2eDevice
           api-level: 30
@@ -146,7 +146,7 @@ jobs:
           script: echo "Generated AVD snapshot for caching."
 
       - name: Run E2E Test on Android
-        uses: reactivecircus/android-emulator-runner@v2
+        uses: reactivecircus/android-emulator-runner@99a4aac18b4df9b3af66c4a1f04c1f23fa10c270 # v2
         with:
           avd-name: e2eDevice
           api-level: 30
