@@ -424,9 +424,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.3.13":
-  version: 4.3.13
-  resolution: "@cspell/dict-en_us@npm:4.3.13"
-  checksum: c6eddfa685eafde33ad53e3c0ca2f50a106dfcd9f7b42f1a10b95a72b5917bd3ab93514afc6ee57db3e7f5e2fee65134f8a8445ea85baba52dfde5358dd570f1
+  version: 4.3.14
+  resolution: "@cspell/dict-en_us@npm:4.3.14"
+  checksum: b8f68f023b7366a678144309741d0d6a27e507ae91847fdf742948e3e2bf0d7bd7af999709d591affd81bef28751002d99f324f57c95be067e53b6ced92b6f43
   languageName: node
   linkType: hard
 
