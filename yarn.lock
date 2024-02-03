@@ -5032,12 +5032,12 @@ __metadata:
   linkType: hard
 
 "is-array-buffer@npm:^3.0.1, is-array-buffer@npm:^3.0.2":
-  version: 3.0.3
-  resolution: "is-array-buffer@npm:3.0.3"
+  version: 3.0.4
+  resolution: "is-array-buffer@npm:3.0.4"
   dependencies:
     call-bind: "npm:^1.0.2"
     get-intrinsic: "npm:^1.2.1"
-  checksum: 10/53cef25b7e15d79bf0e63cafc2b559347e6177fc6c95182294b0c3df3b26c9d1aee47b2ce442f217d6b85f2e2daee233d7ef45b2cfa3bbcbc9d1c1f1faf84b5a
+  checksum: 10/34a26213d981d58b30724ef37a1e0682f4040d580fa9ff58fdfdd3cefcb2287921718c63971c1c404951e7b747c50fdc7caf6e867e951353fa71b369c04c969b
   languageName: node
   linkType: hard
 
