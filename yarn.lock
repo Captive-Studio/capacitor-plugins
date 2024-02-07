@@ -78,21 +78,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@capacitor/android@npm:5.6.0":
-  version: 5.6.0
-  resolution: "@capacitor/android@npm:5.6.0"
+"@capacitor/android@npm:5.7.0":
+  version: 5.7.0
+  resolution: "@capacitor/android@npm:5.7.0"
   peerDependencies:
-    "@capacitor/core": ^5.6.0
-  checksum: 10/2bc3f24a9bb68954f7dead859a7dfb895c56100aeb8c30b43ddb4cbd21299fc1d080850bca67a96b3c5a71d3c377f7be9c257ec32ec0ba1cb6fc80930cf7a6f0
+    "@capacitor/core": ^5.7.0
+  checksum: 10/71a5d66d54ea448f16b2412d843e5a443730ac0b234abcdadad6a0cf8483867c97e79ea4f77795a4bcedd4deb55180060a90d6f3cdd2e88aac8b1beb98a1a497
   languageName: node
   linkType: hard
 
-"@capacitor/core@npm:5.6.0":
-  version: 5.6.0
-  resolution: "@capacitor/core@npm:5.6.0"
+"@capacitor/core@npm:5.7.0":
+  version: 5.7.0
+  resolution: "@capacitor/core@npm:5.7.0"
   dependencies:
     tslib: "npm:^2.1.0"
-  checksum: 10/4eb8541a01efb46ce0349bda8be06f48f24fa871a04429b7ba3b6da22438d8d4544847a12afb8e367135396f35ab06ddee21dcd3e083eb40d37e143d0efd51f3
+  checksum: 10/0d5ba14a7f5a402208d0b719af917bb8953435c44c3211edd036f1b199dc02501f8838d14dd6f1f3dce41d58d53999408fab956ce9c19be9b6bb738b31fca10c
   languageName: node
   linkType: hard
 
@@ -111,12 +111,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@capacitor/ios@npm:5.6.0":
-  version: 5.6.0
-  resolution: "@capacitor/ios@npm:5.6.0"
+"@capacitor/ios@npm:5.7.0":
+  version: 5.7.0
+  resolution: "@capacitor/ios@npm:5.7.0"
   peerDependencies:
-    "@capacitor/core": ^5.6.0
-  checksum: 10/6de80eaa72a3cdcdb8a4b8d6467dd756dcc9294524fac51402850acc0d1aa59fc606c574a09d701ae6c80a99535344d4e0329f1aef92c52210e962f2a9599e18
+    "@capacitor/core": ^5.7.0
+  checksum: 10/5646682c965dd560a3ae1c6bcbeb7ff21d2bfdd7b8a4110cdc30f1d5562121384affb52e22d021f34d997c363216761e92c93e0e189e46ecb5daba6550388f15
   languageName: node
   linkType: hard
 
@@ -124,10 +124,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/capacitor-facebook-analytics@workspace:packages/facebook-analytics"
   dependencies:
-    "@capacitor/android": "npm:5.6.0"
-    "@capacitor/core": "npm:5.6.0"
+    "@capacitor/android": "npm:5.7.0"
+    "@capacitor/core": "npm:5.7.0"
     "@capacitor/docgen": "npm:0.2.2"
-    "@capacitor/ios": "npm:5.6.0"
+    "@capacitor/ios": "npm:5.7.0"
     concurrently: "npm:8.2.2"
     rimraf: "npm:5.0.5"
     rollup: "npm:3.29.4"
