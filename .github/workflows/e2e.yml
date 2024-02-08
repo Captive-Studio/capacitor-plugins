@@ -17,7 +17,7 @@ jobs:
     outputs:
       plugins: ${{ steps.e2e-packages.outputs.e2e-paths }}
     steps:
-      - uses: dtinth/setup-github-actions-caching-for-turbo@e26dc6b0473cc072107f6cb4f6e69d33ac2fc386 # v1
+      - uses: dtinth/setup-github-actions-caching-for-turbo@a0e976d970c2a94366a26984efcef3030e2c0115 # v1
       - uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4
         with:
           node-version-file: .tool-versions
