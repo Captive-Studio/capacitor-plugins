@@ -7773,14 +7773,14 @@ __metadata:
   linkType: hard
 
 "safe-array-concat@npm:^1.1.0":
-  version: 1.1.1
-  resolution: "safe-array-concat@npm:1.1.1"
+  version: 1.1.2
+  resolution: "safe-array-concat@npm:1.1.2"
   dependencies:
     call-bind: "npm:^1.0.7"
     get-intrinsic: "npm:^1.2.4"
     has-symbols: "npm:^1.0.3"
     isarray: "npm:^2.0.5"
-  checksum: 10/432c61adc0ce1f426dac76a0cdba1249edbe76437e7030730ec76afed46961c0d22557c223b347840c4fed0ba77e66e7397cf248bf1cd493f2d010fce9975aa2
+  checksum: 10/a54f8040d7cb696a1ee38d19cc71ab3cfb654b9b81bae00c6459618cfad8214ece7e6666592f9c925aafef43d0a20c5e6fbb3413a2b618e1ce9d516a2e6dcfc5
   languageName: node
   linkType: hard
 
