@@ -99,7 +99,7 @@
     "concurrently": "8.2.2",
     "conventional-changelog-gitmoji-config": "latest",
     "cspell": "latest",
-    "eslint": "8.57.0",
+    "eslint": "9.0.0",
     "esm": "3.2.25",
     "lerna": "8.1.2",
     "prettier": "3.2.5",
