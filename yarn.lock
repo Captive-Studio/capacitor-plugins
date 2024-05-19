@@ -379,9 +379,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-cpp@npm:^5.1.3":
-  version: 5.1.4
-  resolution: "@cspell/dict-cpp@npm:5.1.4"
-  checksum: 10/f3bba4a0e537d3d587fd382bb8678029000f8ed9a92fd60443e27fe88f2fded9bee9ba0a13cd526018f0389cf4da301d6a8da603220d8f8318817f69f7e4e669
+  version: 5.1.5
+  resolution: "@cspell/dict-cpp@npm:5.1.5"
+  checksum: 10/6c0ab4d55f5d58d7cd6aac84698f081d8582c17f1c19bbb7ef95b01d8d53c1789827140ed727e9a24d066ea5ba95473cdb9ed2712af386fcdbf8b9a8182bec45
   languageName: node
   linkType: hard
 
@@ -435,9 +435,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-dotnet@npm:^5.0.0":
-  version: 5.0.1
-  resolution: "@cspell/dict-dotnet@npm:5.0.1"
-  checksum: 10/21f26791b6bd056bd462c556501da71f54929755c6b169668613927b5b65c797144bd2141371d849b5d45f7806c523f79ef3f48d73071eb40e5214e19e157f7e
+  version: 5.0.2
+  resolution: "@cspell/dict-dotnet@npm:5.0.2"
+  checksum: 10/319c6ed2793ad9f5ab01b2a7a3fa7280edd762714ff109dfafc24b397bc7ba7e8917cf8c68dd2d124eb11a7b7f60e677b1fd36d3610733b3f32668f966902ebd
   languageName: node
   linkType: hard
 
@@ -512,9 +512,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-golang@npm:^6.0.5":
-  version: 6.0.7
-  resolution: "@cspell/dict-golang@npm:6.0.7"
-  checksum: 10/5f0981e41c2d71c10499dec679f02a1bfbfe4f07ac4b6aad076382a4c385f1309d4d4560681c72a522519818e20c59c0ef256408deab91ae7d6a0b4a62eca783
+  version: 6.0.8
+  resolution: "@cspell/dict-golang@npm:6.0.8"
+  checksum: 10/0bf60d80db86397e7deebdf0f0aebcc5369b5e910d91862a77fd929b6bdbd15e59b7b7941729f65c2273820641fccb228b0c4a66bb567de11bb92bfd8d3db7e2
   languageName: node
   linkType: hard
 
@@ -661,16 +661,16 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-scala@npm:^5.0.0":
-  version: 5.0.1
-  resolution: "@cspell/dict-scala@npm:5.0.1"
-  checksum: 10/c1bb75263f253f9ecdb63ebbd144a65239c9bbfffe5a2e976ec5f850d9383f703cc6921c26a8d14e3f526de3f73c019473a91a7655febd3df7ec06cd0ffd6e94
+  version: 5.0.2
+  resolution: "@cspell/dict-scala@npm:5.0.2"
+  checksum: 10/c07bda723929f8b01ae0575af3d05ffffee9ed7523e0658a22d533cf287dd564d11bf16062a1692fb06c3aff2d519d07c7c2c3e5662ced8af1194b31b352af51
   languageName: node
   linkType: hard
 
 "@cspell/dict-software-terms@npm:^3.3.20":
-  version: 3.3.21
-  resolution: "@cspell/dict-software-terms@npm:3.3.21"
-  checksum: 10/23b2fe9280fb1c7174396688bf42b9aeb96e2b57e4862d7e68967993e878372da244cef510afe3279694ab1acf8556b1b45d8dc5c8fff2a64a70831dc21f180c
+  version: 3.3.22
+  resolution: "@cspell/dict-software-terms@npm:3.3.22"
+  checksum: 10/dc9834a5321af730fa7375676cd16a3e9c055143f6a5cfe39dae83e11964776d7c24193ca819ee3eb776ddc517ed99f0a863deed23581d4f178994ead95dae78
   languageName: node
   linkType: hard
 
