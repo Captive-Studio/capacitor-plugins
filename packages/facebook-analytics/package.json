@@ -63,7 +63,7 @@
     "concurrently": "8.2.2",
     "rimraf": "5.0.9",
     "rollup": "3.29.4",
-    "typescript": "5.5.2"
+    "typescript": "5.5.3"
   },
   "peerDependencies": {
     "@capacitor/android": "^5.0.0",
