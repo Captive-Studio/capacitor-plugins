@@ -103,7 +103,7 @@
     "esm": "3.2.25",
     "lerna": "8.1.6",
     "prettier": "3.3.2",
-    "prettier-plugin-java": "2.6.0",
+    "prettier-plugin-java": "2.6.4",
     "prompts": "2.4.2",
     "rimraf": "5.0.9",
     "rollup": "3.29.4",
