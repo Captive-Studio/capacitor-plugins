@@ -100,7 +100,7 @@
     "@types/prompts": "2.4.9",
     "conventional-changelog-gitmoji-config": "latest",
     "cspell": "latest",
-    "eslint": "8.57.0",
+    "eslint": "9.10.0",
     "esm": "3.2.25",
     "lerna": "8.1.8",
     "npm-run-all2": "6.2.2",
