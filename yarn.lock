@@ -539,9 +539,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-html@npm:^4.0.5":
-  version: 4.0.5
-  resolution: "@cspell/dict-html@npm:4.0.5"
-  checksum: 10/8801b7f77910f6a269efc652c88ecc3299cabedec03566ad6fb661845fdf9a4950bd7a2cdd1216dde982eddc9caf9ec00c6917ac90707fabb7686d02b30b0a5c
+  version: 4.0.6
+  resolution: "@cspell/dict-html@npm:4.0.6"
+  checksum: 10/d9d4ab65dfe7f85f05be7382b9f102e2b2e903d8d0e257c20090e3b7924706aee65507c94294bd8a6a6d7d045e1e3b06cead1ce25dcff1bdde971a2e917c9dca
   languageName: node
   linkType: hard
 
@@ -623,9 +623,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-powershell@npm:^5.0.8":
-  version: 5.0.8
-  resolution: "@cspell/dict-powershell@npm:5.0.8"
-  checksum: 10/86759ce57f1fe38cfd4059568712da69b85aba8a7b7c801a494841a815e84a3b2917d394ea0bbfe3772613d380de30cc54ba4fda16e249f396cadb1e7a9da603
+  version: 5.0.9
+  resolution: "@cspell/dict-powershell@npm:5.0.9"
+  checksum: 10/864cf46c67e5f48ac2098cfff2a46b1e090fc075281e3f59135bab7deea406f184d847ad8e5f524344947830548524c6f99a0c859b72c3d4d2ae124cc24e947c
   languageName: node
   linkType: hard
 
