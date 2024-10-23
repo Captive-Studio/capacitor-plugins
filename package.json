@@ -103,7 +103,7 @@
     "eslint": "9.13.0",
     "esm": "3.2.25",
     "lerna": "8.1.8",
-    "npm-run-all2": "6.2.6",
+    "npm-run-all2": "7.0.1",
     "prettier": "3.3.3",
     "prettier-plugin-java": "2.6.4",
     "prompts": "2.4.2",
