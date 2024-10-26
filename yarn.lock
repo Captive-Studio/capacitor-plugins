@@ -798,20 +798,20 @@ __metadata:
   linkType: hard
 
 "@eslint-community/eslint-utils@npm:^4.2.0, @eslint-community/eslint-utils@npm:^4.4.0":
-  version: 4.4.0
-  resolution: "@eslint-community/eslint-utils@npm:4.4.0"
+  version: 4.4.1
+  resolution: "@eslint-community/eslint-utils@npm:4.4.1"
   dependencies:
-    eslint-visitor-keys: "npm:^3.3.0"
+    eslint-visitor-keys: "npm:^3.4.3"
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
-  checksum: 10/8d70bcdcd8cd279049183aca747d6c2ed7092a5cf0cf5916faac1ef37ffa74f0c245c2a3a3d3b9979d9dfdd4ca59257b4c5621db699d637b847a2c5e02f491c2
+  checksum: 10/ae92a11412674329b4bd38422518601ec9ceae28e251104d1cad83715da9d38e321f68c817c39b64e66d0af7d98df6f9a10ad2dc638911254b47fb8932df00ef
   languageName: node
   linkType: hard
 
 "@eslint-community/regexpp@npm:^4.10.0, @eslint-community/regexpp@npm:^4.11.0":
-  version: 4.11.1
-  resolution: "@eslint-community/regexpp@npm:4.11.1"
-  checksum: 10/934b6d3588c7f16b18d41efec4fdb89616c440b7e3256b8cb92cfd31ae12908600f2b986d6c1e61a84cbc10256b1dd3448cd1eec79904bd67ac365d0f1aba2e2
+  version: 4.11.2
+  resolution: "@eslint-community/regexpp@npm:4.11.2"
+  checksum: 10/be896bceb15eb27ef0c8ba054f6b5b850ed33004540db40d6c4637c756a55b8909330baad5040b9874bb39dfa0c3345862e836efe3ad172244f0975fa92a3a35
   languageName: node
   linkType: hard
 
@@ -2616,9 +2616,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001669":
-  version: 1.0.30001669
-  resolution: "caniuse-lite@npm:1.0.30001669"
-  checksum: 10/cd0b481bb997703cb7651e55666b4aa4e7b4ecf9784796e2393179a15e55c71a6abc6ff865c922bbd3bbfa4a4bf0530d8da13989b97ff8c7850c8a5bd4e00491
+  version: 1.0.30001671
+  resolution: "caniuse-lite@npm:1.0.30001671"
+  checksum: 10/3eaff44bc8435972c168b63a52df89d202bd1978e3e4dda69a68763016fd69ab7cf09f965def213aab382535ad767f6e5e86f2403db0c6f95ffca499a8d4e9a7
   languageName: node
   linkType: hard
 
