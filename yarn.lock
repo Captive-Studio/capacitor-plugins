@@ -377,9 +377,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-cpp@npm:^5.1.22":
-  version: 5.1.22
-  resolution: "@cspell/dict-cpp@npm:5.1.22"
-  checksum: 10/40e1045a0fe53705e490b8ca286aec391bf103fbbdc81cd4459850bcfe3dd59fc197ba372c3b120eee9ab174475c4ee284e86fb7efa2f03df55ec82f78933146
+  version: 5.1.23
+  resolution: "@cspell/dict-cpp@npm:5.1.23"
+  checksum: 10/21098127234c51e8348e26b2e5beb56aade798138c14c42598167bc0c727aef9f44c46adbd85fe8bef54f8233623e7458dd34324ee111efd99fa95589a520df5
   languageName: node
   linkType: hard
 
@@ -680,9 +680,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-software-terms@npm:^4.1.11":
-  version: 4.1.11
-  resolution: "@cspell/dict-software-terms@npm:4.1.11"
-  checksum: 10/b321e9844a766d5cb97be44fd3b9207b1dd524744957018a24130bb0fcc4b6e79b4b62f49da7fee9fefbf08fba8077b00194b4d9e23bccaf74c1782ba7507260
+  version: 4.1.12
+  resolution: "@cspell/dict-software-terms@npm:4.1.12"
+  checksum: 10/cca867d6a6625b3c15b42905ea1e23ed8e56ff3b91f855ef73c3abf8d3e11000a5e0e3362637a5b15b2faf1a3bcd49dadfb26c5c83e2741939bcf88b39615ba4
   languageName: node
   linkType: hard
 
