@@ -701,9 +701,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-software-terms@npm:^4.1.13":
-  version: 4.1.13
-  resolution: "@cspell/dict-software-terms@npm:4.1.13"
-  checksum: 10/74f65d35b727505c626a3323052c2cef6a95cb5052b92ff8e6abe29172358889f2007336034a7fd9cb86ead314ff93400d421a99eadc37ee43faad8b6b2e86b5
+  version: 4.1.14
+  resolution: "@cspell/dict-software-terms@npm:4.1.14"
+  checksum: 10/7729041d941094fa518f0fa2bd407062213d944a665a6b2a37f31f54ce86e8bd72ae9084285afd111eef2270512e5ae09076114a6c36370ad11c76cb98df715b
   languageName: node
   linkType: hard
 
