@@ -3785,13 +3785,13 @@ __metadata:
   linkType: hard
 
 "eslint-compat-utils@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "eslint-compat-utils@npm:0.6.0"
+  version: 0.6.3
+  resolution: "eslint-compat-utils@npm:0.6.3"
   dependencies:
     semver: "npm:^7.5.4"
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 10/726534ad9a873485790e190999136ac80d4ccf363345242c3669cc49fd08f2cfa7b03477e81d292419067152d898db20f4f198acfe2e7ff1fff9bbc97effb441
+  checksum: 10/61b05c05400c1c53410e475bc48025ae18608282eb6e05d861b5067251eb75bcf06bcaf74784792c91cef08e5dad76b0096c0a364757b4550334a8cb73eadbb6
   languageName: node
   linkType: hard
 
