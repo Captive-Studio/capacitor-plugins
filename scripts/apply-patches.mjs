@@ -1,4 +1,4 @@
-import { basename } from 'node:path';
+import path from 'node:path';
 import { Readable } from 'node:stream';
 
 import { execute } from './lib/cli.mjs';
@@ -29,7 +29,7 @@ execute(async () => {
     ])
   ).map((result) => result.stdout);
 
-  const sourceDirectory = basename(source.location);
+  const sourceDirectory = path.basename(source.location);
 
   `${process.stdout.write(customizePatch(coloredDiff, sourceDirectory, '<plugin>'))}\n`;
 
@@ -58,7 +58,7 @@ execute(async () => {
   process.stdout.write(
     `Successfully applied the patch to:\n${succeeded
       .map((target) => ` - ${target.name}`)
-      .join('\n')}\nCould not apply the patch to:\n${failed.map((target) => ` - ${target.name}`).join('\n')}`
+      .join('\n')}\nCould not apply the patch to:\n${failed.map((target) => ` - ${target.name}`).join('\n')}`,
   );
 });
 

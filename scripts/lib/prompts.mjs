@@ -2,6 +2,7 @@ import { require } from './cjs.mjs';
 
 const prompts = require('prompts');
 
+// eslint-disable-next-line import/no-default-export
 export default prompts;
 
 export const confirm = async (message) =>
@@ -16,7 +17,7 @@ export const confirm = async (message) =>
           initial: true,
         },
       ],
-      { onCancel: () => resolve(false) }
+      { onCancel: () => resolve(false) },
     ).then((result) => resolve(result.confirm));
   });
 

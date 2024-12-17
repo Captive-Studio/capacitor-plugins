@@ -9,8 +9,8 @@ execute(async () => {
       PROJECTS.map(async (project) => [
         `@captive/capacitor-${project}`,
         `^${await getLatestVersion(`@captive/capacitor-${project}`, 'latest')}`,
-      ])
-    )
+      ]),
+    ),
   );
 
   await setLernaPackageDependencies(packages, 'devDependencies');

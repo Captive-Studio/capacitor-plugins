@@ -1,6 +1,5 @@
-import { fileURLToPath } from 'node:url';
-import { dirname } from 'node:path';
-
+import url from 'node:url';
+import path from 'node:path';
 import { pipe } from './fn.mjs';
 
-export const root = pipe(fileURLToPath, ...Array(3).fill(dirname))(import.meta.url);
+export const root = pipe(url.fileURLToPath, ...Array(3).fill(path.dirname))(import.meta.url);

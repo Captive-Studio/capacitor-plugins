@@ -1,4 +1,4 @@
-import { resolve } from 'node:path';
+import path from 'node:path';
 
 import { PROJECTS } from './lib/capacitor.mjs';
 import { execute } from './lib/cli.mjs';
@@ -33,29 +33,29 @@ execute(async () => {
           p.name,
           Object.fromEntries(
             Object.entries(pkg.devDependencies).filter(([k]) =>
-              PROJECTS.some((project) => k === `@capacitor/${project}`)
-            )
+              PROJECTS.some((project) => k === `@capacitor/${project}`),
+            ),
           ),
         ];
-      })
-    )
+      }),
+    ),
   );
 
   await Promise.all(
     packages.map(async (p) =>
       setPackageJsonDependencies(
-        resolve(p.location, 'package.json'),
+        path.resolve(p.location, 'package.json'),
         markerFile
           ? markerFile[p.name]
           : Object.fromEntries(
               Object.entries(markerFileContents[p.name]).map(([k]) => [
                 k,
                 `file:../../capacitor/${k.replace(/^@capacitor\//, '')}`,
-              ])
+              ]),
             ),
-        'devDependencies'
-      )
-    )
+        'devDependencies',
+      ),
+    ),
   );
 
   await bootstrap();
