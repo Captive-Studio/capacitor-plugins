@@ -4290,9 +4290,9 @@ __metadata:
   linkType: hard
 
 "fast-equals@npm:^5.0.1":
-  version: 5.1.3
-  resolution: "fast-equals@npm:5.1.3"
-  checksum: 10/35a454621fe30af705a4f495529af13744e122fc8854313c6f06fef011a7a0cbf2fc8d28920a94bb808bed825f4530e990ea295a32789aa2d1cf5e46d0909ddd
+  version: 5.2.0
+  resolution: "fast-equals@npm:5.2.0"
+  checksum: 10/602d892a8fb2f96551ba16902917acdebf3f9745cfbf1e2e51b829295c6835f62c6954e063ab1b18d19cf8382c66b4677b9e8e747a2ba62adbc15ad0456efb9b
   languageName: node
   linkType: hard
 
