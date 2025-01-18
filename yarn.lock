@@ -461,9 +461,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en-common-misspellings@npm:^2.0.8":
-  version: 2.0.8
-  resolution: "@cspell/dict-en-common-misspellings@npm:2.0.8"
-  checksum: 10/00cbe1c7ab912af43dbc9c73e391a195be565bcd45633c6164d64c15d26e61b19aad97bceeebfa0fe6cb471019b3d472ab9e88d6e5842976c44b16f254bd68d1
+  version: 2.0.9
+  resolution: "@cspell/dict-en-common-misspellings@npm:2.0.9"
+  checksum: 10/7a074812a48e789900b709dd0a3a582b773933cb252ceaf1b6810fd503bbad14fe01da8693493ee5bd049650d9caa9a9fcabfef012e1bbc578c483ab05dfcef8
   languageName: node
   linkType: hard
 
@@ -475,9 +475,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.3.29":
-  version: 4.3.29
-  resolution: "@cspell/dict-en_us@npm:4.3.29"
-  checksum: 10/a6bd5aad88192ca18a8b7bd288289225f4ba1fa2d8ce453e976b842c5cbec7d45fd2ce7044bbe533c7169735eaf09a279142fabc4e60c947499cab680224e942
+  version: 4.3.30
+  resolution: "@cspell/dict-en_us@npm:4.3.30"
+  checksum: 10/cd9280d0f02aef04ee48c83a653fae3957b03c1b6d64e11e6a4d3aef32c8d7aa2dfccf3043a2617cc772192ba050d543101560d09ec1368d8f1c2d84679db7dd
   languageName: node
   linkType: hard
 
@@ -538,9 +538,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-google@npm:^1.0.5":
-  version: 1.0.6
-  resolution: "@cspell/dict-google@npm:1.0.6"
-  checksum: 10/56a39e6f5cd29afe104bc93223d67fb569a3f33b042b6c84d1f39e56b980ca33e496bad4b87e373f465aa60722143528140943ea112aff83dfcd0d0f951163c0
+  version: 1.0.7
+  resolution: "@cspell/dict-google@npm:1.0.7"
+  checksum: 10/cdbdfe0a1d745e52471464cb97e931118f0d951a9b645122850be2f74f6f9213dc3a411ca7cc36af7b9bdc52bb4b4398b7c804bc1fc8a02c5b3d7717d1f02e68
   languageName: node
   linkType: hard
 
@@ -720,9 +720,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-software-terms@npm:^4.2.2":
-  version: 4.2.3
-  resolution: "@cspell/dict-software-terms@npm:4.2.3"
-  checksum: 10/54d3834b6cb5476ad1013564a56656a1e4cf036c1a55dc170c920d1df820f5d2ce6326b76fde76d515b838d8cd076ebbbe310164745acb4d50d09e765ab3c8bf
+  version: 4.2.4
+  resolution: "@cspell/dict-software-terms@npm:4.2.4"
+  checksum: 10/e04dd2c4b3a81e8e5407a8066fb9e93ac3b2b99e666178f369480adcff4e89391c50c9605adf5452770746fd8de0271452fbd308133caaac03a763afaf153f7c
   languageName: node
   linkType: hard
 
