@@ -384,9 +384,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-companies@npm:^3.1.13":
-  version: 3.1.13
-  resolution: "@cspell/dict-companies@npm:3.1.13"
-  checksum: 10/9b87927743771a870a6849a3746a6eaae4ddec513f0edbab6d850c4e6ed18e4d6b7c441b28111849ec3d2b2f1f9ee56d44084a25ae4a6e98aa96a810199b1475
+  version: 3.1.14
+  resolution: "@cspell/dict-companies@npm:3.1.14"
+  checksum: 10/06fa04db89bef786dbf1aa408c9305e6f5d1f382d96176735ed589d0e11d3be18c51c061fd93c3b27450456231a13c0fc68385c50b9d4efdd48c253c7a7073c1
   languageName: node
   linkType: hard
 
@@ -475,9 +475,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.3.30":
-  version: 4.3.30
-  resolution: "@cspell/dict-en_us@npm:4.3.30"
-  checksum: 10/cd9280d0f02aef04ee48c83a653fae3957b03c1b6d64e11e6a4d3aef32c8d7aa2dfccf3043a2617cc772192ba050d543101560d09ec1368d8f1c2d84679db7dd
+  version: 4.3.31
+  resolution: "@cspell/dict-en_us@npm:4.3.31"
+  checksum: 10/07d94302a09e593a8645a02c12c8c9f1f08d7816dd0e419e5d3a15559505964a122122d15fd74d4a5c613193f4c474b053dc838d6e66eafaad1acc8306b417ac
   languageName: node
   linkType: hard
 
@@ -648,9 +648,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-npm@npm:^5.1.24":
-  version: 5.1.24
-  resolution: "@cspell/dict-npm@npm:5.1.24"
-  checksum: 10/59ebf06e7d51c56f76d5e291cf8a1bdb13a70e53cca383f9f4fbd3574df30ac11120ba7272957de93baec9395758034d3003cf5e36098b770f47f006297f1f96
+  version: 5.1.25
+  resolution: "@cspell/dict-npm@npm:5.1.25"
+  checksum: 10/a48405d14eb249ef046291e9cc5b148fc7c326d413cd5ed5dc9b7a7148042e541a3e11265606dc369f7e368d789109f54ab04625c4d567907c2c24266a7ca155
   languageName: node
   linkType: hard
 
@@ -720,9 +720,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-software-terms@npm:^4.2.4":
-  version: 4.2.4
-  resolution: "@cspell/dict-software-terms@npm:4.2.4"
-  checksum: 10/e04dd2c4b3a81e8e5407a8066fb9e93ac3b2b99e666178f369480adcff4e89391c50c9605adf5452770746fd8de0271452fbd308133caaac03a763afaf153f7c
+  version: 4.2.5
+  resolution: "@cspell/dict-software-terms@npm:4.2.5"
+  checksum: 10/17a95b7984891c08c1604b32c657e18ef1329435dc5773cfe3b3c801914c822197124103ed27e64c865a23b46face50d0cbfc5f2cfe3ad0c52a967f5f854d54e
   languageName: node
   linkType: hard
 
