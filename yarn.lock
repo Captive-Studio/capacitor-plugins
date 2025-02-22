@@ -391,9 +391,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-cpp@npm:^6.0.3":
-  version: 6.0.3
-  resolution: "@cspell/dict-cpp@npm:6.0.3"
-  checksum: 10/8a4cd1c2f3061114790fa7271da48155bfdba7ec40dc94c72afd80d153a6c46a169504c2b4c7e444d8e9a83f36359478a5f6bc63be3813bd76e2a2ca0cd6445a
+  version: 6.0.4
+  resolution: "@cspell/dict-cpp@npm:6.0.4"
+  checksum: 10/be0fb17af409c967947250f47db022ba01ccd61244c1c5712c9706b0d40deca013906e51833cc413bd30f48184546758bed0e4269564435589beb1c2203c3dd2
   languageName: node
   linkType: hard
 
@@ -475,9 +475,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.3.31":
-  version: 4.3.31
-  resolution: "@cspell/dict-en_us@npm:4.3.31"
-  checksum: 10/07d94302a09e593a8645a02c12c8c9f1f08d7816dd0e419e5d3a15559505964a122122d15fd74d4a5c613193f4c474b053dc838d6e66eafaad1acc8306b417ac
+  version: 4.3.32
+  resolution: "@cspell/dict-en_us@npm:4.3.32"
+  checksum: 10/1cec72ede4952c64b6bf3dab3a1ab8dd16c36c0324b427acd414b750caedfec0bc484f1ab5bb71c2648050771b6c24c552282d7d277d2d9191c0f5262c508019
   languageName: node
   linkType: hard
 
@@ -510,9 +510,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-fullstack@npm:^3.2.4":
-  version: 3.2.4
-  resolution: "@cspell/dict-fullstack@npm:3.2.4"
-  checksum: 10/38cefa5aa6db92562d5ec671ebce72284163a2599a8a9eb58c141316f79d386cc562fa402cf0ccc7528151a846f1d5216fc8ba5b2489662ee71cfb8c814e8fe6
+  version: 3.2.5
+  resolution: "@cspell/dict-fullstack@npm:3.2.5"
+  checksum: 10/6a0b760df317caf0ebf2c6fae37537b3c3fafb71a52b15dad5e74d18e8d2af424b4ee27034d25827bcdd22d3ea0dcd5e888b7031fea5e7240b9f5d3ec8ed8b79
   languageName: node
   linkType: hard
 
@@ -648,9 +648,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-npm@npm:^5.1.26":
-  version: 5.1.26
-  resolution: "@cspell/dict-npm@npm:5.1.26"
-  checksum: 10/927c5547aa7a86b4aec22ca10b4c60e74ed0e22ed8d69f9e4080ce2dddd2a16a0f09e3146f208a5887c3bd0899c17cf21d0962631b987b37bd8a9b8b8b4fa873
+  version: 5.1.27
+  resolution: "@cspell/dict-npm@npm:5.1.27"
+  checksum: 10/80a27e20aca69ba7a86c42368af61639fb51144b150a7c59b3bbb256298238c8a807bff8cf7dcd10349b38fbe0ef7f96c7308702f11b6c7b37f9fc55f98dd08e
   languageName: node
   linkType: hard
 
