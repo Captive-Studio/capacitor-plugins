@@ -510,9 +510,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-fullstack@npm:^3.2.5":
-  version: 3.2.5
-  resolution: "@cspell/dict-fullstack@npm:3.2.5"
-  checksum: 10/6a0b760df317caf0ebf2c6fae37537b3c3fafb71a52b15dad5e74d18e8d2af424b4ee27034d25827bcdd22d3ea0dcd5e888b7031fea5e7240b9f5d3ec8ed8b79
+  version: 3.2.6
+  resolution: "@cspell/dict-fullstack@npm:3.2.6"
+  checksum: 10/f76b27b1b3a35e4e68781071e87aaeff034111861b395ddf3a15a99dc30d1e7202db2deb3707d3efa7d65d4fd4ff90b0c4fa5871d7599bce9f1785f3e193f93e
   languageName: node
   linkType: hard
 
@@ -648,9 +648,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-npm@npm:^5.1.27":
-  version: 5.1.27
-  resolution: "@cspell/dict-npm@npm:5.1.27"
-  checksum: 10/80a27e20aca69ba7a86c42368af61639fb51144b150a7c59b3bbb256298238c8a807bff8cf7dcd10349b38fbe0ef7f96c7308702f11b6c7b37f9fc55f98dd08e
+  version: 5.1.28
+  resolution: "@cspell/dict-npm@npm:5.1.28"
+  checksum: 10/8633d70f7771e9f432283d5af73e66ec1928568aa597be354c172646c2d28be14f43f08181db4f0bbe668457ab3d465bb3feeb3b34346b5a041147845edee361
   languageName: node
   linkType: hard
 
@@ -748,9 +748,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-terraform@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@cspell/dict-terraform@npm:1.1.0"
-  checksum: 10/3c5623ee9af897620317b1289a9368c01feca86b97c8b28c8e465f9d1135aa2c30fae1db6e6f28515e834861222e32ab0f47514072025d4dd4d4a05284617033
+  version: 1.1.1
+  resolution: "@cspell/dict-terraform@npm:1.1.1"
+  checksum: 10/0843bbb0e3142caa6f878bde7850683913ffc7501a7c468ba6c0ff14e98c6938c86da04d1ed9a4be161b5b0a22d16bdc7947aa2a02b6e0268939defb9ae96529
   languageName: node
   linkType: hard
 
