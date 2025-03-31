@@ -24,6 +24,6 @@
   },
   "devDependencies": {
     "@capacitor/cli": "latest",
-    "vite": "4.5.10"
+    "vite": "4.5.11"
   }
 }
