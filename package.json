@@ -113,7 +113,7 @@
     "turbo": "1.13.4",
     "typescript": "5.8.3"
   },
-  "packageManager": "yarn@4.8.1",
+  "packageManager": "yarn@4.9.0",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=6.0.0",
