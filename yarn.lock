@@ -440,9 +440,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-docker@npm:^1.1.13":
-  version: 1.1.13
-  resolution: "@cspell/dict-docker@npm:1.1.13"
-  checksum: 10/6b3f522d14d950b2febd2bd6109b21619b16464053d9a51cd37abeb30e4fbac8566939e84be7929adbacd8de734e5e97eca57129c86e80d08bf58f3c2402cb8b
+  version: 1.1.14
+  resolution: "@cspell/dict-docker@npm:1.1.14"
+  checksum: 10/4eb96da9d9912bbbc8b3522ac58e5f65b77b72aa2e5b2bdffbc604b6ece9dedfa7a4643beb71ede9e15e78735f9c13ff705b7243872eaedb11a83f4f06a3d6cd
   languageName: node
   linkType: hard
 
@@ -475,9 +475,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.4.3":
-  version: 4.4.3
-  resolution: "@cspell/dict-en_us@npm:4.4.3"
-  checksum: 10/43e8dc756aae32918f43a93ac519645e03192e6046ef1593f25524017550f0741b456b4583d66b0deee87189485e745e292a35cde01f9baea7691c12d01cdb82
+  version: 4.4.4
+  resolution: "@cspell/dict-en_us@npm:4.4.4"
+  checksum: 10/768e7f1fe4b3c1bee7920de760fd1727e2d8d0fe7433a671589ae7ec6fc129ee41db1b5ffa20a502bab1156d37a6b5dfe20d75d20c24dfba217dbc42cbca7bc6
   languageName: node
   linkType: hard
 
@@ -648,9 +648,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-npm@npm:^5.2.1":
-  version: 5.2.1
-  resolution: "@cspell/dict-npm@npm:5.2.1"
-  checksum: 10/c027aee18b82212846f4920c72210915f2346064a65224937ce057c1f7a850345f1f3fe5de096caaaee3d3870cdac2692f22d69e5aa90b7b9cc69602c641548b
+  version: 5.2.2
+  resolution: "@cspell/dict-npm@npm:5.2.2"
+  checksum: 10/909497a6d4a0801e74820ed524644eb82047b9acc267bc495df53e8253ef1cb7158aaf5fa83c7b5f81a6c897000f52cddc44a2f638db87a84373a7be1d7086d5
   languageName: node
   linkType: hard
 
@@ -676,11 +676,11 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-python@npm:^4.2.17":
-  version: 4.2.17
-  resolution: "@cspell/dict-python@npm:4.2.17"
+  version: 4.2.18
+  resolution: "@cspell/dict-python@npm:4.2.18"
   dependencies:
     "@cspell/dict-data-science": "npm:^2.0.8"
-  checksum: 10/b4da3e4ad42640b6a10c0eada1d82039ecc498fc0e791bde12eb31e907da8c3ebb04bb3aa57b2abd2ead910a7ef900a56d22bc59baca14fc5b62c3f813743be9
+  checksum: 10/f4152311ef3f54cc9e053773c7110666e50231b8177afc433a5b629191df091e49b5850e929dcc6a77eb3830cba94d5e12f7ef81294b473a6c9d398e135649b9
   languageName: node
   linkType: hard
 
@@ -720,9 +720,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-software-terms@npm:^5.0.5":
-  version: 5.0.5
-  resolution: "@cspell/dict-software-terms@npm:5.0.5"
-  checksum: 10/e9ac388c198103e4b47c464f71c8b7c141041a4be56e372810e219407f5b689937fcf7e057b4d3594367ba3ac32d3863e2ce1985f0f2b6a3a6075433998a9a7b
+  version: 5.0.6
+  resolution: "@cspell/dict-software-terms@npm:5.0.6"
+  checksum: 10/e64ef501b095682d5d3cc33787e04192d9419860fa1a7e2ceb2926c761670d090228c9d9a60466089e23b6423ef9d0b328afb7a549306c5df19b192e320267e6
   languageName: node
   linkType: hard
 
