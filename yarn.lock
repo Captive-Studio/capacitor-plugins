@@ -384,9 +384,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-companies@npm:^3.1.15":
-  version: 3.2.0
-  resolution: "@cspell/dict-companies@npm:3.2.0"
-  checksum: 10/abc165e6f085bc634d07ba8bba84109ec4334b38abbf3a70c07d740f8b86766f3ce533d3bbbfffd07054f446551ac95e364222f6370d5085a5167d6bb2308cb5
+  version: 3.2.1
+  resolution: "@cspell/dict-companies@npm:3.2.1"
+  checksum: 10/c31659b9962d0f2da1b0b2c626ec9ad61fb589500c6afd6c045c54a01e5de7c0077fb272401f3bd06205a034db1a9dee16a46816b385129c4f8aa8ec793b5c3c
   languageName: node
   linkType: hard
 
@@ -475,9 +475,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.4.3":
-  version: 4.4.5
-  resolution: "@cspell/dict-en_us@npm:4.4.5"
-  checksum: 10/72182f157874b0719115b06ddbe34f4c5320c1b64cd810632619599bef4646f972091429df1acd7d78fb30aafad00b9d9df0533fd28f43d237b3d29b099994f3
+  version: 4.4.6
+  resolution: "@cspell/dict-en_us@npm:4.4.6"
+  checksum: 10/a6cf264fc58d63aea9d160a75ae8e56ef4af404067121242abb1d367e7e7cecb65de28dc59fa3c2f2bcfc9e4717551eedf972cade22a442029427248c1c4bb0a
   languageName: node
   linkType: hard
 
