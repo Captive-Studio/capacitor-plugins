@@ -104,7 +104,7 @@
     "esm": "3.2.25",
     "lerna": "8.2.2",
     "npm-run-all2": "8.0.4",
-    "prettier": "3.6.1",
+    "prettier": "3.6.2",
     "prettier-plugin-java": "2.6.8",
     "prompts": "2.4.2",
     "rimraf": "5.0.10",
