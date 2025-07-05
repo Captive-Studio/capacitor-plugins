@@ -368,9 +368,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-aws@npm:^4.0.10":
-  version: 4.0.10
-  resolution: "@cspell/dict-aws@npm:4.0.10"
-  checksum: 10/af23b14265051c6defa774a044af7fdf32ce9f9f28882eee9146888d1059d2015ac4d0a71d830cbd8478e80b105e52c45307319335c4291223ec3ea317ad1004
+  version: 4.0.11
+  resolution: "@cspell/dict-aws@npm:4.0.11"
+  checksum: 10/c3d8860d76263a75b58c016a6a7bece628a89f6875b48ed2d837381da17e99406cb00904293a2409b5911477185bd6af82ebf32ef00c24f127eef02b4d58df04
   languageName: node
   linkType: hard
 
