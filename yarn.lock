@@ -468,16 +468,16 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en-gb-mit@npm:^3.1.3":
-  version: 3.1.4
-  resolution: "@cspell/dict-en-gb-mit@npm:3.1.4"
-  checksum: 10/a20c9c3be40f787eb9ac45cea4f49dd97276091a48a7fe0e786fbf8d77613b5d1a11ff13fe766f9aa03a7751a4cf4c3704d332342879a9b49de6cc8fa795614d
+  version: 3.1.5
+  resolution: "@cspell/dict-en-gb-mit@npm:3.1.5"
+  checksum: 10/25fb010868c05ccb45d595e69f694ef534555a96f94f40f181b869ae38b2f15e314bbacba07ef10688bb5e037ef7a9712cd453a4d6959a7ba2c82935c33d1587
   languageName: node
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.4.13":
-  version: 4.4.14
-  resolution: "@cspell/dict-en_us@npm:4.4.14"
-  checksum: 10/91acf84a9c96a9deeab5482ae52fa691c6d834e344f70ffc8f343728f4d151202e91d1195499c3a0209039b1c70c576c076f5b54d87c68b82ae8e24c7658d894
+  version: 4.4.15
+  resolution: "@cspell/dict-en_us@npm:4.4.15"
+  checksum: 10/122819e602c0001532d22b5679b6f00b8a7113f90a24167ec2225385caf0bb156f930019a107b9de8776451f97d94934f45a513d77c85ab99a0360f55b6368da
   languageName: node
   linkType: hard
 
