@@ -368,9 +368,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-aws@npm:^4.0.12":
-  version: 4.0.13
-  resolution: "@cspell/dict-aws@npm:4.0.13"
-  checksum: 10/90cbc36b25484b56906289aab31551fa4760d55279cee39ac907c69362e82bdae9068a1cf239302172f5a8a53e6d14877d5b949d92baf832b0c5b8a0ad9d47f8
+  version: 4.0.14
+  resolution: "@cspell/dict-aws@npm:4.0.14"
+  checksum: 10/a8f7847e89ec66ddd29363b6f3ae1a5dcbec5084fa69b64bc3ed72ebb15d10bb941bcbddee79aa8b89e8f614af40e77d1469aac14b8a7e171062a270479686bd
   languageName: node
   linkType: hard
 
@@ -384,9 +384,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-companies@npm:^3.2.2":
-  version: 3.2.2
-  resolution: "@cspell/dict-companies@npm:3.2.2"
-  checksum: 10/d1157e176903018a4ca173b1227a78842de56babbb5c7353c8f02e963cb5447c01cd05f4dba86b8c7990de53888bd35e0aff1a091e27666ed4f703447456faf3
+  version: 3.2.3
+  resolution: "@cspell/dict-companies@npm:3.2.3"
+  checksum: 10/94375ea211e097653044195e0ca41075220e894ab8ff870f6f53cd7ad290b231d0a15c6b3f299de8284f3721405e9c905d172227ffeb92da7f4592c1a199105f
   languageName: node
   linkType: hard
 
@@ -648,9 +648,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-npm@npm:^5.2.12":
-  version: 5.2.12
-  resolution: "@cspell/dict-npm@npm:5.2.12"
-  checksum: 10/4639ce834e90a87ba9aee66b54a3a298b7f73c85c54b9157e428d5bddff46c54ff02d5005132fa0cbff9e053e45458773b4f0eb7daf0ff769a16d779d96163d9
+  version: 5.2.13
+  resolution: "@cspell/dict-npm@npm:5.2.13"
+  checksum: 10/8c6622ebe79518b37a0d491f4976d9aa1c4af1009452b45b5575e7174d23e8c2fe72dada90ca4571912c8c7517339ac32bbe9c489229273fe70c9f3fe765eb37
   languageName: node
   linkType: hard
 
