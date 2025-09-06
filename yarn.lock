@@ -461,23 +461,23 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en-common-misspellings@npm:^2.1.5":
-  version: 2.1.5
-  resolution: "@cspell/dict-en-common-misspellings@npm:2.1.5"
-  checksum: 10/67208f7b14f27cac0372883ffb7d3e90b6e66c1ab37cf8b15ebe396b009649f4adfa41b5723d8e975578ad6586aa460f93b124bcebe3dca7fc2858c4a6de71bd
+  version: 2.1.6
+  resolution: "@cspell/dict-en-common-misspellings@npm:2.1.6"
+  checksum: 10/2ab3a821dd6097619e9c40f1cdf91d8d025a92ad0bec48fd9b42b80013dd6e8d5a371521828ebaad6a658a93840d6468837bd85afecd55686a333ec73dcd7c53
   languageName: node
   linkType: hard
 
 "@cspell/dict-en-gb-mit@npm:^3.1.8":
-  version: 3.1.8
-  resolution: "@cspell/dict-en-gb-mit@npm:3.1.8"
-  checksum: 10/f7121af67dcfd009156f620496bbd696a40fc7770a8b9e8f040032e8e214381d6d075dda6fc4ea723122a17de292a863eef2425a38c482a086c34c423ab639e0
+  version: 3.1.9
+  resolution: "@cspell/dict-en-gb-mit@npm:3.1.9"
+  checksum: 10/3830a707034055153127bd25d05110d5056470ede6c392f2a005fb06231012af2e4446d625b1f1008b5f948972dcf5abc82fc2966112f59942532a6eb2fe5970
   languageName: node
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.4.18":
-  version: 4.4.18
-  resolution: "@cspell/dict-en_us@npm:4.4.18"
-  checksum: 10/6a38784177976be77162215e9eca42e975c7aee7a71ed3718745fbb9c2edeb200ff1e9c86d3a3101e1805fde383e2d9ecef6dbedee580e840f0e108c06b67660
+  version: 4.4.19
+  resolution: "@cspell/dict-en_us@npm:4.4.19"
+  checksum: 10/7899b68d1510bb85b3a7774dc40a314b27cf2706aa25b0a78be94843bbc6fd08a799e40a6e2284f908a12783ddc697e6c94b25825ec55fe98ae36b41f90c6b34
   languageName: node
   linkType: hard
 
@@ -648,9 +648,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-npm@npm:^5.2.15":
-  version: 5.2.15
-  resolution: "@cspell/dict-npm@npm:5.2.15"
-  checksum: 10/be6d3bfd995cf67a0f027b175b2e8e9159be7fcce8e8b0c0a68da03b6efa076b2157f204d83ed7d4b296bb9dbca5a07416e3450be75ec807413b27790f829af5
+  version: 5.2.16
+  resolution: "@cspell/dict-npm@npm:5.2.16"
+  checksum: 10/84a4833e879b93f828fe7af6b105e55e09a9b79fbb962667f2fbebe795c82e3018a02a7f9998d62452eec8ddd779e4bba67a4b2d3ee96f816d6676202c4f3e4a
   languageName: node
   linkType: hard
 
