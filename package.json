@@ -105,7 +105,7 @@
     "lerna": "8.2.3",
     "npm-run-all2": "8.0.4",
     "prettier": "3.6.2",
-    "prettier-plugin-java": "2.7.4",
+    "prettier-plugin-java": "2.7.5",
     "prompts": "2.4.2",
     "rimraf": "5.0.10",
     "rollup": "3.29.5",
