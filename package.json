@@ -110,7 +110,7 @@
     "rimraf": "5.0.10",
     "rollup": "3.29.5",
     "swiftlint": "1.0.2",
-    "turbo": "1.13.4",
+    "turbo": "2.5.8",
     "typescript": "5.9.3"
   },
   "packageManager": "yarn@4.10.3",
