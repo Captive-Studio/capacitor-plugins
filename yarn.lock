@@ -4047,10 +4047,11 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-jsonc@npm:^2.4.0":
-  version: 2.20.1
-  resolution: "eslint-plugin-jsonc@npm:2.20.1"
+  version: 2.21.0
+  resolution: "eslint-plugin-jsonc@npm:2.21.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.5.1"
+    diff-sequences: "npm:^27.5.1"
     eslint-compat-utils: "npm:^0.6.4"
     eslint-json-compat-utils: "npm:^0.2.1"
     espree: "npm:^9.6.1 || ^10.3.0"
@@ -4060,7 +4061,7 @@ __metadata:
     synckit: "npm:^0.6.2 || ^0.7.3 || ^0.11.5"
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 10/fc02f74ca20e0003adbd2b2a0b356073814e1d6393f8f3067a15aaf8e7b33b482e4a21bbe188463fef676f0dbb83f3c9e3809d897bdd8be4b016099ee54232fd
+  checksum: 10/3b0e15b33a918b1ffccbcb4c234deb7b6b68752e89cccd8e31d6d3e4647ec48ebc6b89998f1b3b585b4486f9d849eb618e15d0ffacd4b185d601a83de81b335a
   languageName: node
   linkType: hard
 
