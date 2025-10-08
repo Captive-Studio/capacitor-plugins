@@ -109,7 +109,7 @@
     "prompts": "2.4.2",
     "rimraf": "5.0.10",
     "rollup": "3.29.5",
-    "swiftlint": "1.0.2",
+    "swiftlint": "2.0.0",
     "turbo": "1.13.4",
     "typescript": "5.9.3"
   },
