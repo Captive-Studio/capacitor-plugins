@@ -962,10 +962,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ionic/swiftlint-config@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@ionic/swiftlint-config@npm:1.1.2"
-  checksum: 10/c99c2cd47ea0899c50068c9c4ab92db645ca5df22d69b94a1cad3e01b6a179628e70161e85539240a38a5c41bc90958bee3b9519f6d0108e3287dfb6d3efeb22
+"@ionic/swiftlint-config@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@ionic/swiftlint-config@npm:2.0.0"
+  checksum: 10/fd79203acc01d043f78f113da46f83a4624db9a208e26b3743e688ebd3b6888665345343eeaf9cd1b770805f4daf0d63482b2cd01ef20c4c8d5015d6368a06a5
   languageName: node
   linkType: hard
 
@@ -2733,7 +2733,7 @@ __metadata:
     "@captive/commitlint-config": "npm:2.1.15"
     "@captive/eslint-config": "npm:2.0.28"
     "@captive/ts-config": "npm:2.4.1"
-    "@ionic/swiftlint-config": "npm:1.1.2"
+    "@ionic/swiftlint-config": "npm:2.0.0"
     "@types/node": "npm:latest"
     "@types/prompts": "npm:2.4.9"
     conventional-changelog-gitmoji-config: "npm:latest"
