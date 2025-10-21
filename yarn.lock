@@ -969,81 +969,81 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ionic/utils-array@npm:2.1.5":
-  version: 2.1.5
-  resolution: "@ionic/utils-array@npm:2.1.5"
+"@ionic/utils-array@npm:2.1.6":
+  version: 2.1.6
+  resolution: "@ionic/utils-array@npm:2.1.6"
   dependencies:
     debug: "npm:^4.0.0"
     tslib: "npm:^2.0.1"
-  checksum: 10/eab54e5ae6c3a7d435e420986cd7a0766c00506a829e001ddfc4124542adace6dd0f0c1fc51fa8f5eaa69bd09354a0b5541ff9b39b61763cb0e415936578fd4b
+  checksum: 10/13d7b56906bb394a9362622c001578f0788f06ee2d8c724a51fb415cf4bdc1ccf1f92c2358935524f0089a660a4323d5f0bfa9403a0b3050ed921c039125b5e8
   languageName: node
   linkType: hard
 
-"@ionic/utils-fs@npm:3.1.6":
-  version: 3.1.6
-  resolution: "@ionic/utils-fs@npm:3.1.6"
+"@ionic/utils-fs@npm:3.1.7, @ionic/utils-fs@npm:^3.1.7":
+  version: 3.1.7
+  resolution: "@ionic/utils-fs@npm:3.1.7"
   dependencies:
     "@types/fs-extra": "npm:^8.0.0"
     debug: "npm:^4.0.0"
     fs-extra: "npm:^9.0.0"
     tslib: "npm:^2.0.1"
-  checksum: 10/02ec21067436ebaec7a029ed9a045e366f47b77f3149df64ce2bd3a26e46c84e5afeec8cda0da5dc6b77ee901de164f1fe61a3793da5962a1c945273454f599d
+  checksum: 10/65279a445b4499b9db40dae0c4eface0fdcd6ee95c7931ecb89fb097ee07e61e316ad13da7f495ee567d95dd0dddcbad9b1e46656676e22e51041dde62b06b9d
   languageName: node
   linkType: hard
 
-"@ionic/utils-object@npm:2.1.5":
-  version: 2.1.5
-  resolution: "@ionic/utils-object@npm:2.1.5"
+"@ionic/utils-object@npm:2.1.6":
+  version: 2.1.6
+  resolution: "@ionic/utils-object@npm:2.1.6"
   dependencies:
     debug: "npm:^4.0.0"
     tslib: "npm:^2.0.1"
-  checksum: 10/123d1fe5aabe984bd5c93f7e70b3166e47007673218fd9347747c9005be0b10b0c639a8eaf36b77e12337d1cc90171624af06620bf9e9cccb2b8414ad80bc4a5
+  checksum: 10/c545f09ede118a801c7eb4c794d4b479c574a98023b752421c0b18e340cb0f509aa7d7e92ef9b1048361e194a0b6f80df8922cd56bae8201d2fb796b71d87e60
   languageName: node
   linkType: hard
 
-"@ionic/utils-process@npm:2.1.10":
-  version: 2.1.10
-  resolution: "@ionic/utils-process@npm:2.1.10"
+"@ionic/utils-process@npm:2.1.12":
+  version: 2.1.12
+  resolution: "@ionic/utils-process@npm:2.1.12"
   dependencies:
-    "@ionic/utils-object": "npm:2.1.5"
-    "@ionic/utils-terminal": "npm:2.3.3"
+    "@ionic/utils-object": "npm:2.1.6"
+    "@ionic/utils-terminal": "npm:2.3.5"
     debug: "npm:^4.0.0"
     signal-exit: "npm:^3.0.3"
     tree-kill: "npm:^1.2.2"
     tslib: "npm:^2.0.1"
-  checksum: 10/afe835f0e8beedec53f6fbd0f2fa4f9eb38e59d96c03cecd44b33ffa18b04f9a318bf4e71c7315c9e729bbf942f8e74033b08373058ded2e04ed107956f7eee8
+  checksum: 10/3a94eeb4cc7c05a2d3058e997a2ca05c50bf1a9d76e39b91659d0cbb402adbe2b24b8bc08d8b95bbab1703328dcc50c2e333b345700709ed2ec94e8d844d20c1
   languageName: node
   linkType: hard
 
-"@ionic/utils-stream@npm:3.1.5":
-  version: 3.1.5
-  resolution: "@ionic/utils-stream@npm:3.1.5"
+"@ionic/utils-stream@npm:3.1.7":
+  version: 3.1.7
+  resolution: "@ionic/utils-stream@npm:3.1.7"
   dependencies:
     debug: "npm:^4.0.0"
     tslib: "npm:^2.0.1"
-  checksum: 10/6211825c64295df1c368650b445c8cb1220417855aa6f0cdec68f4ccd3c5368b5f825911708a7242386e9546aa9050a5f85f9b1a0356c8dd9280d1dd33bcb33a
+  checksum: 10/23667cfeaa4f710e556cd4f055ae6a99a59bf9f83ed7224fea5cf82d2e0539b8d42c4bf133db82f8a2156c004145fdb2e252837388b552c5775126700bce4a95
   languageName: node
   linkType: hard
 
-"@ionic/utils-subprocess@npm:2.1.11":
-  version: 2.1.11
-  resolution: "@ionic/utils-subprocess@npm:2.1.11"
+"@ionic/utils-subprocess@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@ionic/utils-subprocess@npm:3.0.1"
   dependencies:
-    "@ionic/utils-array": "npm:2.1.5"
-    "@ionic/utils-fs": "npm:3.1.6"
-    "@ionic/utils-process": "npm:2.1.10"
-    "@ionic/utils-stream": "npm:3.1.5"
-    "@ionic/utils-terminal": "npm:2.3.3"
+    "@ionic/utils-array": "npm:2.1.6"
+    "@ionic/utils-fs": "npm:3.1.7"
+    "@ionic/utils-process": "npm:2.1.12"
+    "@ionic/utils-stream": "npm:3.1.7"
+    "@ionic/utils-terminal": "npm:2.3.5"
     cross-spawn: "npm:^7.0.3"
     debug: "npm:^4.0.0"
     tslib: "npm:^2.0.1"
-  checksum: 10/1247e844dcac4add473746b94ad362fb452a57a1083fbbf119779afa8e07f412e70370832138f0a7e7dfce107e62de3570228c371eac1e6216cc43390b2cb70f
+  checksum: 10/7411d691b3cdaa1ab74171a521813118a4b7180a373d6d80ee6b2b7946490486b3cb9f8ca338a9ffb4167c098d0c79ce14d8579ac82db794e5e1017b73bf85eb
   languageName: node
   linkType: hard
 
-"@ionic/utils-terminal@npm:2.3.3":
-  version: 2.3.3
-  resolution: "@ionic/utils-terminal@npm:2.3.3"
+"@ionic/utils-terminal@npm:2.3.5":
+  version: 2.3.5
+  resolution: "@ionic/utils-terminal@npm:2.3.5"
   dependencies:
     "@types/slice-ansi": "npm:^4.0.0"
     debug: "npm:^4.0.0"
@@ -1054,7 +1054,7 @@ __metadata:
     tslib: "npm:^2.0.1"
     untildify: "npm:^4.0.0"
     wrap-ansi: "npm:^7.0.0"
-  checksum: 10/a34f170b94a14e1994aeda44423aff13c96e2ca33f3e94b25cc730a644af3faad36de39028d9a85ee6dcc5065df4968b47238150f33deb5ae8f03e6473b47dcf
+  checksum: 10/40bae30f8cff2d7efa74118d96b2ab16ac9048ba8ffe28a8c203cd398f2688955ddb28d5ebe0c6948890632dc1ca2fe5e84c547ce930cde3ac7be4d5f53e5245
   languageName: node
   linkType: hard
 
@@ -2747,7 +2747,7 @@ __metadata:
     prompts: "npm:2.4.2"
     rimraf: "npm:5.0.10"
     rollup: "npm:3.29.5"
-    swiftlint: "npm:1.0.2"
+    swiftlint: "npm:2.0.0"
     turbo: "npm:1.13.4"
     typescript: "npm:5.9.3"
   languageName: unknown
@@ -3201,7 +3201,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig@npm:9.0.0":
+"cosmiconfig@npm:9.0.0, cosmiconfig@npm:^9.0.0":
   version: 9.0.0
   resolution: "cosmiconfig@npm:9.0.0"
   dependencies:
@@ -3215,19 +3215,6 @@ __metadata:
     typescript:
       optional: true
   checksum: 10/8bdf1dfbb6fdb3755195b6886dc0649a3c742ec75afa4cb8da7b070936aed22a4f4e5b7359faafe03180358f311dbc300d248fd6586c458203d376a40cc77826
-  languageName: node
-  linkType: hard
-
-"cosmiconfig@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "cosmiconfig@npm:6.0.0"
-  dependencies:
-    "@types/parse-json": "npm:^4.0.0"
-    import-fresh: "npm:^3.1.0"
-    parse-json: "npm:^5.0.0"
-    path-type: "npm:^4.0.0"
-    yaml: "npm:^1.7.2"
-  checksum: 10/b184d2bfbced9ba6840fd097dbf3455c68b7258249bb9b1277913823d516d8dfdade8c5ccbf79db0ca8ebd4cc9b9be521ccc06a18396bd242d50023c208f1594
   languageName: node
   linkType: hard
 
@@ -5131,7 +5118,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"import-fresh@npm:^3.1.0, import-fresh@npm:^3.2.1, import-fresh@npm:^3.3.0, import-fresh@npm:^3.3.1":
+"import-fresh@npm:^3.2.1, import-fresh@npm:^3.3.0, import-fresh@npm:^3.3.1":
   version: 3.3.1
   resolution: "import-fresh@npm:3.3.1"
   dependencies:
@@ -8602,16 +8589,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swiftlint@npm:1.0.2":
-  version: 1.0.2
-  resolution: "swiftlint@npm:1.0.2"
+"swiftlint@npm:2.0.0":
+  version: 2.0.0
+  resolution: "swiftlint@npm:2.0.0"
   dependencies:
-    "@ionic/utils-fs": "npm:3.1.6"
-    "@ionic/utils-subprocess": "npm:2.1.11"
-    cosmiconfig: "npm:^6.0.0"
+    "@ionic/utils-fs": "npm:^3.1.7"
+    "@ionic/utils-subprocess": "npm:^3.0.1"
+    cosmiconfig: "npm:^9.0.0"
   bin:
     node-swiftlint: bin.js
-  checksum: 10/975a7923d2039a30f3f0f43588118569ec241191b8f3ec5949b3c3c45262d545c3feb160565eeb25f780a21e95512acca2bc9622a8d102d8772c3793d9fdce56
+  checksum: 10/8a052ff3fa9e53dc849599137f04f114a9ac82ca7993127756e9a9b279dcf59e242a9970e6f243d6f44635f5eefaf117dee23afc5d91bfc7b8e176a87d94aac1
   languageName: node
   linkType: hard
 
@@ -9523,7 +9510,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:^1.10.0, yaml@npm:^1.7.2":
+"yaml@npm:^1.10.0":
   version: 1.10.2
   resolution: "yaml@npm:1.10.2"
   checksum: 10/e088b37b4d4885b70b50c9fa1b7e54bd2e27f5c87205f9deaffd1fb293ab263d9c964feadb9817a7b129a5bf30a06582cb08750f810568ecc14f3cdbabb79cb3
